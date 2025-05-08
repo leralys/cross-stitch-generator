@@ -1,0 +1,28 @@
+# Build outputs
+build/
+dist/
+.next/
+out/
+
+# Dependencies
+node_modules/
+
+# Generated files
+.react-router/
+.vite/
+*.generated.*
+
+# Package files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Cache
+.cache/
+.eslintcache
+.DS_Store
+
+# Misc
+.env
+.env.*
+coverage/
