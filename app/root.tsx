@@ -10,6 +10,7 @@ import {
 import type { Route } from './+types/root';
 import './app.css';
 import Header from './components/Header';
+import InstallPrompt from './components/InstallPrompt';
 
 export const links: Route.LinksFunction = () => [
   { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
@@ -22,6 +23,12 @@ export const links: Route.LinksFunction = () => [
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap',
   },
+  // Apple Touch Icons
+  { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
+  {
+    rel: 'apple-touch-icon-precomposed',
+    href: '/apple-touch-icon-precomposed.png',
+  },
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
@@ -30,12 +37,95 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        {/* PWA Meta Tags */}
+        <meta name="theme-color" content="#6b449a" id="theme-color-meta" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="CrossStitch" />
+        <meta
+          name="description"
+          content="Generate beautiful cross stitch patterns from images"
+        />
+
         <Meta />
         <Links />
+
+        {/* Dynamic theme color script */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                let isUpdating = false;
+
+                function updateThemeColor() {
+                  if (isUpdating) return;
+
+                  const savedTheme = localStorage.getItem('theme');
+                  const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                  const isDark = savedTheme === 'dark' || (!savedTheme && systemPrefersDark);
+
+                  const themeColorMeta = document.getElementById('theme-color-meta');
+                  if (themeColorMeta) {
+                    const currentColor = themeColorMeta.getAttribute('content');
+                    const newColor = isDark ? '#111827' : '#6b449a';
+
+                    if (currentColor !== newColor) {
+                      themeColorMeta.setAttribute('content', newColor);
+                    }
+                  }
+                }
+
+                function applyInitialTheme() {
+                  const savedTheme = localStorage.getItem('theme');
+                  const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                  const isDark = savedTheme === 'dark' || (!savedTheme && systemPrefersDark);
+
+                  isUpdating = true;
+                  if (isDark) {
+                    document.documentElement.classList.add('dark');
+                  } else {
+                    document.documentElement.classList.remove('dark');
+                  }
+                  isUpdating = false;
+
+                  updateThemeColor();
+                }
+
+                // Apply initial theme immediately
+                applyInitialTheme();
+
+                // Listen for theme changes (only when not updating ourselves)
+                const observer = new MutationObserver(function(mutations) {
+                  if (!isUpdating) {
+                    mutations.forEach(function(mutation) {
+                      if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                        updateThemeColor();
+                      }
+                    });
+                  }
+                });
+
+                observer.observe(document.documentElement, {
+                  attributes: true,
+                  attributeFilter: ['class']
+                });
+
+                // Listen for system theme changes
+                window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function() {
+                  if (!localStorage.getItem('theme')) {
+                    updateThemeColor();
+                  }
+                });
+              })();
+            `,
+          }}
+        />
       </head>
       <body className="min-h-screen bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100">
         <Header />
         <main className="container mx-auto px-4 py-6">{children}</main>
+        <InstallPrompt />
         <ScrollRestoration />
         <Scripts />
       </body>
