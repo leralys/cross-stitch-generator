@@ -33,7 +33,7 @@ export default defineConfig({
         short_name: 'CrossStitch',
         description: 'Generate beautiful cross stitch patterns from images',
         theme_color: '#6b449a',
-        background_color: '#ffffff',
+        background_color: '#f9fafb',
         display: 'standalone',
         start_url: '/',
         scope: '/',
