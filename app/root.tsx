@@ -10,8 +10,10 @@ import {
 import type { Route } from './+types/root';
 import './app.css';
 import Header from './components/Header';
+import HydrationBoundary from './components/HydrationBoundary';
 import InstallPrompt from './components/InstallPrompt';
 import { ThemeProvider } from './contexts/ThemeContext';
+import './i18n'; // Initialize i18n
 
 export const links: Route.LinksFunction = () => [
   { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
@@ -53,7 +55,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
 
-        {/* Dynamic theme color script */}
+        {/* Dynamic theme and language initialization script */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -94,8 +96,20 @@ export function Layout({ children }: { children: React.ReactNode }) {
                   updateThemeColor();
                 }
 
-                // Apply initial theme immediately
+                function applyInitialLanguage() {
+                  // Set language attribute for better accessibility and SEO
+                  const savedLang = localStorage.getItem('i18nextLng');
+                  const browserLang = navigator.language.toLowerCase();
+                  const lang = (savedLang && (savedLang === 'en' || savedLang === 'ru')) 
+                    ? savedLang
+                    : (browserLang.startsWith('ru') ? 'ru' : 'en');
+
+                  document.documentElement.setAttribute('lang', lang);
+                }
+
+                // Apply both theme and language immediately to prevent flashes
                 applyInitialTheme();
+                applyInitialLanguage();
 
                 // Listen for theme changes (only when not updating ourselves)
                 const observer = new MutationObserver(function(mutations) {
@@ -116,7 +130,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 // Listen for system theme changes
                 window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function() {
                   if (!localStorage.getItem('theme')) {
-                    updateThemeColor();
+                    applyInitialTheme();
                   }
                 });
               })();
@@ -126,9 +140,11 @@ export function Layout({ children }: { children: React.ReactNode }) {
       </head>
       <body className="min-h-screen bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100">
         <ThemeProvider>
-          <Header />
-          <main className="container mx-auto px-4 py-6">{children}</main>
-          <InstallPrompt />
+          <HydrationBoundary>
+            <Header />
+            <main className="container mx-auto px-4 py-6">{children}</main>
+            <InstallPrompt />
+          </HydrationBoundary>
         </ThemeProvider>
         <ScrollRestoration />
         <Scripts />
