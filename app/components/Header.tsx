@@ -33,14 +33,10 @@ const Header = () => {
       <div className="flex items-center gap-4">
         <button
           onClick={toggleTheme}
-          className="flex cursor-pointer items-center justify-center rounded-2xl border border-gray-200 bg-white p-2 text-gray-700 shadow-sm hover:bg-gray-50 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700"
+          className="flex cursor-pointer items-center justify-center rounded-xl border border-gray-200 bg-white p-2 text-gray-700 shadow-sm hover:bg-gray-50 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700"
           aria-label="Toggle theme"
         >
-          {theme === 'light' ? (
-            <GrMoon className="h-5 w-5" />
-          ) : (
-            <GrActions className="h-5 w-5" />
-          )}
+          {theme === 'light' ? <GrMoon /> : <GrActions />}
         </button>
       </div>
     </header>
