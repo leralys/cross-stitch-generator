@@ -1,10 +1,13 @@
-import type { Route } from './+types/home';
 import { Welcome } from '../welcome/welcome';
+import type { Route } from './+types/home';
 
 export function meta({}: Route.MetaArgs) {
   return [
     { title: 'Cross Stitch Generator' },
-    { name: 'description', content: 'A cross stitch pattern generator app' },
+    {
+      name: 'description',
+      content: 'Generate beautiful cross stitch patterns from images',
+    },
   ];
 }
 

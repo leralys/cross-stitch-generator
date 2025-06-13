@@ -1,4 +1,5 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
+import { useIsomorphicLayoutEffect } from './useIsomorphicLayoutEffect';
 
 type Theme = 'light' | 'dark';
 
@@ -45,13 +46,13 @@ export function useTheme() {
     applyTheme(newTheme);
   };
 
-  useEffect(() => {
-    // Initialize theme on client
+  useIsomorphicLayoutEffect(() => {
+    // Initialize theme on client - this should match what the script already applied
     const currentTheme = getTheme();
     setTheme(currentTheme);
     setIsHydrated(true);
 
-    // Ensure DOM is in sync (in case SSR script didn't run)
+    // Ensure DOM is in sync (should already be applied by script, but just in case)
     applyTheme(currentTheme);
 
     // Listen for system theme changes
