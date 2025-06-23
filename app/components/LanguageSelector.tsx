@@ -2,15 +2,12 @@ import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { GrLanguage } from 'react-icons/gr';
 
+import { languages } from '../i18n/languages';
+
 interface LanguageSelectorProps {
   className?: string;
   size?: 'sm' | 'md' | 'lg';
 }
-
-const languages = [
-  { code: 'en', name: 'English', nativeName: 'English' },
-  { code: 'ru', name: 'Russian', nativeName: 'Русский' },
-];
 
 export default function LanguageSelector({
   className = '',
@@ -89,7 +86,7 @@ export default function LanguageSelector({
               <button
                 key={language.code}
                 onClick={() => handleLanguageChange(language.code)}
-                className={`w-full px-3 py-2 text-left text-sm transition-colors duration-150 hover:bg-gray-100 dark:hover:bg-gray-700 ${
+                className={`w-full cursor-pointer px-3 py-2 text-left text-sm transition-colors duration-150 hover:bg-gray-100 dark:hover:bg-gray-700 ${
                   i18n.language === language.code
                     ? 'bg-primary-50 text-primary-700 dark:bg-primary-900/20 dark:text-primary-300'
                     : 'text-gray-700 dark:text-gray-300'
