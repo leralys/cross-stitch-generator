@@ -4,7 +4,7 @@ import { useIsomorphicLayoutEffect } from './useIsomorphicLayoutEffect';
 type Theme = 'light' | 'dark';
 
 export function useTheme() {
-  const [theme, setTheme] = useState<Theme | null>(null);
+  const [theme, setTheme] = useState<Theme>('light'); // Default to light for SSR
   const [isHydrated, setIsHydrated] = useState(false);
 
   // Get theme from various sources with priority order
@@ -15,10 +15,7 @@ export function useTheme() {
     const saved = localStorage.getItem('theme') as Theme | null;
     if (saved === 'light' || saved === 'dark') return saved;
 
-    // 2. Check current DOM state (from SSR script)
-    if (document.documentElement.classList.contains('dark')) return 'dark';
-
-    // 3. Fall back to system preference
+    // 2. Fall back to system preference
     return window.matchMedia('(prefers-color-scheme: dark)').matches
       ? 'dark'
       : 'light';
@@ -26,13 +23,12 @@ export function useTheme() {
 
   // Apply theme to DOM
   const applyTheme = (newTheme: Theme) => {
+    if (typeof window === 'undefined') return;
     document.documentElement.classList.toggle('dark', newTheme === 'dark');
   };
 
   // Toggle between themes
   const toggleTheme = () => {
-    if (!theme) return;
-
     const newTheme: Theme = theme === 'light' ? 'dark' : 'light';
     setTheme(newTheme);
     localStorage.setItem('theme', newTheme);
@@ -47,12 +43,12 @@ export function useTheme() {
   };
 
   useIsomorphicLayoutEffect(() => {
-    // Initialize theme on client - this should match what the script already applied
+    // Initialize theme on client
     const currentTheme = getTheme();
     setTheme(currentTheme);
     setIsHydrated(true);
 
-    // Ensure DOM is in sync (should already be applied by script, but just in case)
+    // Apply theme to DOM
     applyTheme(currentTheme);
 
     // Listen for system theme changes
@@ -67,7 +63,9 @@ export function useTheme() {
     };
 
     mediaQuery.addEventListener('change', handleSystemChange);
-    return () => mediaQuery.removeEventListener('change', handleSystemChange);
+    return () => {
+      mediaQuery.removeEventListener('change', handleSystemChange);
+    };
   }, []);
 
   return {
