@@ -5,7 +5,7 @@ interface HeroProps {
   onScrollToUpload: () => void;
 }
 
-export default function Hero({ onScrollToUpload }: HeroProps) {
+const Hero = ({ onScrollToUpload }: HeroProps) => {
   const { t } = useTranslation();
 
   return (
@@ -44,4 +44,6 @@ export default function Hero({ onScrollToUpload }: HeroProps) {
       </div>
     </section>
   );
-}
+};
+
+export default Hero;
