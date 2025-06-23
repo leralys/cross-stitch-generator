@@ -78,10 +78,10 @@ function LayoutInner({ children }: { children: React.ReactNode }) {
                 function applyTheme() {
                   const theme = getTheme();
                   const isDark = theme === 'dark';
-                  
+
                   // Apply theme class immediately
                   document.documentElement.classList.toggle('dark', isDark);
-                  
+
                   // Update theme color meta tag
                   const themeColorMeta = document.getElementById('theme-color-meta');
                   if (themeColorMeta) {
@@ -93,7 +93,7 @@ function LayoutInner({ children }: { children: React.ReactNode }) {
                 function applyInitialLanguage() {
                   const savedLang = localStorage.getItem('i18nextLng');
                   const browserLang = navigator.language.toLowerCase();
-                  const lang = (savedLang && (savedLang === 'en' || savedLang === 'ru')) 
+                  const lang = (savedLang && (savedLang === 'en' || savedLang === 'ru'))
                     ? savedLang
                     : (browserLang.startsWith('ru') ? 'ru' : 'en');
 

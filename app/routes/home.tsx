@@ -3,7 +3,7 @@ import type { Route } from './+types/home';
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: 'Cross Stitch Generator' },
+    { title: 'Cross Stitch Pattern Generator' },
     {
       name: 'description',
       content: 'Generate beautiful cross stitch patterns from images',
