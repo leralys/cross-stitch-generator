@@ -32,6 +32,8 @@ export const links: Route.LinksFunction = () => [
     rel: 'apple-touch-icon-precomposed',
     href: '/apple-touch-icon-precomposed.png',
   },
+  // PWA Manifest
+  { rel: 'manifest', href: '/manifest.webmanifest' },
 ];
 
 function LayoutInner({ children }: { children: React.ReactNode }) {

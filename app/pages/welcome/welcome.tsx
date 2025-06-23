@@ -20,7 +20,7 @@ export function Welcome() {
         </section>
 
         {/* Features Section */}
-        <section className="py-16">
+        {/* <section className="py-16">
           <h2 className="mb-12 text-center text-3xl font-bold text-gray-900 dark:text-white">
             Features
           </h2>
@@ -41,10 +41,10 @@ export function Welcome() {
               </div>
             ))}
           </div>
-        </section>
+        </section> */}
 
         {/* Content Sections for Scroll Testing */}
-        {[1, 2, 3, 4, 5].map(section => (
+        {/* {[1, 2, 3, 4, 5].map(section => (
           <section key={section} className="py-16">
             <h2 className="mb-6 text-2xl font-bold text-gray-900 dark:text-white">
               Section {section}
@@ -87,14 +87,14 @@ export function Welcome() {
               </div>
             </div>
           </section>
-        ))}
+        ))} */}
 
         {/* Footer Section */}
-        <section className="border-t border-gray-200 py-16 text-center dark:border-gray-700">
+        {/* <section className="border-t border-gray-200 py-16 text-center dark:border-gray-700">
           <p className="text-gray-600 dark:text-gray-300">
             End of temporary content - you can now test scrolling!
           </p>
-        </section>
+        </section> */}
       </div>
     </main>
   );
