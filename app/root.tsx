@@ -12,7 +12,7 @@ import './app.css';
 import Header from './components/Header';
 import HydrationBoundary from './components/HydrationBoundary';
 import InstallPrompt from './components/InstallPrompt';
-import { ThemeProvider } from './contexts/ThemeContext';
+import { ThemeProvider, useThemeContext } from './contexts/ThemeContext';
 import './i18n'; // Initialize i18n
 
 export const links: Route.LinksFunction = () => [
@@ -32,11 +32,20 @@ export const links: Route.LinksFunction = () => [
     rel: 'apple-touch-icon-precomposed',
     href: '/apple-touch-icon-precomposed.png',
   },
+  // PWA Manifest
+  { rel: 'manifest', href: '/manifest.webmanifest' },
 ];
 
-export function Layout({ children }: { children: React.ReactNode }) {
+function LayoutInner({ children }: { children: React.ReactNode }) {
+  const { theme } = useThemeContext();
+
+  // Don't override the theme class during initial render to prevent flash
+  // The inline script already applied the correct theme class
+  // Only update className after hydration to ensure consistency
+  const htmlClassName = theme === 'dark' ? 'dark' : '';
+
   return (
-    <html lang="en">
+    <html lang="en" className={htmlClassName} suppressHydrationWarning>
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -55,49 +64,33 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
 
-        {/* Dynamic theme and language initialization script */}
+        {/* Minimal script to prevent flash of wrong theme */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
               (function() {
-                let isUpdating = false;
-
-                function updateThemeColor() {
-                  if (isUpdating) return;
-
-                  const savedTheme = localStorage.getItem('theme');
-                  const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-                  const isDark = savedTheme === 'dark' || (!savedTheme && systemPrefersDark);
-
-                  const themeColorMeta = document.getElementById('theme-color-meta');
-                  if (themeColorMeta) {
-                    const currentColor = themeColorMeta.getAttribute('content');
-                    const newColor = isDark ? '#111827' : '#6b449a';
-
-                    if (currentColor !== newColor) {
-                      themeColorMeta.setAttribute('content', newColor);
-                    }
-                  }
+                function getTheme() {
+                  const saved = localStorage.getItem('theme');
+                  if (saved === 'light' || saved === 'dark') return saved;
+                  return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
                 }
 
-                function applyInitialTheme() {
-                  const savedTheme = localStorage.getItem('theme');
-                  const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-                  const isDark = savedTheme === 'dark' || (!savedTheme && systemPrefersDark);
-
-                  isUpdating = true;
-                  if (isDark) {
-                    document.documentElement.classList.add('dark');
-                  } else {
-                    document.documentElement.classList.remove('dark');
+                function applyTheme() {
+                  const theme = getTheme();
+                  const isDark = theme === 'dark';
+                  
+                  // Apply theme class immediately
+                  document.documentElement.classList.toggle('dark', isDark);
+                  
+                  // Update theme color meta tag
+                  const themeColorMeta = document.getElementById('theme-color-meta');
+                  if (themeColorMeta) {
+                    const newColor = isDark ? '#111827' : '#6b449a';
+                    themeColorMeta.setAttribute('content', newColor);
                   }
-                  isUpdating = false;
-
-                  updateThemeColor();
                 }
 
                 function applyInitialLanguage() {
-                  // Set language attribute for better accessibility and SEO
                   const savedLang = localStorage.getItem('i18nextLng');
                   const browserLang = navigator.language.toLowerCase();
                   const lang = (savedLang && (savedLang === 'en' || savedLang === 'ru')) 
@@ -107,30 +100,15 @@ export function Layout({ children }: { children: React.ReactNode }) {
                   document.documentElement.setAttribute('lang', lang);
                 }
 
-                // Apply both theme and language immediately to prevent flashes
-                applyInitialTheme();
+                // Apply initial language and theme immediately
                 applyInitialLanguage();
-
-                // Listen for theme changes (only when not updating ourselves)
-                const observer = new MutationObserver(function(mutations) {
-                  if (!isUpdating) {
-                    mutations.forEach(function(mutation) {
-                      if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
-                        updateThemeColor();
-                      }
-                    });
-                  }
-                });
-
-                observer.observe(document.documentElement, {
-                  attributes: true,
-                  attributeFilter: ['class']
-                });
+                applyTheme();
 
                 // Listen for system theme changes
                 window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function() {
+                  // Only update if user hasn't set a preference
                   if (!localStorage.getItem('theme')) {
-                    applyInitialTheme();
+                    applyTheme();
                   }
                 });
               })();
@@ -139,17 +117,23 @@ export function Layout({ children }: { children: React.ReactNode }) {
         />
       </head>
       <body className="min-h-screen bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100">
-        <ThemeProvider>
-          <HydrationBoundary>
-            <Header />
-            <main className="container mx-auto px-4 py-6">{children}</main>
-            <InstallPrompt />
-          </HydrationBoundary>
-        </ThemeProvider>
+        <HydrationBoundary>
+          <Header />
+          <main className="container mx-auto px-4 py-6">{children}</main>
+          <InstallPrompt />
+        </HydrationBoundary>
         <ScrollRestoration />
         <Scripts />
       </body>
     </html>
+  );
+}
+
+export function Layout({ children }: { children: React.ReactNode }) {
+  return (
+    <ThemeProvider>
+      <LayoutInner>{children}</LayoutInner>
+    </ThemeProvider>
   );
 }
 

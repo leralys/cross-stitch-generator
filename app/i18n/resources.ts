@@ -4,7 +4,7 @@ export const resources = {
     translation: {
       // App
       appName: 'Cross Stitch Pattern Generator',
-      appNameShort: 'Cross Stitch Generator',
+      appNameShort: 'Cross Stitch Patterns',
       appDescription: 'Generate beautiful cross stitch patterns from images',
 
       // Theme
@@ -76,8 +76,8 @@ export const resources = {
   ru: {
     translation: {
       // App
-      appNameShort: 'Создание схем для вышивки',
-      appName: 'Сервис создания схем для вышивки крестиком',
+      appNameShort: 'Схемы для вышивки',
+      appName: 'Создание схем для вышивки крестиком',
       appDescription:
         'Создавайте красивые схемы для вышивки крестиком из изображений',
 
