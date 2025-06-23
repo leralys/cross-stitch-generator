@@ -43,13 +43,13 @@ export function useTheme() {
   };
 
   useIsomorphicLayoutEffect(() => {
-    // Initialize theme on client
+    // Initialize theme on client - read current theme from DOM/localStorage
     const currentTheme = getTheme();
     setTheme(currentTheme);
     setIsHydrated(true);
 
-    // Apply theme to DOM
-    applyTheme(currentTheme);
+    // Don't re-apply theme to DOM on initial load since inline script already did it
+    // Only apply theme when it changes due to user interaction
 
     // Listen for system theme changes
     const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');

@@ -39,8 +39,9 @@ export const links: Route.LinksFunction = () => [
 function LayoutInner({ children }: { children: React.ReactNode }) {
   const { theme } = useThemeContext();
 
-  // Apply theme class based on current theme state
-  // Use suppressHydrationWarning to prevent mismatch warnings during initial hydration
+  // Don't override the theme class during initial render to prevent flash
+  // The inline script already applied the correct theme class
+  // Only update className after hydration to ensure consistency
   const htmlClassName = theme === 'dark' ? 'dark' : '';
 
   return (
@@ -68,12 +69,20 @@ function LayoutInner({ children }: { children: React.ReactNode }) {
           dangerouslySetInnerHTML={{
             __html: `
               (function() {
-                // Only handle theme color updates and language, not theme class
-                function updateThemeColor() {
-                  const savedTheme = localStorage.getItem('theme');
-                  const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-                  const isDark = savedTheme === 'dark' || (!savedTheme && systemPrefersDark);
+                function getTheme() {
+                  const saved = localStorage.getItem('theme');
+                  if (saved === 'light' || saved === 'dark') return saved;
+                  return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                }
 
+                function applyTheme() {
+                  const theme = getTheme();
+                  const isDark = theme === 'dark';
+                  
+                  // Apply theme class immediately
+                  document.documentElement.classList.toggle('dark', isDark);
+                  
+                  // Update theme color meta tag
                   const themeColorMeta = document.getElementById('theme-color-meta');
                   if (themeColorMeta) {
                     const newColor = isDark ? '#111827' : '#6b449a';
@@ -91,12 +100,17 @@ function LayoutInner({ children }: { children: React.ReactNode }) {
                   document.documentElement.setAttribute('lang', lang);
                 }
 
-                // Apply initial language and theme color
+                // Apply initial language and theme immediately
                 applyInitialLanguage();
-                updateThemeColor();
+                applyTheme();
 
-                // Listen for system theme changes for theme color updates
-                window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateThemeColor);
+                // Listen for system theme changes
+                window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function() {
+                  // Only update if user hasn't set a preference
+                  if (!localStorage.getItem('theme')) {
+                    applyTheme();
+                  }
+                });
               })();
             `,
           }}

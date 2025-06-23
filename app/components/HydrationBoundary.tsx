@@ -16,10 +16,10 @@ export default function HydrationBoundary({
   useEffect(() => {
     // Only show content when both theme and language are ready
     if (themeHydrated && i18n.isInitialized) {
-      // Small delay to ensure everything is settled
+      // Minimal delay to ensure smooth transition
       const timer = setTimeout(() => {
         setIsHydrated(true);
-      }, 50);
+      }, 10);
       return () => clearTimeout(timer);
     }
   }, [themeHydrated, i18n.isInitialized]);
