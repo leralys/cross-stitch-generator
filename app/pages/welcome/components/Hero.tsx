@@ -25,7 +25,7 @@ const Hero = ({ onScrollToUpload }: HeroProps) => {
           {/* CTA Button */}
           <button
             onClick={onScrollToUpload}
-            className="group relative overflow-hidden rounded-lg bg-primary px-6 py-3 text-base font-medium text-white shadow-lg transition-all duration-300 hover:bg-primary/90 hover:shadow-xl focus:ring-4 focus:ring-primary/20 focus:outline-none active:scale-95 sm:px-8 sm:py-4 sm:text-lg md:px-10 md:py-5 md:text-xl"
+            className="group relative cursor-pointer overflow-hidden rounded-lg bg-primary px-6 py-3 text-base font-medium text-white shadow-lg transition-all duration-300 hover:bg-primary/90 hover:shadow-xl focus:outline-none active:scale-95 sm:px-8 sm:py-4 sm:text-lg md:px-10 md:py-5 md:text-xl"
           >
             <span className="relative z-10">{t('actions.create')}</span>
             <div className="absolute inset-0 -z-10 bg-gradient-to-r from-primary/20 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>

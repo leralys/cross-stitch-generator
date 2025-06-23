@@ -9,10 +9,10 @@ interface LanguageSelectorProps {
   size?: 'sm' | 'md' | 'lg';
 }
 
-export default function LanguageSelector({
+const LanguageSelector = ({
   className = '',
   size = 'md',
-}: LanguageSelectorProps) {
+}: LanguageSelectorProps) => {
   const { i18n, t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [isHydrated, setIsHydrated] = useState(false);
@@ -105,4 +105,6 @@ export default function LanguageSelector({
       )}
     </div>
   );
-}
+};
+
+export default LanguageSelector;
