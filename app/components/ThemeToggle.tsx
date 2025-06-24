@@ -7,10 +7,7 @@ interface ThemeToggleProps {
   size?: 'sm' | 'md' | 'lg';
 }
 
-export default function ThemeToggle({
-  className = '',
-  size = 'md',
-}: ThemeToggleProps) {
+const ThemeToggle = ({ className = '', size = 'md' }: ThemeToggleProps) => {
   const { isHydrated, toggleTheme, isDark } = useThemeContext();
   const { t } = useTranslation();
 
@@ -58,4 +55,6 @@ export default function ThemeToggle({
       </div>
     </button>
   );
-}
+};
+
+export default ThemeToggle;

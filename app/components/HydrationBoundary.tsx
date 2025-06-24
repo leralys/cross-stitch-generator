@@ -6,9 +6,7 @@ interface HydrationBoundaryProps {
   children: React.ReactNode;
 }
 
-export default function HydrationBoundary({
-  children,
-}: HydrationBoundaryProps) {
+const HydrationBoundary = ({ children }: HydrationBoundaryProps) => {
   const [isHydrated, setIsHydrated] = useState(false);
   const { isHydrated: themeHydrated } = useThemeContext();
   const { i18n } = useTranslation();
@@ -48,4 +46,6 @@ export default function HydrationBoundary({
   }
 
   return <>{children}</>;
-}
+};
+
+export default HydrationBoundary;
