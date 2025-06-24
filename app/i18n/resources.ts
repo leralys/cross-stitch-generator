@@ -192,8 +192,6 @@ export const resources = {
         generic: 'Произошла неожиданная ошибка',
         notFound: 'Страница не найдена',
         networkError: 'Ошибка сети. Проверьте подключение к интернету.',
-        fileUploadError: 'Не удалось загрузить файл',
-        invalidFile: 'Неверный формат файла',
       },
 
       // --- Success messages ---
