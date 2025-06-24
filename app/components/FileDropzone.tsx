@@ -2,6 +2,7 @@ import { useCallback, useState } from 'react';
 import type { Accept } from 'react-dropzone';
 import { useDropzone } from 'react-dropzone';
 import { useTranslation } from 'react-i18next';
+import { BiLoaderAlt } from 'react-icons/bi';
 import { FiFile, FiImage, FiUpload, FiX } from 'react-icons/fi';
 import { toast } from 'sonner';
 import { truncateFilename } from '../utils/fileUtils';
@@ -26,6 +27,7 @@ const FileDropzone = ({
   const { t } = useTranslation();
   const [preview, setPreview] = useState<string | null>(null); // string for image preview
   const [uploadedFile, setUploadedFile] = useState<File | null>(null); // file object
+  const [isUploading, setIsUploading] = useState(false);
 
   const formatsString = Object.values(acceptedFormats)
     .flat()
@@ -57,6 +59,7 @@ const FileDropzone = ({
       }
 
       if (acceptedFiles.length > 0) {
+        setIsUploading(true);
         const file = acceptedFiles[0];
         setUploadedFile(file);
 
@@ -71,8 +74,9 @@ const FileDropzone = ({
           setPreview(null);
         }
 
-        onFileUpload && onFileUpload(file);
         toast.success(t('fileUpload.uploaded'));
+        setIsUploading(false);
+        onFileUpload && onFileUpload(file);
       }
     },
     [onFileUpload, maxSize, t]
@@ -102,7 +106,11 @@ const FileDropzone = ({
       >
         <input {...getInputProps()} />
 
-        {uploadedFile ? (
+        {isUploading ? (
+          <div className="flex justify-center py-16">
+            <BiLoaderAlt className="h-12 w-12 animate-spin text-primary" />
+          </div>
+        ) : uploadedFile ? (
           <div className="space-y-4">
             <div className="relative inline-block">
               {preview ? (
@@ -189,7 +197,7 @@ const FileDropzone = ({
 
             <button
               type="button"
-              className="inline-flex items-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-primary/90"
+              className="inline-flex cursor-pointer items-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-primary/90"
             >
               <FiUpload className="h-4 w-4" />
               {t('actions.upload')}
