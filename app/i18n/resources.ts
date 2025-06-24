@@ -31,13 +31,18 @@ export const resources = {
       fileUpload: {
         formats: 'Supports {{formats}}',
         maxSize: 'Max size: {{maxSize}}',
-        dropHere: 'Drop your {{what:-file}} here',
-        uploadFile: 'Upload {{what:-file}}',
-        changeFile:
-          'Click to change {{what:-file}} or drag {{newOne:-a new one}}',
-        dragDrop: 'Drag and drop {{what:-a file}}, or click to select',
-        fileUploadError: 'Failed to upload {{what:-file}}',
-        invalidFile: 'Invalid {{what:-file}} format',
+        dropImageHere: 'Drop your image here',
+        dropFileHere: 'Drop your file here',
+        uploadFile: 'Upload a file',
+        uploadImage: 'Upload an image',
+        changeFile: 'Click to change file or drag a new one',
+        changeImage: 'Click to change image or drag a new one',
+        dragDropFile: 'Drag and drop a file, or click to select',
+        dragDropImage: 'Drag and drop an image file, or click to select',
+        fileUploadError: 'Failed to upload file',
+        invalidFile: 'Invalid file format',
+        fileTooLarge: 'File size must be less than {{maxSize}}',
+        allowedFormats: 'Wrong file format, only {{formats}} are allowed',
       },
 
       // --- Common actions ---
@@ -134,13 +139,18 @@ export const resources = {
       fileUpload: {
         formats: 'Поддерживаются {{formats}}',
         maxSize: 'Максимальный размер: {{maxSize}}',
-        dropHere: 'Перетащите {{what:-ваш файл}} сюда',
-        uploadFile: 'Загрузить {{what:-файл}}',
-        changeFile:
-          'Нажмите для замены {{what:-файла}} или перетащите {{newOne:-новый}}',
-        dragDrop: 'Перетащите {{what:-файл}} или нажмите для выбора',
-        fileUploadError: 'Не удалось загрузить {{what:-файл}}',
-        invalidFile: 'Неверный формат {{what:-файла}}',
+        dropImageHere: 'Перетащите изображение сюда',
+        dropFileHere: 'Перетащите файл сюда',
+        uploadFile: 'Загрузить файл',
+        uploadImage: 'Загрузить изображение',
+        changeFile: 'Нажмите для замены файла или перетащите новый',
+        changeImage: 'Нажмите для замены изображения или перетащите новый файл',
+        dragDropFile: 'Перетащите файл или нажмите для выбора',
+        dragDropImage: 'Перетащите изображение или нажмите для выбора',
+        fileUploadError: 'Не удалось загрузить файл',
+        invalidFile: 'Неверный формат файла',
+        fileTooLarge: 'Размер файла должен быть меньше {{maxSize}}',
+        allowedFormats: 'Неверный формат файла, допустимы только {{formats}}',
       },
 
       // --- Common actions ---

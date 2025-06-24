@@ -6,6 +6,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from 'react-router';
+import { Toaster } from 'sonner';
 
 import type { Route } from './+types/root';
 import './app.css';
@@ -122,6 +123,16 @@ function LayoutInner({ children }: { children: React.ReactNode }) {
           <main className="container mx-auto px-4 py-6">{children}</main>
           <InstallPrompt />
         </HydrationBoundary>
+        <Toaster
+          position="top-center"
+          closeButton
+          toastOptions={{
+            classNames: {
+              success: '!bg-success !text-white !border-none',
+              error: '!bg-error !text-white !border-none',
+            },
+          }}
+        />
         <ScrollRestoration />
         <Scripts />
       </body>
