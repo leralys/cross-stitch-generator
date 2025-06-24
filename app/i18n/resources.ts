@@ -7,6 +7,8 @@ export const resources = {
       appNameShort: 'Cross Stitch Patterns',
       appDescription: 'Generate beautiful cross stitch patterns from images',
 
+      // --- Components ---
+
       // Theme
       theme: {
         toggle: 'Toggle theme',
@@ -25,7 +27,20 @@ export const resources = {
         current: 'Current language: {{language}}',
       },
 
-      // Common actions
+      // File upload
+      fileUpload: {
+        formats: 'Supports {{formats}}',
+        maxSize: 'Max size: {{maxSize}}',
+        dropHere: 'Drop your {{what:-file}} here',
+        uploadFile: 'Upload {{what:-file}}',
+        changeFile:
+          'Click to change {{what:-file}} or drag {{newOne:-a new one}}',
+        dragDrop: 'Drag and drop {{what:-a file}}, or click to select',
+        fileUploadError: 'Failed to upload {{what:-file}}',
+        invalidFile: 'Invalid {{what:-file}} format',
+      },
+
+      // --- Common actions ---
       actions: {
         save: 'Save',
         cancel: 'Cancel',
@@ -42,25 +57,39 @@ export const resources = {
         previous: 'Previous',
         confirm: 'Confirm',
         retry: 'Retry',
+        or: 'or',
       },
 
-      // Errors
+      // --- Pages ---
+
+      welcome: {
+        // Hero Section
+        hero: {
+          scrollToStart: 'Or scroll down to get started',
+        },
+        // Upload Section
+        uploadSection: {
+          title: 'Upload Your File',
+          description: 'Choose a file to convert into a cross stitch pattern',
+          createCustom: 'Create Custom Pattern',
+        },
+      },
+
+      // --- Errors ---
       errors: {
         generic: 'An unexpected error occurred',
         notFound: 'Page not found',
         networkError: 'Network error. Please check your connection.',
-        fileUploadError: 'Failed to upload file',
-        invalidFile: 'Invalid file format',
       },
 
-      // Success messages
+      // --- Success messages ---
       success: {
         saved: 'Saved successfully',
         uploaded: 'Uploaded successfully',
         copied: 'Copied to clipboard',
       },
 
-      // PWA
+      // --- PWA ---
       pwa: {
         installPrompt: 'Install App',
         installDescription:
@@ -81,6 +110,8 @@ export const resources = {
       appDescription:
         'Создавайте красивые схемы для вышивки крестиком из изображений',
 
+      // --- Components ---
+
       // Theme
       theme: {
         toggle: 'Переключить тему',
@@ -99,7 +130,20 @@ export const resources = {
         current: 'Текущий язык: {{language}}',
       },
 
-      // Common actions
+      // File upload
+      fileUpload: {
+        formats: 'Поддерживаются {{formats}}',
+        maxSize: 'Максимальный размер: {{maxSize}}',
+        dropHere: 'Перетащите {{what:-ваш файл}} сюда',
+        uploadFile: 'Загрузить {{what:-файл}}',
+        changeFile:
+          'Нажмите для замены {{what:-файла}} или перетащите {{newOne:-новый}}',
+        dragDrop: 'Перетащите {{what:-файл}} или нажмите для выбора',
+        fileUploadError: 'Не удалось загрузить {{what:-файл}}',
+        invalidFile: 'Неверный формат {{what:-файла}}',
+      },
+
+      // --- Common actions ---
       actions: {
         save: 'Сохранить',
         cancel: 'Отмена',
@@ -116,9 +160,24 @@ export const resources = {
         previous: 'Предыдущий',
         confirm: 'Подтвердить',
         retry: 'Повторить',
+        or: 'или',
       },
 
-      // Errors
+      // --- Pages ---
+      welcome: {
+        // Hero Section
+        hero: {
+          scrollToStart: 'Или пролистайте вниз, чтобы начать',
+        },
+        // Upload Section
+        uploadSection: {
+          title: 'Загрузите ваш файл',
+          description: 'Выберите файл для создания схемы вышивки крестиком',
+          createCustom: 'Создать собственную схему',
+        },
+      },
+
+      // --- Errors ---
       errors: {
         generic: 'Произошла неожиданная ошибка',
         notFound: 'Страница не найдена',
@@ -127,14 +186,14 @@ export const resources = {
         invalidFile: 'Неверный формат файла',
       },
 
-      // Success messages
+      // --- Success messages ---
       success: {
         saved: 'Успешно сохранено',
         uploaded: 'Успешно загружено',
         copied: 'Скопировано в буфер обмена',
       },
 
-      // PWA
+      // --- PWA ---
       pwa: {
         installPrompt: 'Установить приложение',
         installDescription:
