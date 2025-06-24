@@ -23,11 +23,11 @@ export function Welcome() {
     // TODO: temp - Create a data URL for the image
     const reader = new FileReader();
     reader.onload = () => {
-      const imageData = reader.result as string;
+      const imageString = reader.result as string;
       // Navigate to preview page with image data
       navigate('/preview', {
         state: {
-          imageData,
+          imageString,
           fileName: file.name,
         },
       });

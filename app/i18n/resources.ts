@@ -44,6 +44,7 @@ export const resources = {
         fileTooLarge: 'File size must be less than {{maxSize}}',
         allowedFormats: 'Wrong file format, only {{formats}} are allowed',
         uploaded: 'File uploaded successfully!',
+        uploading: 'Uploading file...',
       },
 
       // --- Common actions ---
@@ -151,6 +152,7 @@ export const resources = {
         fileTooLarge: 'Размер файла должен быть меньше {{maxSize}}',
         allowedFormats: 'Неверный формат файла, допустимы только {{formats}}',
         uploaded: 'Файл успешно загружен!',
+        uploading: 'Загрузка файла...',
       },
 
       // --- Common actions ---

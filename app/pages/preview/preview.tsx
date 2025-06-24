@@ -4,34 +4,34 @@ import { FiArrowLeft, FiDownload, FiSettings } from 'react-icons/fi';
 import { useNavigate } from 'react-router';
 
 interface PreviewProps {
-  imageData?: string;
+  imageString?: string;
   fileName?: string;
 }
 
-export const Preview = ({ imageData, fileName }: PreviewProps) => {
+export const Preview = ({ imageString, fileName }: PreviewProps) => {
   const { t } = useTranslation();
   const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     // If no image data is provided, redirect back to home
-    if (!imageData) {
+    if (!imageString) {
       navigate('/', { replace: true });
       return;
     }
 
     setIsLoading(false);
-  }, [imageData, navigate]);
+  }, [imageString, navigate]);
 
   const handleBack = () => {
     navigate('/', { replace: true });
   };
 
   const handleDownload = () => {
-    if (!imageData) return;
+    if (!imageString) return;
 
     const link = document.createElement('a');
-    link.href = imageData;
+    link.href = imageString;
     link.download = fileName || 'cross-stitch-pattern.png';
     document.body.appendChild(link);
     link.click();
@@ -46,7 +46,7 @@ export const Preview = ({ imageData, fileName }: PreviewProps) => {
     );
   }
 
-  if (!imageData) {
+  if (!imageString) {
     return null; // This shouldn't render due to the redirect
   }
 
@@ -97,7 +97,7 @@ export const Preview = ({ imageData, fileName }: PreviewProps) => {
               </h2>
               <div className="flex justify-center">
                 <img
-                  src={imageData}
+                  src={imageString}
                   alt="Uploaded image"
                   className="max-h-96 max-w-full rounded-lg shadow-md"
                 />
