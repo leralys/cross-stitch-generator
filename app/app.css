@@ -17,6 +17,9 @@
   --color-primary-700: #5a3a82;
   --color-primary-800: #48306a;
   --color-primary-900: #362652;
+
+  --color-success: #10b981;
+  --color-error: #ef4444;
 }
 
 html,

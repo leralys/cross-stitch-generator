@@ -34,7 +34,7 @@ const Hero = ({ onScrollToUpload }: HeroProps) => {
           {/* Scroll indicator */}
           <div className="mt-6 flex flex-col items-center sm:mt-12 md:mt-16">
             <p className="mb-2 text-xs text-gray-500 sm:mb-3 sm:text-sm dark:text-gray-400">
-              {t('hero.scrollToStart')}
+              {t('welcome.hero.scrollToStart')}
             </p>
             <div className="mt-4 animate-bounce">
               <GrLinkDown className="text-gray-400 sm:h-5 sm:w-5 md:h-6 md:w-6 dark:text-gray-500" />

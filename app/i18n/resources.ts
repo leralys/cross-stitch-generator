@@ -7,6 +7,8 @@ export const resources = {
       appNameShort: 'Cross Stitch Patterns',
       appDescription: 'Generate beautiful cross stitch patterns from images',
 
+      // --- Components ---
+
       // Theme
       theme: {
         toggle: 'Toggle theme',
@@ -25,7 +27,26 @@ export const resources = {
         current: 'Current language: {{language}}',
       },
 
-      // Common actions
+      // File upload
+      fileUpload: {
+        formats: 'Supports {{formats}}',
+        maxSize: 'Max size: {{maxSize}}',
+        dropImageHere: 'Drop your image here',
+        dropFileHere: 'Drop your file here',
+        uploadFile: 'Upload a file',
+        uploadImage: 'Upload an image',
+        changeFile: 'Click to change file or drag a new one',
+        changeImage: 'Click to change image or drag a new one',
+        dragDropFile: 'Drag and drop a file, or click to select',
+        dragDropImage: 'Drag and drop an image file, or click to select',
+        fileUploadError: 'Failed to upload file',
+        invalidFile: 'Invalid file format',
+        fileTooLarge: 'File size must be less than {{maxSize}}',
+        allowedFormats: 'Wrong file format, only {{formats}} are allowed',
+        uploaded: 'File uploaded successfully!',
+      },
+
+      // --- Common actions ---
       actions: {
         save: 'Save',
         cancel: 'Cancel',
@@ -42,25 +63,37 @@ export const resources = {
         previous: 'Previous',
         confirm: 'Confirm',
         retry: 'Retry',
+        or: 'or',
       },
 
-      // Errors
+      // --- Pages ---
+
+      welcome: {
+        // Hero Section
+        hero: {
+          scrollToStart: 'Or scroll down to get started',
+        },
+        // Upload Section
+        uploadSection: {
+          title: 'Upload Your File',
+          description: 'Choose a file to convert into a cross stitch pattern',
+          createCustom: 'Create Custom Pattern',
+        },
+      },
+
+      // --- Errors ---
       errors: {
         generic: 'An unexpected error occurred',
         notFound: 'Page not found',
         networkError: 'Network error. Please check your connection.',
-        fileUploadError: 'Failed to upload file',
-        invalidFile: 'Invalid file format',
       },
 
-      // Success messages
+      // --- Success messages ---
       success: {
-        saved: 'Saved successfully',
-        uploaded: 'Uploaded successfully',
         copied: 'Copied to clipboard',
       },
 
-      // PWA
+      // --- PWA ---
       pwa: {
         installPrompt: 'Install App',
         installDescription:
@@ -81,6 +114,8 @@ export const resources = {
       appDescription:
         'Создавайте красивые схемы для вышивки крестиком из изображений',
 
+      // --- Components ---
+
       // Theme
       theme: {
         toggle: 'Переключить тему',
@@ -99,7 +134,26 @@ export const resources = {
         current: 'Текущий язык: {{language}}',
       },
 
-      // Common actions
+      // File upload
+      fileUpload: {
+        formats: 'Поддерживаются {{formats}}',
+        maxSize: 'Максимальный размер: {{maxSize}}',
+        dropImageHere: 'Перетащите изображение сюда',
+        dropFileHere: 'Перетащите файл сюда',
+        uploadFile: 'Загрузить файл',
+        uploadImage: 'Загрузить изображение',
+        changeFile: 'Нажмите для замены файла или перетащите новый',
+        changeImage: 'Нажмите для замены изображения или перетащите новый файл',
+        dragDropFile: 'Перетащите файл или нажмите для выбора',
+        dragDropImage: 'Перетащите изображение или нажмите для выбора',
+        fileUploadError: 'Не удалось загрузить файл',
+        invalidFile: 'Неверный формат файла',
+        fileTooLarge: 'Размер файла должен быть меньше {{maxSize}}',
+        allowedFormats: 'Неверный формат файла, допустимы только {{formats}}',
+        uploaded: 'Файл успешно загружен!',
+      },
+
+      // --- Common actions ---
       actions: {
         save: 'Сохранить',
         cancel: 'Отмена',
@@ -116,25 +170,36 @@ export const resources = {
         previous: 'Предыдущий',
         confirm: 'Подтвердить',
         retry: 'Повторить',
+        or: 'или',
       },
 
-      // Errors
+      // --- Pages ---
+      welcome: {
+        // Hero Section
+        hero: {
+          scrollToStart: 'Или пролистайте вниз, чтобы начать',
+        },
+        // Upload Section
+        uploadSection: {
+          title: 'Загрузите ваш файл',
+          description: 'Выберите файл для создания схемы вышивки крестиком',
+          createCustom: 'Создать собственную схему',
+        },
+      },
+
+      // --- Errors ---
       errors: {
         generic: 'Произошла неожиданная ошибка',
         notFound: 'Страница не найдена',
         networkError: 'Ошибка сети. Проверьте подключение к интернету.',
-        fileUploadError: 'Не удалось загрузить файл',
-        invalidFile: 'Неверный формат файла',
       },
 
-      // Success messages
+      // --- Success messages ---
       success: {
-        saved: 'Успешно сохранено',
-        uploaded: 'Успешно загружено',
         copied: 'Скопировано в буфер обмена',
       },
 
-      // PWA
+      // --- PWA ---
       pwa: {
         installPrompt: 'Установить приложение',
         installDescription:
