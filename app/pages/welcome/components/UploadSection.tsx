@@ -1,6 +1,6 @@
 import { forwardRef } from 'react';
 import { useTranslation } from 'react-i18next';
-import FileDropzone from '../../../components/FileDropzone';
+import FileDropzone from '../../../components/FileDropzone/FileDropzone';
 
 interface UploadSectionProps {
   onImageUpload: (file: File) => void;
@@ -22,7 +22,11 @@ const UploadSection = forwardRef<HTMLDivElement, UploadSectionProps>(
         </div>
 
         <div className="mx-auto max-w-2xl">
-          <FileDropzone onFileUpload={onImageUpload} />
+          <FileDropzone
+            onFileUpload={onImageUpload}
+            shouldShowPreview={false}
+            showLoaderDescription={true}
+          />
         </div>
 
         <div className="mt-8 text-center">
