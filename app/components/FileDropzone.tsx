@@ -4,9 +4,10 @@ import { useDropzone } from 'react-dropzone';
 import { useTranslation } from 'react-i18next';
 import { FiFile, FiImage, FiUpload, FiX } from 'react-icons/fi';
 import { toast } from 'sonner';
+import { truncateFilename } from '../utils/fileUtils';
 
 interface FileDropzoneProps {
-  onFileUpload: (file: File) => void;
+  onFileUpload?: ((file: File) => void) | null;
   containerClassName?: string;
   acceptedFormats?: Accept;
   maxSize?: number; // in bytes
@@ -14,7 +15,7 @@ interface FileDropzoneProps {
 }
 
 const FileDropzone = ({
-  onFileUpload,
+  onFileUpload = null,
   containerClassName = '',
   acceptedFormats = {
     'image/*': ['.jpeg', '.jpg', '.png', '.gif', '.webp'],
@@ -23,7 +24,8 @@ const FileDropzone = ({
   fileType = 'image',
 }: FileDropzoneProps) => {
   const { t } = useTranslation();
-  const [preview, setPreview] = useState<string | null>(null);
+  const [preview, setPreview] = useState<string | null>(null); // string for image preview
+  const [uploadedFile, setUploadedFile] = useState<File | null>(null); // file object
 
   const formatsString = Object.values(acceptedFormats)
     .flat()
@@ -56,19 +58,24 @@ const FileDropzone = ({
 
       if (acceptedFiles.length > 0) {
         const file = acceptedFiles[0];
+        setUploadedFile(file);
 
-        // Peview file inside the component
-        const reader = new FileReader();
-        reader.onload = () => {
-          setPreview(reader.result as string);
-        };
-        reader.readAsDataURL(file);
+        // Preview for image files
+        if (fileType === 'image') {
+          const reader = new FileReader();
+          reader.onload = () => {
+            setPreview(reader.result as string);
+          };
+          reader.readAsDataURL(file);
+        } else {
+          setPreview(null);
+        }
 
-        // onFileUpload(file);
-        toast.success('Image uploaded successfully!');
+        onFileUpload && onFileUpload(file);
+        toast.success(t('fileUpload.uploaded'));
       }
     },
-    [onFileUpload, maxSize]
+    [onFileUpload, maxSize, t]
   );
 
   const { getRootProps, getInputProps, isDragActive } = useDropzone({
@@ -80,6 +87,7 @@ const FileDropzone = ({
 
   const clearPreview = () => {
     setPreview(null);
+    setUploadedFile(null);
   };
 
   return (
@@ -94,20 +102,31 @@ const FileDropzone = ({
       >
         <input {...getInputProps()} />
 
-        {preview ? (
+        {uploadedFile ? (
           <div className="space-y-4">
             <div className="relative inline-block">
-              <img
-                src={preview}
-                alt="Preview"
-                className="max-h-48 max-w-full rounded-lg shadow-md"
-              />
+              {preview ? (
+                // Image preview
+                <img
+                  src={preview}
+                  alt="Preview"
+                  className="max-h-38 max-w-full rounded-lg shadow-md"
+                />
+              ) : (
+                // Non-image file - show filename
+                <div className="flex items-center justify-center space-x-3 rounded-lg border border-gray-300 bg-white px-6 py-4 dark:border-gray-800 dark:bg-gray-800">
+                  <FiFile className="h-8 w-8 text-gray-500" />
+                  <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                    {truncateFilename(uploadedFile.name)}
+                  </span>
+                </div>
+              )}
               <button
                 onClick={e => {
                   e.stopPropagation();
                   clearPreview();
                 }}
-                className="absolute -top-2 -right-2 rounded-full bg-red-500 p-1 text-white transition-colors hover:bg-red-600"
+                className="absolute -top-2 -right-2 cursor-pointer rounded-full bg-gray-400 p-1 text-white transition-colors hover:bg-gray-500"
               >
                 <FiX className="h-4 w-4" />
               </button>

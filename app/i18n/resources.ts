@@ -43,6 +43,7 @@ export const resources = {
         invalidFile: 'Invalid file format',
         fileTooLarge: 'File size must be less than {{maxSize}}',
         allowedFormats: 'Wrong file format, only {{formats}} are allowed',
+        uploaded: 'File uploaded successfully!',
       },
 
       // --- Common actions ---
@@ -89,8 +90,6 @@ export const resources = {
 
       // --- Success messages ---
       success: {
-        saved: 'Saved successfully',
-        uploaded: 'Uploaded successfully',
         copied: 'Copied to clipboard',
       },
 
@@ -151,6 +150,7 @@ export const resources = {
         invalidFile: 'Неверный формат файла',
         fileTooLarge: 'Размер файла должен быть меньше {{maxSize}}',
         allowedFormats: 'Неверный формат файла, допустимы только {{formats}}',
+        uploaded: 'Файл успешно загружен!',
       },
 
       // --- Common actions ---
@@ -196,8 +196,6 @@ export const resources = {
 
       // --- Success messages ---
       success: {
-        saved: 'Успешно сохранено',
-        uploaded: 'Успешно загружено',
         copied: 'Скопировано в буфер обмена',
       },
 
