@@ -4,3373 +4,5783 @@
     "row": 1,
     "col": 1,
     "label": "Salmon - Very Light",
-    "hex": "#f4c4cd"
+    "hex": "#f4c4cd",
+    "rgb": {
+      "r": 244,
+      "g": 196,
+      "b": 205
+    }
   },
   {
     "floss": 761,
     "row": 1,
     "col": 2,
     "label": "Salmon - Light",
-    "hex": "#f4a7b3"
+    "hex": "#f4a7b3",
+    "rgb": {
+      "r": 244,
+      "g": 167,
+      "b": 179
+    }
   },
   {
     "floss": 760,
     "row": 1,
     "col": 3,
     "label": "Salmon",
-    "hex": "#ef717e"
+    "hex": "#ef717e",
+    "rgb": {
+      "r": 239,
+      "g": 113,
+      "b": 126
+    }
   },
   {
     "floss": 3712,
     "row": 1,
     "col": 4,
     "label": "Salmon - Medium",
-    "hex": "#e64e5a"
+    "hex": "#e64e5a",
+    "rgb": {
+      "r": 230,
+      "g": 78,
+      "b": 90
+    }
   },
   {
     "floss": 3328,
     "row": 1,
     "col": 5,
     "label": "Salmon - Dark",
-    "hex": "#d33640"
+    "hex": "#d33640",
+    "rgb": {
+      "r": 211,
+      "g": 54,
+      "b": 64
+    }
   },
   {
     "floss": 347,
     "row": 1,
     "col": 6,
     "label": "Salmon - Very Dark",
-    "hex": "#ca1e29"
+    "hex": "#ca1e29",
+    "rgb": {
+      "r": 202,
+      "g": 30,
+      "b": 41
+    }
   },
   {
     "floss": 353,
     "row": 1,
     "col": 7,
     "label": "Peach",
-    "hex": "#f4bfa5"
+    "hex": "#f4bfa5",
+    "rgb": {
+      "r": 244,
+      "g": 191,
+      "b": 165
+    }
   },
   {
     "floss": 352,
     "row": 1,
     "col": 8,
     "label": "Coral - Light",
-    "hex": "#f2775f"
+    "hex": "#f2775f",
+    "rgb": {
+      "r": 242,
+      "g": 119,
+      "b": 95
+    }
   },
   {
     "floss": 351,
     "row": 1,
     "col": 9,
     "label": "Coral",
-    "hex": "#ff3a2c"
+    "hex": "#ff3a2c",
+    "rgb": {
+      "r": 255,
+      "g": 58,
+      "b": 44
+    }
   },
   {
     "floss": 350,
     "row": 1,
     "col": 10,
     "label": "Coral - Medium",
-    "hex": "#e4261e"
+    "hex": "#e4261e",
+    "rgb": {
+      "r": 228,
+      "g": 38,
+      "b": 30
+    }
   },
   {
     "floss": 349,
     "row": 1,
     "col": 11,
     "label": "Coral - Dark",
-    "hex": "#c80119"
+    "hex": "#c80119",
+    "rgb": {
+      "r": 200,
+      "g": 1,
+      "b": 25
+    }
   },
   {
     "floss": 817,
     "row": 1,
     "col": 12,
     "label": "Coral Red - Very Dark",
-    "hex": "#bf0211"
+    "hex": "#bf0211",
+    "rgb": {
+      "r": 191,
+      "g": 2,
+      "b": 17
+    }
   },
   {
     "floss": 304,
     "row": 1,
     "col": 13,
     "label": "Red - Medium",
-    "hex": "#b30226"
+    "hex": "#b30226",
+    "rgb": {
+      "r": 179,
+      "g": 2,
+      "b": 38
+    }
   },
   {
     "floss": 3833,
     "row": 1,
     "col": 14,
     "label": "Raspberry - Light",
-    "hex": "#e84b6f"
+    "hex": "#e84b6f",
+    "rgb": {
+      "r": 232,
+      "g": 75,
+      "b": 111
+    }
   },
   {
     "floss": 3832,
     "row": 1,
     "col": 15,
     "label": "Raspberry - Medium",
-    "hex": "#e0274d"
+    "hex": "#e0274d",
+    "rgb": {
+      "r": 224,
+      "g": 39,
+      "b": 77
+    }
   },
   {
     "floss": 3831,
     "row": 1,
     "col": 16,
     "label": "Raspberry - Dark",
-    "hex": "#bf1430"
+    "hex": "#bf1430",
+    "rgb": {
+      "r": 191,
+      "g": 20,
+      "b": 48
+    }
   },
   {
     "floss": 777,
     "row": 1,
     "col": 17,
     "label": "Red - Deep",
-    "hex": "#7a0518"
+    "hex": "#7a0518",
+    "rgb": {
+      "r": 122,
+      "g": 5,
+      "b": 24
+    }
   },
   {
     "floss": 3801,
     "row": 1,
     "col": 18,
     "label": "Melon - Very Dark",
-    "hex": "#ea112c"
+    "hex": "#ea112c",
+    "rgb": {
+      "r": 234,
+      "g": 17,
+      "b": 44
+    }
   },
   {
     "floss": 666,
     "row": 1,
     "col": 19,
     "label": "Red - Bright",
-    "hex": "#eb0213"
+    "hex": "#eb0213",
+    "rgb": {
+      "r": 235,
+      "g": 2,
+      "b": 19
+    }
   },
   {
     "floss": 321,
     "row": 1,
     "col": 20,
     "label": "Red",
-    "hex": "#c80219"
+    "hex": "#c80219",
+    "rgb": {
+      "r": 200,
+      "g": 2,
+      "b": 25
+    }
   },
   {
     "floss": 498,
     "row": 1,
     "col": 21,
     "label": "Red - Dark",
-    "hex": "#97041f"
+    "hex": "#97041f",
+    "rgb": {
+      "r": 151,
+      "g": 4,
+      "b": 31
+    }
   },
   {
     "floss": 816,
     "row": 1,
     "col": 22,
     "label": "Garnet",
-    "hex": "#8d0217"
+    "hex": "#8d0217",
+    "rgb": {
+      "r": 141,
+      "g": 2,
+      "b": 23
+    }
   },
   {
     "floss": 815,
     "row": 1,
     "col": 23,
     "label": "Garnet - Medium",
-    "hex": "#610219"
+    "hex": "#610219",
+    "rgb": {
+      "r": 97,
+      "g": 2,
+      "b": 25
+    }
   },
   {
     "floss": 814,
     "row": 1,
     "col": 24,
     "label": "Garnet - Dark",
-    "hex": "#520313"
+    "hex": "#520313",
+    "rgb": {
+      "r": 82,
+      "g": 3,
+      "b": 19
+    }
   },
   {
     "floss": 894,
     "row": 2,
     "col": 1,
     "label": "Carnation - Very Light",
-    "hex": "#f471a5"
+    "hex": "#f471a5",
+    "rgb": {
+      "r": 244,
+      "g": 113,
+      "b": 165
+    }
   },
   {
     "floss": 893,
     "row": 2,
     "col": 2,
     "label": "Carnation - Light",
-    "hex": "#f33768"
+    "hex": "#f33768",
+    "rgb": {
+      "r": 243,
+      "g": 55,
+      "b": 104
+    }
   },
   {
     "floss": 892,
     "row": 2,
     "col": 3,
     "label": "Carnation - Medium",
-    "hex": "#f52551"
+    "hex": "#f52551",
+    "rgb": {
+      "r": 245,
+      "g": 37,
+      "b": 81
+    }
   },
   {
     "floss": 891,
     "row": 2,
     "col": 4,
     "label": "Carnation - Dark",
-    "hex": "#f31249"
+    "hex": "#f31249",
+    "rgb": {
+      "r": 243,
+      "g": 18,
+      "b": 73
+    }
   },
   {
     "floss": 818,
     "row": 2,
     "col": 5,
     "label": "Baby Pink",
-    "hex": "#f5d2dd"
+    "hex": "#f5d2dd",
+    "rgb": {
+      "r": 245,
+      "g": 210,
+      "b": 221
+    }
   },
   {
     "floss": 957,
     "row": 2,
     "col": 6,
     "label": "Geranium - Pale",
-    "hex": "#ee80cb"
+    "hex": "#ee80cb",
+    "rgb": {
+      "r": 238,
+      "g": 128,
+      "b": 203
+    }
   },
   {
     "floss": 956,
     "row": 2,
     "col": 7,
     "label": "Geranium",
-    "hex": "#f42d73"
+    "hex": "#f42d73",
+    "rgb": {
+      "r": 244,
+      "g": 45,
+      "b": 115
+    }
   },
   {
     "floss": 3708,
     "row": 2,
     "col": 8,
     "label": "Melon - Light",
-    "hex": "#f678a8"
+    "hex": "#f678a8",
+    "rgb": {
+      "r": 246,
+      "g": 120,
+      "b": 168
+    }
   },
   {
     "floss": 3706,
     "row": 2,
     "col": 9,
     "label": "Melon - Medium",
-    "hex": "#f7558a"
+    "hex": "#f7558a",
+    "rgb": {
+      "r": 247,
+      "g": 85,
+      "b": 138
+    }
   },
   {
     "floss": 3705,
     "row": 2,
     "col": 10,
     "label": "Melon - Dark",
-    "hex": "#f92f47"
+    "hex": "#f92f47",
+    "rgb": {
+      "r": 249,
+      "g": 47,
+      "b": 71
+    }
   },
   {
     "floss": 963,
     "row": 2,
     "col": 11,
     "label": "Dusty Rose - Ultra Very Light",
-    "hex": "#f6c2d7"
+    "hex": "#f6c2d7",
+    "rgb": {
+      "r": 246,
+      "g": 194,
+      "b": 215
+    }
   },
   {
     "floss": 3716,
     "row": 2,
     "col": 12,
     "label": "Dusty Rose - Very Light",
-    "hex": "#f38eb4"
+    "hex": "#f38eb4",
+    "rgb": {
+      "r": 243,
+      "g": 142,
+      "b": 180
+    }
   },
   {
     "floss": 962,
     "row": 2,
     "col": 13,
     "label": "Dusty Rose - Medium",
-    "hex": "#ef6586"
+    "hex": "#ef6586",
+    "rgb": {
+      "r": 239,
+      "g": 101,
+      "b": 134
+    }
   },
   {
     "floss": 961,
     "row": 2,
     "col": 14,
     "label": "Dusty Rose - Dark",
-    "hex": "#e63f70"
+    "hex": "#e63f70",
+    "rgb": {
+      "r": 230,
+      "g": 63,
+      "b": 112
+    }
   },
   {
     "floss": 309,
     "row": 2,
     "col": 15,
     "label": "Rose - Dark",
-    "hex": "#b60b2b"
+    "hex": "#b60b2b",
+    "rgb": {
+      "r": 182,
+      "g": 11,
+      "b": 43
+    }
   },
   {
     "floss": 819,
     "row": 2,
     "col": 16,
     "label": "Baby Pink - Light",
-    "hex": "#f8f1e6"
+    "hex": "#f8f1e6",
+    "rgb": {
+      "r": 248,
+      "g": 241,
+      "b": 230
+    }
   },
   {
     "floss": 3326,
     "row": 2,
     "col": 17,
     "label": "Rose - Light",
-    "hex": "#f68aa9"
+    "hex": "#f68aa9",
+    "rgb": {
+      "r": 246,
+      "g": 138,
+      "b": 169
+    }
   },
   {
     "floss": 899,
     "row": 2,
     "col": 18,
     "label": "Rose - Medium",
-    "hex": "#ec507c"
+    "hex": "#ec507c",
+    "rgb": {
+      "r": 236,
+      "g": 80,
+      "b": 124
+    }
   },
   {
     "floss": 335,
     "row": 2,
     "col": 19,
     "label": "Rose",
-    "hex": "#e1325f"
+    "hex": "#e1325f",
+    "rgb": {
+      "r": 225,
+      "g": 50,
+      "b": 95
+    }
   },
   {
     "floss": 326,
     "row": 2,
     "col": 20,
     "label": "Rose - Very Dark",
-    "hex": "#af0327"
+    "hex": "#af0327",
+    "rgb": {
+      "r": 175,
+      "g": 3,
+      "b": 39
+    }
   },
   {
     "floss": 151,
     "row": 2,
     "col": 21,
     "label": "Dusty Rose - Ultra Light",
-    "hex": "#f4afc5"
+    "hex": "#f4afc5",
+    "rgb": {
+      "r": 244,
+      "g": 175,
+      "b": 197
+    }
   },
   {
     "floss": 3354,
     "row": 2,
     "col": 22,
     "label": "Dusty Rose - Light",
-    "hex": "#ec82a3"
+    "hex": "#ec82a3",
+    "rgb": {
+      "r": 236,
+      "g": 130,
+      "b": 163
+    }
   },
   {
     "floss": 3733,
     "row": 2,
     "col": 23,
     "label": "Dusty Rose",
-    "hex": "#e55e85"
+    "hex": "#e55e85",
+    "rgb": {
+      "r": 229,
+      "g": 94,
+      "b": 133
+    }
   },
   {
     "floss": 3731,
     "row": 2,
     "col": 24,
     "label": "Dusty Rose - Very Dark",
-    "hex": "#d13160"
+    "hex": "#d13160",
+    "rgb": {
+      "r": 209,
+      "g": 49,
+      "b": 96
+    }
   },
   {
     "floss": 3350,
     "row": 2,
     "col": 25,
     "label": "Dusty Rose - Ultra Dark",
-    "hex": "#a7163b"
+    "hex": "#a7163b",
+    "rgb": {
+      "r": 167,
+      "g": 22,
+      "b": 59
+    }
   },
   {
     "floss": 150,
     "row": 2,
     "col": 26,
     "label": "Dusty Rose - Ultra Very Dark",
-    "hex": "#a10928"
+    "hex": "#a10928",
+    "rgb": {
+      "r": 161,
+      "g": 9,
+      "b": 40
+    }
   },
   {
     "floss": 23,
     "row": 3,
     "col": 1,
     "label": "Apple Blossom",
-    "hex": "#f5eaf0"
+    "hex": "#f5eaf0",
+    "rgb": {
+      "r": 245,
+      "g": 234,
+      "b": 240
+    }
   },
   {
     "floss": 3689,
     "row": 3,
     "col": 2,
     "label": "Mauve - Light",
-    "hex": "#f5afcc"
+    "hex": "#f5afcc",
+    "rgb": {
+      "r": 245,
+      "g": 175,
+      "b": 204
+    }
   },
   {
     "floss": 3688,
     "row": 3,
     "col": 3,
     "label": "Mauve - Medium",
-    "hex": "#cf5988"
+    "hex": "#cf5988",
+    "rgb": {
+      "r": 207,
+      "g": 89,
+      "b": 136
+    }
   },
   {
     "floss": 3687,
     "row": 3,
     "col": 4,
     "label": "Mauve",
-    "hex": "#af3663"
+    "hex": "#af3663",
+    "rgb": {
+      "r": 175,
+      "g": 54,
+      "b": 99
+    }
   },
   {
     "floss": 3803,
     "row": 3,
     "col": 5,
     "label": "Mauve - Dark",
-    "hex": "#801639"
+    "hex": "#801639",
+    "rgb": {
+      "r": 128,
+      "g": 22,
+      "b": 57
+    }
   },
   {
     "floss": 3685,
     "row": 3,
     "col": 6,
     "label": "Mauve - Very Dark",
-    "hex": "#690722"
+    "hex": "#690722",
+    "rgb": {
+      "r": 105,
+      "g": 7,
+      "b": 34
+    }
   },
   {
     "floss": 605,
     "row": 3,
     "col": 7,
     "label": "Cranberry - Very Light",
-    "hex": "#f4a0cc"
+    "hex": "#f4a0cc",
+    "rgb": {
+      "r": 244,
+      "g": 160,
+      "b": 204
+    }
   },
   {
     "floss": 604,
     "row": 3,
     "col": 8,
     "label": "Cranberry - Light",
-    "hex": "#f281b4"
+    "hex": "#f281b4",
+    "rgb": {
+      "r": 242,
+      "g": 129,
+      "b": 180
+    }
   },
   {
     "floss": 603,
     "row": 3,
     "col": 9,
     "label": "Cranberry - Light Medium",
-    "hex": "#ee5a98"
+    "hex": "#ee5a98",
+    "rgb": {
+      "r": 238,
+      "g": 90,
+      "b": 152
+    }
   },
   {
     "floss": 602,
     "row": 3,
     "col": 10,
     "label": "Cranberry - Medium",
-    "hex": "#ff286b"
+    "hex": "#ff286b",
+    "rgb": {
+      "r": 255,
+      "g": 40,
+      "b": 107
+    }
   },
   {
     "floss": 601,
     "row": 3,
     "col": 11,
     "label": "Cranberry - Dark",
-    "hex": "#d70f4f"
+    "hex": "#d70f4f",
+    "rgb": {
+      "r": 215,
+      "g": 15,
+      "b": 79
+    }
   },
   {
     "floss": 600,
     "row": 3,
     "col": 12,
     "label": "Cranberry - Very Dark",
-    "hex": "#c2053f"
+    "hex": "#c2053f",
+    "rgb": {
+      "r": 194,
+      "g": 5,
+      "b": 63
+    }
   },
   {
     "floss": 3806,
     "row": 3,
     "col": 13,
     "label": "Cyclamen Pink - Light",
-    "hex": "#f067a1"
+    "hex": "#f067a1",
+    "rgb": {
+      "r": 240,
+      "g": 103,
+      "b": 161
+    }
   },
   {
     "floss": 3805,
     "row": 3,
     "col": 14,
     "label": "Cyclamen Pink",
-    "hex": "#de266e"
+    "hex": "#de266e",
+    "rgb": {
+      "r": 222,
+      "g": 38,
+      "b": 110
+    }
   },
   {
     "floss": 3804,
     "row": 3,
     "col": 15,
     "label": "Cyclamen Pink - Dark",
-    "hex": "#d5185d"
+    "hex": "#d5185d",
+    "rgb": {
+      "r": 213,
+      "g": 24,
+      "b": 93
+    }
   },
   {
     "floss": 3609,
     "row": 3,
     "col": 16,
     "label": "Plum - Ultra Light",
-    "hex": "#f29fd7"
+    "hex": "#f29fd7",
+    "rgb": {
+      "r": 242,
+      "g": 159,
+      "b": 215
+    }
   },
   {
     "floss": 3608,
     "row": 3,
     "col": 17,
     "label": "Plum - Very Light",
-    "hex": "#e875af"
+    "hex": "#e875af",
+    "rgb": {
+      "r": 232,
+      "g": 117,
+      "b": 175
+    }
   },
   {
     "floss": 3607,
     "row": 3,
     "col": 18,
     "label": "Plum - Light",
-    "hex": "#c22a73"
+    "hex": "#c22a73",
+    "rgb": {
+      "r": 194,
+      "g": 42,
+      "b": 115
+    }
   },
   {
     "floss": 718,
     "row": 3,
     "col": 19,
     "label": "Plum",
-    "hex": "#a1084a"
+    "hex": "#a1084a",
+    "rgb": {
+      "r": 161,
+      "g": 8,
+      "b": 74
+    }
   },
   {
     "floss": 917,
     "row": 3,
     "col": 20,
     "label": "Plum - Medium",
-    "hex": "#a91153"
+    "hex": "#a91153",
+    "rgb": {
+      "r": 169,
+      "g": 17,
+      "b": 83
+    }
   },
   {
     "floss": 915,
     "row": 3,
     "col": 21,
     "label": "Plum - Dark",
-    "hex": "#720223"
+    "hex": "#720223",
+    "rgb": {
+      "r": 114,
+      "g": 2,
+      "b": 35
+    }
   },
   {
     "floss": 33,
     "row": 3,
     "col": 22,
     "label": "Fuchsia",
-    "hex": "#8e346f"
+    "hex": "#8e346f",
+    "rgb": {
+      "r": 142,
+      "g": 52,
+      "b": 111
+    }
   },
   {
     "floss": 34,
     "row": 3,
     "col": 23,
     "label": "Fuchsia - Dark",
-    "hex": "#7a0d4a"
+    "hex": "#7a0d4a",
+    "rgb": {
+      "r": 122,
+      "g": 13,
+      "b": 74
+    }
   },
   {
     "floss": 35,
     "row": 3,
     "col": 24,
     "label": "Fuchsia - Very Dark",
-    "hex": "#5b032f"
+    "hex": "#5b032f",
+    "rgb": {
+      "r": 91,
+      "g": 3,
+      "b": 47
+    }
   },
   {
     "floss": 778,
     "row": 4,
     "col": 1,
     "label": "Antique Mauve - Very Light",
-    "hex": "#dc94a5"
+    "hex": "#dc94a5",
+    "rgb": {
+      "r": 220,
+      "g": 148,
+      "b": 165
+    }
   },
   {
     "floss": 3727,
     "row": 4,
     "col": 2,
     "label": "Antique Mauve - Light",
-    "hex": "#cb819e"
+    "hex": "#cb819e",
+    "rgb": {
+      "r": 203,
+      "g": 129,
+      "b": 158
+    }
   },
   {
     "floss": 316,
     "row": 4,
     "col": 3,
     "label": "Antique Mauve - Medium",
-    "hex": "#b66086"
+    "hex": "#b66086",
+    "rgb": {
+      "r": 182,
+      "g": 96,
+      "b": 134
+    }
   },
   {
     "floss": 3726,
     "row": 4,
     "col": 4,
     "label": "Antique Mauve - Dark",
-    "hex": "#8d3d50"
+    "hex": "#8d3d50",
+    "rgb": {
+      "r": 141,
+      "g": 61,
+      "b": 80
+    }
   },
   {
     "floss": 315,
     "row": 4,
     "col": 5,
     "label": "Antique Mauve - Medium Dark",
-    "hex": "#692635"
+    "hex": "#692635",
+    "rgb": {
+      "r": 105,
+      "g": 38,
+      "b": 53
+    }
   },
   {
     "floss": 3802,
     "row": 4,
     "col": 6,
     "label": "Antique Mauve - Very Dark",
-    "hex": "#5e1427"
+    "hex": "#5e1427",
+    "rgb": {
+      "r": 94,
+      "g": 20,
+      "b": 39
+    }
   },
   {
     "floss": 902,
     "row": 4,
     "col": 7,
     "label": "Garnet - Very Dark",
-    "hex": "#57061e"
+    "hex": "#57061e",
+    "rgb": {
+      "r": 87,
+      "g": 6,
+      "b": 30
+    }
   },
   {
     "floss": 3836,
     "row": 4,
     "col": 8,
     "label": "Grape - Light",
-    "hex": "#a76e9d"
+    "hex": "#a76e9d",
+    "rgb": {
+      "r": 167,
+      "g": 110,
+      "b": 157
+    }
   },
   {
     "floss": 3835,
     "row": 4,
     "col": 9,
     "label": "Grape - Medium",
-    "hex": "#7e4274"
+    "hex": "#7e4274",
+    "rgb": {
+      "r": 126,
+      "g": 66,
+      "b": 116
+    }
   },
   {
     "floss": 3834,
     "row": 4,
     "col": 10,
     "label": "Grape - Dark",
-    "hex": "#541b43"
+    "hex": "#541b43",
+    "rgb": {
+      "r": 84,
+      "g": 27,
+      "b": 67
+    }
   },
   {
     "floss": 154,
     "row": 4,
     "col": 11,
     "label": "Red - Very Dark",
-    "hex": "#2b061c"
+    "hex": "#2b061c",
+    "rgb": {
+      "r": 43,
+      "g": 6,
+      "b": 28
+    }
   },
   {
     "floss": 24,
     "row": 4,
     "col": 12,
     "label": "White Lavender",
-    "hex": "#f1e2f0"
+    "hex": "#f1e2f0",
+    "rgb": {
+      "r": 241,
+      "g": 226,
+      "b": 240
+    }
   },
   {
     "floss": 25,
     "row": 4,
     "col": 13,
     "label": "Lavender - Ultra Light",
-    "hex": "#e3d5ec"
+    "hex": "#e3d5ec",
+    "rgb": {
+      "r": 227,
+      "g": 213,
+      "b": 236
+    }
   },
   {
     "floss": 26,
     "row": 4,
     "col": 14,
     "label": "Lavender - Pale",
-    "hex": "#c7c3e8"
+    "hex": "#c7c3e8",
+    "rgb": {
+      "r": 199,
+      "g": 195,
+      "b": 232
+    }
   },
   {
     "floss": 211,
     "row": 4,
     "col": 15,
     "label": "Lavender - Light",
-    "hex": "#d0bcec"
+    "hex": "#d0bcec",
+    "rgb": {
+      "r": 208,
+      "g": 188,
+      "b": 236
+    }
   },
   {
     "floss": 210,
     "row": 4,
     "col": 16,
     "label": "Lavender - Medium",
-    "hex": "#ac90d8"
+    "hex": "#ac90d8",
+    "rgb": {
+      "r": 172,
+      "g": 144,
+      "b": 216
+    }
   },
   {
     "floss": 209,
     "row": 4,
     "col": 17,
     "label": "Lavender - Dark",
-    "hex": "#8361ad"
+    "hex": "#8361ad",
+    "rgb": {
+      "r": 131,
+      "g": 97,
+      "b": 173
+    }
   },
   {
     "floss": 208,
     "row": 4,
     "col": 18,
     "label": "Lavender - Very Dark",
-    "hex": "#643897"
+    "hex": "#643897",
+    "rgb": {
+      "r": 100,
+      "g": 56,
+      "b": 151
+    }
   },
   {
     "floss": 3837,
     "row": 4,
     "col": 19,
     "label": "Lavender - Ultra Dark",
-    "hex": "#431f76"
+    "hex": "#431f76",
+    "rgb": {
+      "r": 67,
+      "g": 31,
+      "b": 118
+    }
   },
   {
     "floss": 327,
     "row": 4,
     "col": 20,
     "label": "Violet",
-    "hex": "#48224e"
+    "hex": "#48224e",
+    "rgb": {
+      "r": 72,
+      "g": 34,
+      "b": 78
+    }
   },
   {
     "floss": 153,
     "row": 4,
     "col": 21,
     "label": "Lilac",
-    "hex": "#d6a9db"
+    "hex": "#d6a9db",
+    "rgb": {
+      "r": 214,
+      "g": 169,
+      "b": 219
+    }
   },
   {
     "floss": 554,
     "row": 4,
     "col": 22,
     "label": "Violet - Light",
-    "hex": "#b784bf"
+    "hex": "#b784bf",
+    "rgb": {
+      "r": 183,
+      "g": 132,
+      "b": 191
+    }
   },
   {
     "floss": 553,
     "row": 4,
     "col": 23,
     "label": "Violet",
-    "hex": "#6f418d"
+    "hex": "#6f418d",
+    "rgb": {
+      "r": 111,
+      "g": 65,
+      "b": 141
+    }
   },
   {
     "floss": 552,
     "row": 4,
     "col": 24,
     "label": "Violet - Medium",
-    "hex": "#5c2c76"
+    "hex": "#5c2c76",
+    "rgb": {
+      "r": 92,
+      "g": 44,
+      "b": 118
+    }
   },
   {
     "floss": 550,
     "row": 4,
     "col": 25,
     "label": "Violet - Very Dark",
-    "hex": "#390840"
+    "hex": "#390840",
+    "rgb": {
+      "r": 57,
+      "g": 8,
+      "b": 64
+    }
   },
   {
     "floss": 3743,
     "row": 5,
     "col": 1,
     "label": "Antique Violet - Very Light",
-    "hex": "#c2b5c9"
+    "hex": "#c2b5c9",
+    "rgb": {
+      "r": 194,
+      "g": 181,
+      "b": 201
+    }
   },
   {
     "floss": 3042,
     "row": 5,
     "col": 2,
     "label": "Antique Violet - Light",
-    "hex": "#9c88a1"
+    "hex": "#9c88a1",
+    "rgb": {
+      "r": 156,
+      "g": 136,
+      "b": 161
+    }
   },
   {
     "floss": 3041,
     "row": 5,
     "col": 3,
     "label": "Antique Violet - Medium",
-    "hex": "#6a475c"
+    "hex": "#6a475c",
+    "rgb": {
+      "r": 106,
+      "g": 71,
+      "b": 92
+    }
   },
   {
     "floss": 3740,
     "row": 5,
     "col": 4,
     "label": "Antique Violet - Dark",
-    "hex": "#543041"
+    "hex": "#543041",
+    "rgb": {
+      "r": 84,
+      "g": 48,
+      "b": 65
+    }
   },
   {
     "floss": 27,
     "row": 5,
     "col": 5,
     "label": "White Violet",
-    "hex": "#e9e3ed"
+    "hex": "#e9e3ed",
+    "rgb": {
+      "r": 233,
+      "g": 227,
+      "b": 237
+    }
   },
   {
     "floss": 28,
     "row": 5,
     "col": 6,
     "label": "Eggplant - Medium Light",
-    "hex": "#71667d"
+    "hex": "#71667d",
+    "rgb": {
+      "r": 113,
+      "g": 102,
+      "b": 125
+    }
   },
   {
     "floss": 29,
     "row": 5,
     "col": 7,
     "label": "Eggplant",
-    "hex": "#34263c"
+    "hex": "#34263c",
+    "rgb": {
+      "r": 52,
+      "g": 38,
+      "b": 60
+    }
   },
   {
     "floss": 3747,
     "row": 5,
     "col": 8,
     "label": "Blue Violet - Very Light",
-    "hex": "#c4cbe4"
+    "hex": "#c4cbe4",
+    "rgb": {
+      "r": 196,
+      "g": 203,
+      "b": 228
+    }
   },
   {
     "floss": 341,
     "row": 5,
     "col": 9,
     "label": "Blue Violet - Light",
-    "hex": "#8ea0d1"
+    "hex": "#8ea0d1",
+    "rgb": {
+      "r": 142,
+      "g": 160,
+      "b": 209
+    }
   },
   {
     "floss": 156,
     "row": 5,
     "col": 10,
     "label": "Blue - Medium",
-    "hex": "#7585c2"
+    "hex": "#7585c2",
+    "rgb": {
+      "r": 117,
+      "g": 133,
+      "b": 194
+    }
   },
   {
     "floss": 340,
     "row": 5,
     "col": 11,
     "label": "Blue Violet - Medium",
-    "hex": "#6c72c3"
+    "hex": "#6c72c3",
+    "rgb": {
+      "r": 108,
+      "g": 114,
+      "b": 195
+    }
   },
   {
     "floss": 155,
     "row": 5,
     "col": 12,
     "label": "Forget-me-not Blue",
-    "hex": "#6e69bf"
+    "hex": "#6e69bf",
+    "rgb": {
+      "r": 110,
+      "g": 105,
+      "b": 191
+    }
   },
   {
     "floss": 3746,
     "row": 5,
     "col": 13,
     "label": "Blue Violet - Dark",
-    "hex": "#4a4aa3"
+    "hex": "#4a4aa3",
+    "rgb": {
+      "r": 74,
+      "g": 74,
+      "b": 163
+    }
   },
   {
     "floss": 333,
     "row": 5,
     "col": 14,
     "label": "Blue Violet - Very Dark",
-    "hex": "#322984"
+    "hex": "#322984",
+    "rgb": {
+      "r": 50,
+      "g": 41,
+      "b": 132
+    }
   },
   {
     "floss": 30,
     "row": 5,
     "col": 15,
     "label": "Blueberry - Medium Light",
-    "hex": "#766c9e"
+    "hex": "#766c9e",
+    "rgb": {
+      "r": 118,
+      "g": 108,
+      "b": 158
+    }
   },
   {
     "floss": 31,
     "row": 5,
     "col": 16,
     "label": "Blueberry",
-    "hex": "#544e7d"
+    "hex": "#544e7d",
+    "rgb": {
+      "r": 84,
+      "g": 78,
+      "b": 125
+    }
   },
   {
     "floss": 32,
     "row": 5,
     "col": 17,
     "label": "Blueberry - Dark",
-    "hex": "#383560"
+    "hex": "#383560",
+    "rgb": {
+      "r": 56,
+      "g": 53,
+      "b": 96
+    }
   },
   {
     "floss": 157,
     "row": 5,
     "col": 18,
     "label": "Blue - Light",
-    "hex": "#9bb4db"
+    "hex": "#9bb4db",
+    "rgb": {
+      "r": 155,
+      "g": 180,
+      "b": 219
+    }
   },
   {
     "floss": 794,
     "row": 5,
     "col": 19,
     "label": "Cornflower Blue - Light",
-    "hex": "#7492c1"
+    "hex": "#7492c1",
+    "rgb": {
+      "r": 116,
+      "g": 146,
+      "b": 193
+    }
   },
   {
     "floss": 793,
     "row": 5,
     "col": 20,
     "label": "Cornflower Blue - Medium",
-    "hex": "#57699b"
+    "hex": "#57699b",
+    "rgb": {
+      "r": 87,
+      "g": 105,
+      "b": 155
+    }
   },
   {
     "floss": 3807,
     "row": 5,
     "col": 21,
     "label": "Cornflower Blue",
-    "hex": "#3d4688"
+    "hex": "#3d4688",
+    "rgb": {
+      "r": 61,
+      "g": 70,
+      "b": 136
+    }
   },
   {
     "floss": 792,
     "row": 5,
     "col": 22,
     "label": "Cornflower Blue - Dark",
-    "hex": "#2b3788"
+    "hex": "#2b3788",
+    "rgb": {
+      "r": 43,
+      "g": 55,
+      "b": 136
+    }
   },
   {
     "floss": 158,
     "row": 5,
     "col": 23,
     "label": "Blue - Dark",
-    "hex": "#1f2464"
+    "hex": "#1f2464",
+    "rgb": {
+      "r": 31,
+      "g": 36,
+      "b": 100
+    }
   },
   {
     "floss": 791,
     "row": 5,
     "col": 24,
     "label": "Cornflower Blue - Very Dark",
-    "hex": "#1a1b5e"
+    "hex": "#1a1b5e",
+    "rgb": {
+      "r": 26,
+      "g": 27,
+      "b": 94
+    }
   },
   {
     "floss": 3840,
     "row": 6,
     "col": 1,
     "label": "Lavender Blue - Light",
-    "hex": "#99b8e5"
+    "hex": "#99b8e5",
+    "rgb": {
+      "r": 153,
+      "g": 184,
+      "b": 229
+    }
   },
   {
     "floss": 3839,
     "row": 6,
     "col": 2,
     "label": "Lavender Blue - Medium",
-    "hex": "#5f7bbf"
+    "hex": "#5f7bbf",
+    "rgb": {
+      "r": 95,
+      "g": 123,
+      "b": 191
+    }
   },
   {
     "floss": 3838,
     "row": 6,
     "col": 3,
     "label": "Lavender Blue - Dark",
-    "hex": "#465da9"
+    "hex": "#465da9",
+    "rgb": {
+      "r": 70,
+      "g": 93,
+      "b": 169
+    }
   },
   {
     "floss": 800,
     "row": 6,
     "col": 4,
     "label": "Delft Blue - Pale",
-    "hex": "#94b9de"
+    "hex": "#94b9de",
+    "rgb": {
+      "r": 148,
+      "g": 185,
+      "b": 222
+    }
   },
   {
     "floss": 809,
     "row": 6,
     "col": 5,
     "label": "Delft Blue",
-    "hex": "#789bd1"
+    "hex": "#789bd1",
+    "rgb": {
+      "r": 120,
+      "g": 155,
+      "b": 209
+    }
   },
   {
     "floss": 799,
     "row": 6,
     "col": 6,
     "label": "Delft Blue - Medium",
-    "hex": "#567eb2"
+    "hex": "#567eb2",
+    "rgb": {
+      "r": 86,
+      "g": 126,
+      "b": 178
+    }
   },
   {
     "floss": 798,
     "row": 6,
     "col": 7,
     "label": "Delft Blue - Dark",
-    "hex": "#2e4f95"
+    "hex": "#2e4f95",
+    "rgb": {
+      "r": 46,
+      "g": 79,
+      "b": 149
+    }
   },
   {
     "floss": 797,
     "row": 6,
     "col": 8,
     "label": "Royal Blue",
-    "hex": "#1d2a74"
+    "hex": "#1d2a74",
+    "rgb": {
+      "r": 29,
+      "g": 42,
+      "b": 116
+    }
   },
   {
     "floss": 796,
     "row": 6,
     "col": 9,
     "label": "Royal Blue - Dark",
-    "hex": "#0c165d"
+    "hex": "#0c165d",
+    "rgb": {
+      "r": 12,
+      "g": 22,
+      "b": 93
+    }
   },
   {
     "floss": 820,
     "row": 6,
     "col": 10,
     "label": "Royal Blue - Very Dark",
-    "hex": "#04084b"
+    "hex": "#04084b",
+    "rgb": {
+      "r": 4,
+      "g": 8,
+      "b": 75
+    }
   },
   {
     "floss": 162,
     "row": 6,
     "col": 11,
     "label": "Blue - Ultra Very Light",
-    "hex": "#c0dfe9"
+    "hex": "#c0dfe9",
+    "rgb": {
+      "r": 192,
+      "g": 223,
+      "b": 233
+    }
   },
   {
     "floss": 827,
     "row": 6,
     "col": 12,
     "label": "Blue - Very Light",
-    "hex": "#9cc4e3"
+    "hex": "#9cc4e3",
+    "rgb": {
+      "r": 156,
+      "g": 196,
+      "b": 227
+    }
   },
   {
     "floss": 813,
     "row": 6,
     "col": 13,
     "label": "Blue - Light",
-    "hex": "#6996c2"
+    "hex": "#6996c2",
+    "rgb": {
+      "r": 105,
+      "g": 150,
+      "b": 194
+    }
   },
   {
     "floss": 826,
     "row": 6,
     "col": 14,
     "label": "Blue - Medium",
-    "hex": "#426ba5"
+    "hex": "#426ba5",
+    "rgb": {
+      "r": 66,
+      "g": 107,
+      "b": 165
+    }
   },
   {
     "floss": 825,
     "row": 6,
     "col": 15,
     "label": "Blue - Dark",
-    "hex": "#1d3f7a"
+    "hex": "#1d3f7a",
+    "rgb": {
+      "r": 29,
+      "g": 63,
+      "b": 122
+    }
   },
   {
     "floss": 824,
     "row": 6,
     "col": 16,
     "label": "Blue - Very Dark",
-    "hex": "#122d67"
+    "hex": "#122d67",
+    "rgb": {
+      "r": 18,
+      "g": 45,
+      "b": 103
+    }
   },
   {
     "floss": 996,
     "row": 6,
     "col": 17,
     "label": "Electric Blue - Medium",
-    "hex": "#45a7eb"
+    "hex": "#45a7eb",
+    "rgb": {
+      "r": 69,
+      "g": 167,
+      "b": 235
+    }
   },
   {
     "floss": 3843,
     "row": 6,
     "col": 18,
     "label": "Electric Blue",
-    "hex": "#1a7cd8"
+    "hex": "#1a7cd8",
+    "rgb": {
+      "r": 26,
+      "g": 124,
+      "b": 216
+    }
   },
   {
     "floss": 995,
     "row": 6,
     "col": 19,
     "label": "Electric Blue - Dark",
-    "hex": "#116dcf"
+    "hex": "#116dcf",
+    "rgb": {
+      "r": 17,
+      "g": 109,
+      "b": 207
+    }
   },
   {
     "floss": 3846,
     "row": 6,
     "col": 20,
     "label": "Bright Turquoise - Light",
-    "hex": "#46c6ea"
+    "hex": "#46c6ea",
+    "rgb": {
+      "r": 70,
+      "g": 198,
+      "b": 234
+    }
   },
   {
     "floss": 3845,
     "row": 6,
     "col": 21,
     "label": "Bright Turquoise - Medium",
-    "hex": "#26a9d9"
+    "hex": "#26a9d9",
+    "rgb": {
+      "r": 38,
+      "g": 169,
+      "b": 217
+    }
   },
   {
     "floss": 3844,
     "row": 6,
     "col": 22,
     "label": "Bright Turquoise - Dark",
-    "hex": "#1083bc"
+    "hex": "#1083bc",
+    "rgb": {
+      "r": 16,
+      "g": 131,
+      "b": 188
+    }
   },
   {
     "floss": 159,
     "row": 7,
     "col": 1,
     "label": "Petrol Blue - Light",
-    "hex": "#a0a4c8"
+    "hex": "#a0a4c8",
+    "rgb": {
+      "r": 160,
+      "g": 164,
+      "b": 200
+    }
   },
   {
     "floss": 160,
     "row": 7,
     "col": 2,
     "label": "Petrol Blue - Medium",
-    "hex": "#6c78a3"
+    "hex": "#6c78a3",
+    "rgb": {
+      "r": 108,
+      "g": 120,
+      "b": 163
+    }
   },
   {
     "floss": 161,
     "row": 7,
     "col": 3,
     "label": "Petrol Blue - Dark",
-    "hex": "#4b537c"
+    "hex": "#4b537c",
+    "rgb": {
+      "r": 75,
+      "g": 83,
+      "b": 124
+    }
   },
   {
     "floss": 3756,
     "row": 7,
     "col": 4,
     "label": "Baby Blue - Light",
-    "hex": "#f0f2f1"
+    "hex": "#f0f2f1",
+    "rgb": {
+      "r": 240,
+      "g": 242,
+      "b": 241
+    }
   },
   {
     "floss": 775,
     "row": 7,
     "col": 5,
     "label": "Baby Blue - Very Light",
-    "hex": "#cae3e9"
+    "hex": "#cae3e9",
+    "rgb": {
+      "r": 202,
+      "g": 227,
+      "b": 233
+    }
   },
   {
     "floss": 3841,
     "row": 7,
     "col": 6,
     "label": "Baby Blue - Pale",
-    "hex": "#b9d9e5"
+    "hex": "#b9d9e5",
+    "rgb": {
+      "r": 185,
+      "g": 217,
+      "b": 229
+    }
   },
   {
     "floss": 3325,
     "row": 7,
     "col": 7,
     "label": "Baby Blue - Light",
-    "hex": "#90bbde"
+    "hex": "#90bbde",
+    "rgb": {
+      "r": 144,
+      "g": 187,
+      "b": 222
+    }
   },
   {
     "floss": 3755,
     "row": 7,
     "col": 8,
     "label": "Baby Blue",
-    "hex": "#7aa6d5"
+    "hex": "#7aa6d5",
+    "rgb": {
+      "r": 122,
+      "g": 166,
+      "b": 213
+    }
   },
   {
     "floss": 334,
     "row": 7,
     "col": 9,
     "label": "Baby Blue - Medium",
-    "hex": "#537cb0"
+    "hex": "#537cb0",
+    "rgb": {
+      "r": 83,
+      "g": 124,
+      "b": 176
+    }
   },
   {
     "floss": 322,
     "row": 7,
     "col": 10,
     "label": "Baby Blue",
-    "hex": "#4c6ea3"
+    "hex": "#4c6ea3",
+    "rgb": {
+      "r": 76,
+      "g": 110,
+      "b": 163
+    }
   },
   {
     "floss": 312,
     "row": 7,
     "col": 11,
     "label": "Baby Blue - Very Dark",
-    "hex": "#1c3365"
+    "hex": "#1c3365",
+    "rgb": {
+      "r": 28,
+      "g": 51,
+      "b": 101
+    }
   },
   {
     "floss": 803,
     "row": 7,
     "col": 12,
     "label": "Blue - Deep",
-    "hex": "#142655"
+    "hex": "#142655",
+    "rgb": {
+      "r": 20,
+      "g": 38,
+      "b": 85
+    }
   },
   {
     "floss": 336,
     "row": 7,
     "col": 13,
     "label": "Blue",
-    "hex": "#161e49"
+    "hex": "#161e49",
+    "rgb": {
+      "r": 22,
+      "g": 30,
+      "b": 73
+    }
   },
   {
     "floss": 823,
     "row": 7,
     "col": 14,
     "label": "Blue - Dark",
-    "hex": "#0c092c"
+    "hex": "#0c092c",
+    "rgb": {
+      "r": 12,
+      "g": 9,
+      "b": 44
+    }
   },
   {
     "floss": 939,
     "row": 7,
     "col": 15,
     "label": "Blue - Very Dark",
-    "hex": "#0a021b"
+    "hex": "#0a021b",
+    "rgb": {
+      "r": 10,
+      "g": 2,
+      "b": 27
+    }
   },
   {
     "floss": 3753,
     "row": 7,
     "col": 16,
     "label": "Antique Blue - Ultra Very Light",
-    "hex": "#c5d8e4"
+    "hex": "#c5d8e4",
+    "rgb": {
+      "r": 197,
+      "g": 216,
+      "b": 228
+    }
   },
   {
     "floss": 3752,
     "row": 7,
     "col": 17,
     "label": "Antique Blue - Very Light",
-    "hex": "#a0b8ce"
+    "hex": "#a0b8ce",
+    "rgb": {
+      "r": 160,
+      "g": 184,
+      "b": 206
+    }
   },
   {
     "floss": 932,
     "row": 7,
     "col": 18,
     "label": "Antique Blue - Light",
-    "hex": "#8196b0"
+    "hex": "#8196b0",
+    "rgb": {
+      "r": 129,
+      "g": 150,
+      "b": 176
+    }
   },
   {
     "floss": 931,
     "row": 7,
     "col": 19,
     "label": "Antique Blue - Medium",
-    "hex": "#4f6888"
+    "hex": "#4f6888",
+    "rgb": {
+      "r": 79,
+      "g": 104,
+      "b": 136
+    }
   },
   {
     "floss": 930,
     "row": 7,
     "col": 20,
     "label": "Antique Blue - Dark",
-    "hex": "#273949"
+    "hex": "#273949",
+    "rgb": {
+      "r": 39,
+      "g": 57,
+      "b": 73
+    }
   },
   {
     "floss": 3750,
     "row": 7,
     "col": 21,
     "label": "Antique Blue - Very Dark",
-    "hex": "#152542"
+    "hex": "#152542",
+    "rgb": {
+      "r": 21,
+      "g": 37,
+      "b": 66
+    }
   },
   {
     "floss": 828,
     "row": 8,
     "col": 1,
     "label": "Blue - Ultra Very Light",
-    "hex": "#bbdce5"
+    "hex": "#bbdce5",
+    "rgb": {
+      "r": 187,
+      "g": 220,
+      "b": 229
+    }
   },
   {
     "floss": 3761,
     "row": 8,
     "col": 2,
     "label": "Sky Blue - Light",
-    "hex": "#a7dae8"
+    "hex": "#a7dae8",
+    "rgb": {
+      "r": 167,
+      "g": 218,
+      "b": 232
+    }
   },
   {
     "floss": 519,
     "row": 8,
     "col": 3,
     "label": "Sky Blue",
-    "hex": "#7eb1d1"
+    "hex": "#7eb1d1",
+    "rgb": {
+      "r": 126,
+      "g": 177,
+      "b": 209
+    }
   },
   {
     "floss": 518,
     "row": 8,
     "col": 4,
     "label": "Wedgewood - Light",
-    "hex": "#4783a6"
+    "hex": "#4783a6",
+    "rgb": {
+      "r": 71,
+      "g": 131,
+      "b": 166
+    }
   },
   {
     "floss": 3760,
     "row": 8,
     "col": 5,
     "label": "Wedgewood - Medium",
-    "hex": "#3a70a0"
+    "hex": "#3a70a0",
+    "rgb": {
+      "r": 58,
+      "g": 112,
+      "b": 160
+    }
   },
   {
     "floss": 517,
     "row": 8,
     "col": 6,
     "label": "Wedgewood - Dark",
-    "hex": "#224f8b"
+    "hex": "#224f8b",
+    "rgb": {
+      "r": 34,
+      "g": 79,
+      "b": 139
+    }
   },
   {
     "floss": 3842,
     "row": 8,
     "col": 7,
     "label": "Wedgewood - Very Dark",
-    "hex": "#13386f"
+    "hex": "#13386f",
+    "rgb": {
+      "r": 19,
+      "g": 56,
+      "b": 111
+    }
   },
   {
     "floss": 311,
     "row": 8,
     "col": 8,
     "label": "Blue - Medium",
-    "hex": "#142b50"
+    "hex": "#142b50",
+    "rgb": {
+      "r": 20,
+      "g": 43,
+      "b": 80
+    }
   },
   {
     "floss": 747,
     "row": 8,
     "col": 9,
     "label": "Sky Blue - Very Light",
-    "hex": "#c9eff1"
+    "hex": "#c9eff1",
+    "rgb": {
+      "r": 201,
+      "g": 239,
+      "b": 241
+    }
   },
   {
     "floss": 3766,
     "row": 8,
     "col": 10,
     "label": "Peacock Blue - Light",
-    "hex": "#7fc2d4"
+    "hex": "#7fc2d4",
+    "rgb": {
+      "r": 127,
+      "g": 194,
+      "b": 212
+    }
   },
   {
     "floss": 807,
     "row": 8,
     "col": 11,
     "label": "Peacock Blue",
-    "hex": "#4d8fac"
+    "hex": "#4d8fac",
+    "rgb": {
+      "r": 77,
+      "g": 143,
+      "b": 172
+    }
   },
   {
     "floss": 3765,
     "row": 8,
     "col": 12,
     "label": "Peacock Blue - Very Dark",
-    "hex": "#245687"
+    "hex": "#245687",
+    "rgb": {
+      "r": 36,
+      "g": 86,
+      "b": 135
+    }
   },
   {
     "floss": 3811,
     "row": 8,
     "col": 13,
     "label": "Turquoise - Very Light",
-    "hex": "#aadadf"
+    "hex": "#aadadf",
+    "rgb": {
+      "r": 170,
+      "g": 218,
+      "b": 223
+    }
   },
   {
     "floss": 598,
     "row": 8,
     "col": 14,
     "label": "Turquoise - Light",
-    "hex": "#8bc1c9"
+    "hex": "#8bc1c9",
+    "rgb": {
+      "r": 139,
+      "g": 193,
+      "b": 201
+    }
   },
   {
     "floss": 597,
     "row": 8,
     "col": 15,
     "label": "Turquoise",
-    "hex": "#5992a5"
+    "hex": "#5992a5",
+    "rgb": {
+      "r": 89,
+      "g": 146,
+      "b": 165
+    }
   },
   {
     "floss": 3810,
     "row": 8,
     "col": 16,
     "label": "Turquoise - Dark",
-    "hex": "#3c7c8d"
+    "hex": "#3c7c8d",
+    "rgb": {
+      "r": 60,
+      "g": 124,
+      "b": 141
+    }
   },
   {
     "floss": 3809,
     "row": 8,
     "col": 17,
     "label": "Turquoise - Very Dark",
-    "hex": "#245a6e"
+    "hex": "#245a6e",
+    "rgb": {
+      "r": 36,
+      "g": 90,
+      "b": 110
+    }
   },
   {
     "floss": 3808,
     "row": 8,
     "col": 18,
     "label": "Turquoise - Ultra Very Dark",
-    "hex": "#153e4f"
+    "hex": "#153e4f",
+    "rgb": {
+      "r": 21,
+      "g": 62,
+      "b": 79
+    }
   },
   {
     "floss": 928,
     "row": 8,
     "col": 19,
     "label": "Gray Green - Very Light",
-    "hex": "#c5cfc9"
+    "hex": "#c5cfc9",
+    "rgb": {
+      "r": 197,
+      "g": 207,
+      "b": 201
+    }
   },
   {
     "floss": 927,
     "row": 8,
     "col": 20,
     "label": "Gray Green - Light",
-    "hex": "#92a49d"
+    "hex": "#92a49d",
+    "rgb": {
+      "r": 146,
+      "g": 164,
+      "b": 157
+    }
   },
   {
     "floss": 926,
     "row": 8,
     "col": 21,
     "label": "Gray Green - Medium",
-    "hex": "#657976"
+    "hex": "#657976",
+    "rgb": {
+      "r": 101,
+      "g": 121,
+      "b": 118
+    }
   },
   {
     "floss": 3768,
     "row": 8,
     "col": 22,
     "label": "Gray Green - Dark",
-    "hex": "#404e59"
+    "hex": "#404e59",
+    "rgb": {
+      "r": 64,
+      "g": 78,
+      "b": 89
+    }
   },
   {
     "floss": 924,
     "row": 8,
     "col": 23,
     "label": "Gray Green - Very Dark",
-    "hex": "#1d3039"
+    "hex": "#1d3039",
+    "rgb": {
+      "r": 29,
+      "g": 48,
+      "b": 57
+    }
   },
   {
     "floss": 3849,
     "row": 8,
     "col": 24,
     "label": "Teal Green - Light",
-    "hex": "#549991"
+    "hex": "#549991",
+    "rgb": {
+      "r": 84,
+      "g": 153,
+      "b": 145
+    }
   },
   {
     "floss": 3848,
     "row": 8,
     "col": 25,
     "label": "Teal Green - Medium",
-    "hex": "#32746d"
+    "hex": "#32746d",
+    "rgb": {
+      "r": 50,
+      "g": 116,
+      "b": 109
+    }
   },
   {
     "floss": 3847,
     "row": 8,
     "col": 26,
     "label": "Teal Green - Dark",
-    "hex": "#164d46"
+    "hex": "#164d46",
+    "rgb": {
+      "r": 22,
+      "g": 77,
+      "b": 70
+    }
   },
   {
     "floss": 964,
     "row": 9,
     "col": 1,
     "label": "Seagreen - Light",
-    "hex": "#96e5d6"
+    "hex": "#96e5d6",
+    "rgb": {
+      "r": 150,
+      "g": 229,
+      "b": 214
+    }
   },
   {
     "floss": 959,
     "row": 9,
     "col": 2,
     "label": "Seagreen - Medium",
-    "hex": "#69c5aa"
+    "hex": "#69c5aa",
+    "rgb": {
+      "r": 105,
+      "g": 197,
+      "b": 170
+    }
   },
   {
     "floss": 958,
     "row": 9,
     "col": 3,
     "label": "Seagreen - Dark",
-    "hex": "#53b093"
+    "hex": "#53b093",
+    "rgb": {
+      "r": 83,
+      "g": 176,
+      "b": 147
+    }
   },
   {
     "floss": 3812,
     "row": 9,
     "col": 4,
     "label": "Seagreen - Very Dark",
-    "hex": "#299073"
+    "hex": "#299073",
+    "rgb": {
+      "r": 41,
+      "g": 144,
+      "b": 115
+    }
   },
   {
     "floss": 3851,
     "row": 9,
     "col": 5,
     "label": "Bright Green - Light",
-    "hex": "#4fb18a"
+    "hex": "#4fb18a",
+    "rgb": {
+      "r": 79,
+      "g": 177,
+      "b": 138
+    }
   },
   {
     "floss": 943,
     "row": 9,
     "col": 6,
     "label": "Aquamarine - Medium",
-    "hex": "#32966e"
+    "hex": "#32966e",
+    "rgb": {
+      "r": 50,
+      "g": 150,
+      "b": 110
+    }
   },
   {
     "floss": 3850,
     "row": 9,
     "col": 7,
     "label": "Bright Green - Dark",
-    "hex": "#268455"
+    "hex": "#268455",
+    "rgb": {
+      "r": 38,
+      "g": 132,
+      "b": 85
+    }
   },
   {
     "floss": 993,
     "row": 9,
     "col": 8,
     "label": "Aquamarine - Very Light",
-    "hex": "#70b59b"
+    "hex": "#70b59b",
+    "rgb": {
+      "r": 112,
+      "g": 181,
+      "b": 155
+    }
   },
   {
     "floss": 992,
     "row": 9,
     "col": 9,
     "label": "Aquamarine - Light",
-    "hex": "#50987d"
+    "hex": "#50987d",
+    "rgb": {
+      "r": 80,
+      "g": 152,
+      "b": 125
+    }
   },
   {
     "floss": 3814,
     "row": 9,
     "col": 10,
     "label": "Aquamarine",
-    "hex": "#317a65"
+    "hex": "#317a65",
+    "rgb": {
+      "r": 49,
+      "g": 122,
+      "b": 101
+    }
   },
   {
     "floss": 991,
     "row": 9,
     "col": 11,
     "label": "Aquamarine - Dark",
-    "hex": "#1f5f49"
+    "hex": "#1f5f49",
+    "rgb": {
+      "r": 31,
+      "g": 95,
+      "b": 73
+    }
   },
   {
     "floss": 966,
     "row": 9,
     "col": 12,
     "label": "Baby Green - Medium",
-    "hex": "#9dc79f"
+    "hex": "#9dc79f",
+    "rgb": {
+      "r": 157,
+      "g": 199,
+      "b": 159
+    }
   },
   {
     "floss": 564,
     "row": 9,
     "col": 13,
     "label": "Jade - Very Light",
-    "hex": "#a2d3a8"
+    "hex": "#a2d3a8",
+    "rgb": {
+      "r": 162,
+      "g": 211,
+      "b": 168
+    }
   },
   {
     "floss": 563,
     "row": 9,
     "col": 14,
     "label": "Jade - Light",
-    "hex": "#83ba97"
+    "hex": "#83ba97",
+    "rgb": {
+      "r": 131,
+      "g": 186,
+      "b": 151
+    }
   },
   {
     "floss": 562,
     "row": 9,
     "col": 15,
     "label": "Jade - Medium",
-    "hex": "#4b8257"
+    "hex": "#4b8257",
+    "rgb": {
+      "r": 75,
+      "g": 130,
+      "b": 87
+    }
   },
   {
     "floss": 505,
     "row": 9,
     "col": 16,
     "label": "Grass Green - Dark",
-    "hex": "#305d37"
+    "hex": "#305d37",
+    "rgb": {
+      "r": 48,
+      "g": 93,
+      "b": 55
+    }
   },
   {
     "floss": 3817,
     "row": 9,
     "col": 17,
     "label": "Celadon Green - Light",
-    "hex": "#92b4a6"
+    "hex": "#92b4a6",
+    "rgb": {
+      "r": 146,
+      "g": 180,
+      "b": 166
+    }
   },
   {
     "floss": 3816,
     "row": 9,
     "col": 18,
     "label": "Celadon Green",
-    "hex": "#61957d"
+    "hex": "#61957d",
+    "rgb": {
+      "r": 97,
+      "g": 149,
+      "b": 125
+    }
   },
   {
     "floss": 163,
     "row": 9,
     "col": 19,
     "label": "Celadon Green - Medium",
-    "hex": "#426b57"
+    "hex": "#426b57",
+    "rgb": {
+      "r": 66,
+      "g": 107,
+      "b": 87
+    }
   },
   {
     "floss": 3815,
     "row": 9,
     "col": 20,
     "label": "Celadon Green - Dark",
-    "hex": "#406b4f"
+    "hex": "#406b4f",
+    "rgb": {
+      "r": 64,
+      "g": 107,
+      "b": 79
+    }
   },
   {
     "floss": 561,
     "row": 9,
     "col": 21,
     "label": "Jade - Very Dark",
-    "hex": "#284e3f"
+    "hex": "#284e3f",
+    "rgb": {
+      "r": 40,
+      "g": 78,
+      "b": 63
+    }
   },
   {
     "floss": 3813,
     "row": 9,
     "col": 22,
     "label": "Blue Green - Light",
-    "hex": "#a2bdb2"
+    "hex": "#a2bdb2",
+    "rgb": {
+      "r": 162,
+      "g": 189,
+      "b": 178
+    }
   },
   {
     "floss": 503,
     "row": 9,
     "col": 23,
     "label": "Blue Green - Medium",
-    "hex": "#779d94"
+    "hex": "#779d94",
+    "rgb": {
+      "r": 119,
+      "g": 157,
+      "b": 148
+    }
   },
   {
     "floss": 502,
     "row": 9,
     "col": 24,
     "label": "Blue Green",
-    "hex": "#57756a"
+    "hex": "#57756a",
+    "rgb": {
+      "r": 87,
+      "g": 117,
+      "b": 106
+    }
   },
   {
     "floss": 501,
     "row": 9,
     "col": 25,
     "label": "Blue Green - Dark",
-    "hex": "#354e49"
+    "hex": "#354e49",
+    "rgb": {
+      "r": 53,
+      "g": 78,
+      "b": 73
+    }
   },
   {
     "floss": 500,
     "row": 9,
     "col": 26,
     "label": "Blue Green - Very Dark",
-    "hex": "#0f1c1b"
+    "hex": "#0f1c1b",
+    "rgb": {
+      "r": 15,
+      "g": 28,
+      "b": 27
+    }
   },
   {
     "floss": 955,
     "row": 10,
     "col": 1,
     "label": "Nile Green - Light",
-    "hex": "#b2edb5"
+    "hex": "#b2edb5",
+    "rgb": {
+      "r": 178,
+      "g": 237,
+      "b": 181
+    }
   },
   {
     "floss": 13,
     "row": 10,
     "col": 2,
     "label": "Nile Green - Medium Light",
-    "hex": "#ade7a1"
+    "hex": "#ade7a1",
+    "rgb": {
+      "r": 173,
+      "g": 231,
+      "b": 161
+    }
   },
   {
     "floss": 954,
     "row": 10,
     "col": 3,
     "label": "Nile Green",
-    "hex": "#8bd391"
+    "hex": "#8bd391",
+    "rgb": {
+      "r": 139,
+      "g": 211,
+      "b": 145
+    }
   },
   {
     "floss": 913,
     "row": 10,
     "col": 4,
     "label": "Nile Green - Medium",
-    "hex": "#6dba76"
+    "hex": "#6dba76",
+    "rgb": {
+      "r": 109,
+      "g": 186,
+      "b": 118
+    }
   },
   {
     "floss": 912,
     "row": 10,
     "col": 5,
     "label": "Emerald Green - Light",
-    "hex": "#52a362"
+    "hex": "#52a362",
+    "rgb": {
+      "r": 82,
+      "g": 163,
+      "b": 98
+    }
   },
   {
     "floss": 911,
     "row": 10,
     "col": 6,
     "label": "Emerald Green - Medium",
-    "hex": "#379345"
+    "hex": "#379345",
+    "rgb": {
+      "r": 55,
+      "g": 147,
+      "b": 69
+    }
   },
   {
     "floss": 910,
     "row": 10,
     "col": 7,
     "label": "Emerald Green - Dark",
-    "hex": "#297a33"
+    "hex": "#297a33",
+    "rgb": {
+      "r": 41,
+      "g": 122,
+      "b": 51
+    }
   },
   {
     "floss": 909,
     "row": 10,
     "col": 8,
     "label": "Emerald Green - Very Dark",
-    "hex": "#15611d"
+    "hex": "#15611d",
+    "rgb": {
+      "r": 21,
+      "g": 97,
+      "b": 29
+    }
   },
   {
     "floss": 3818,
     "row": 10,
     "col": 9,
     "label": "Emerald Green - Ultra Very Dark",
-    "hex": "#0d4116"
+    "hex": "#0d4116",
+    "rgb": {
+      "r": 13,
+      "g": 65,
+      "b": 22
+    }
   },
   {
     "floss": 369,
     "row": 10,
     "col": 10,
     "label": "Pistachio Green - Very Light",
-    "hex": "#bed2a4"
+    "hex": "#bed2a4",
+    "rgb": {
+      "r": 190,
+      "g": 210,
+      "b": 164
+    }
   },
   {
     "floss": 368,
     "row": 10,
     "col": 11,
     "label": "Pistachio Green - Light",
-    "hex": "#7e9c6a"
+    "hex": "#7e9c6a",
+    "rgb": {
+      "r": 126,
+      "g": 156,
+      "b": 106
+    }
   },
   {
     "floss": 320,
     "row": 10,
     "col": 12,
     "label": "Pistachio Green - Medium",
-    "hex": "#5a7d55"
+    "hex": "#5a7d55",
+    "rgb": {
+      "r": 90,
+      "g": 125,
+      "b": 85
+    }
   },
   {
     "floss": 367,
     "row": 10,
     "col": 13,
     "label": "Pistachio Green - Dark",
-    "hex": "#3f5f3c"
+    "hex": "#3f5f3c",
+    "rgb": {
+      "r": 63,
+      "g": 95,
+      "b": 60
+    }
   },
   {
     "floss": 319,
     "row": 10,
     "col": 14,
     "label": "Pistachio Green - Very Dark",
-    "hex": "#19311d"
+    "hex": "#19311d",
+    "rgb": {
+      "r": 25,
+      "g": 49,
+      "b": 29
+    }
   },
   {
     "floss": 890,
     "row": 10,
     "col": 15,
     "label": "Pistachio Green - Ultra Dark",
-    "hex": "#0e200d"
+    "hex": "#0e200d",
+    "rgb": {
+      "r": 14,
+      "g": 32,
+      "b": 13
+    }
   },
   {
     "floss": 164,
     "row": 10,
     "col": 16,
     "label": "Green - Light",
-    "hex": "#a6c98f"
+    "hex": "#a6c98f",
+    "rgb": {
+      "r": 166,
+      "g": 201,
+      "b": 143
+    }
   },
   {
     "floss": 989,
     "row": 10,
     "col": 17,
     "label": "Forest Green",
-    "hex": "#728e54"
+    "hex": "#728e54",
+    "rgb": {
+      "r": 114,
+      "g": 142,
+      "b": 84
+    }
   },
   {
     "floss": 988,
     "row": 10,
     "col": 18,
     "label": "Forest Green - Medium",
-    "hex": "#5c7642"
+    "hex": "#5c7642",
+    "rgb": {
+      "r": 92,
+      "g": 118,
+      "b": 66
+    }
   },
   {
     "floss": 987,
     "row": 10,
     "col": 19,
     "label": "Forest Green - Dark",
-    "hex": "#3c562d"
+    "hex": "#3c562d",
+    "rgb": {
+      "r": 60,
+      "g": 86,
+      "b": 45
+    }
   },
   {
     "floss": 986,
     "row": 10,
     "col": 20,
     "label": "Forest Green - Very Dark",
-    "hex": "#1c3a17"
+    "hex": "#1c3a17",
+    "rgb": {
+      "r": 28,
+      "g": 58,
+      "b": 23
+    }
   },
   {
     "floss": 772,
     "row": 10,
     "col": 21,
     "label": "Yellow Green - Very Light",
-    "hex": "#e0ebb1"
+    "hex": "#e0ebb1",
+    "rgb": {
+      "r": 224,
+      "g": 235,
+      "b": 177
+    }
   },
   {
     "floss": 3348,
     "row": 10,
     "col": 22,
     "label": "Yellow Green - Light",
-    "hex": "#b4b66d"
+    "hex": "#b4b66d",
+    "rgb": {
+      "r": 180,
+      "g": 182,
+      "b": 109
+    }
   },
   {
     "floss": 3347,
     "row": 10,
     "col": 23,
     "label": "Yellow Green - Medium",
-    "hex": "#616f36"
+    "hex": "#616f36",
+    "rgb": {
+      "r": 97,
+      "g": 111,
+      "b": 54
+    }
   },
   {
     "floss": 3346,
     "row": 10,
     "col": 24,
     "label": "Hunter Green",
-    "hex": "#4a5925"
+    "hex": "#4a5925",
+    "rgb": {
+      "r": 74,
+      "g": 89,
+      "b": 37
+    }
   },
   {
     "floss": 3345,
     "row": 10,
     "col": 25,
     "label": "Hunter Green - Dark",
-    "hex": "#23330f"
+    "hex": "#23330f",
+    "rgb": {
+      "r": 35,
+      "g": 51,
+      "b": 15
+    }
   },
   {
     "floss": 895,
     "row": 10,
     "col": 26,
     "label": "Hunter Green - Very Dark",
-    "hex": "#1f381b"
+    "hex": "#1f381b",
+    "rgb": {
+      "r": 31,
+      "g": 56,
+      "b": 27
+    }
   },
   {
     "floss": 14,
     "row": 11,
     "col": 1,
     "label": "Apple Green - Pale",
-    "hex": "#eaf6a8"
+    "hex": "#eaf6a8",
+    "rgb": {
+      "r": 234,
+      "g": 246,
+      "b": 168
+    }
   },
   {
     "floss": 15,
     "row": 11,
     "col": 2,
     "label": "Apple Green",
-    "hex": "#d7e386"
+    "hex": "#d7e386",
+    "rgb": {
+      "r": 215,
+      "g": 227,
+      "b": 134
+    }
   },
   {
     "floss": 16,
     "row": 11,
     "col": 3,
     "label": "Chartreuse - Light",
-    "hex": "#c5db5b"
+    "hex": "#c5db5b",
+    "rgb": {
+      "r": 197,
+      "g": 219,
+      "b": 91
+    }
   },
   {
     "floss": 704,
     "row": 11,
     "col": 4,
     "label": "Chartreuse - Bright",
-    "hex": "#7ead36"
+    "hex": "#7ead36",
+    "rgb": {
+      "r": 126,
+      "g": 173,
+      "b": 54
+    }
   },
   {
     "floss": 703,
     "row": 11,
     "col": 5,
     "label": "Chartreuse",
-    "hex": "#6da73d"
+    "hex": "#6da73d",
+    "rgb": {
+      "r": 109,
+      "g": 167,
+      "b": 61
+    }
   },
   {
     "floss": 702,
     "row": 11,
     "col": 6,
     "label": "Kelly Green",
-    "hex": "#4d9435"
+    "hex": "#4d9435",
+    "rgb": {
+      "r": 77,
+      "g": 148,
+      "b": 53
+    }
   },
   {
     "floss": 701,
     "row": 11,
     "col": 7,
     "label": "Green - Light",
-    "hex": "#38822b"
+    "hex": "#38822b",
+    "rgb": {
+      "r": 56,
+      "g": 130,
+      "b": 43
+    }
   },
   {
     "floss": 700,
     "row": 11,
     "col": 8,
     "label": "Green - Bright",
-    "hex": "#287427"
+    "hex": "#287427",
+    "rgb": {
+      "r": 40,
+      "g": 116,
+      "b": 39
+    }
   },
   {
     "floss": 699,
     "row": 11,
     "col": 9,
     "label": "Green",
-    "hex": "#155b1b"
+    "hex": "#155b1b",
+    "rgb": {
+      "r": 21,
+      "g": 91,
+      "b": 27
+    }
   },
   {
     "floss": 907,
     "row": 11,
     "col": 10,
     "label": "Parrot Green - Light",
-    "hex": "#93b22f"
+    "hex": "#93b22f",
+    "rgb": {
+      "r": 147,
+      "g": 178,
+      "b": 47
+    }
   },
   {
     "floss": 906,
     "row": 11,
     "col": 11,
     "label": "Parrot Green - Medium",
-    "hex": "#4e8218"
+    "hex": "#4e8218",
+    "rgb": {
+      "r": 78,
+      "g": 130,
+      "b": 24
+    }
   },
   {
     "floss": 905,
     "row": 11,
     "col": 12,
     "label": "Parrot Green - Dark",
-    "hex": "#406716"
+    "hex": "#406716",
+    "rgb": {
+      "r": 64,
+      "g": 103,
+      "b": 22
+    }
   },
   {
     "floss": 904,
     "row": 11,
     "col": 13,
     "label": "Parrot Green - Very Dark",
-    "hex": "#2d4714"
+    "hex": "#2d4714",
+    "rgb": {
+      "r": 45,
+      "g": 71,
+      "b": 20
+    }
   },
   {
     "floss": 472,
     "row": 11,
     "col": 14,
     "label": "Avocado Green - Ultra Light",
-    "hex": "#beb361"
+    "hex": "#beb361",
+    "rgb": {
+      "r": 190,
+      "g": 179,
+      "b": 97
+    }
   },
   {
     "floss": 471,
     "row": 11,
     "col": 15,
     "label": "Avocado Green - Very Light",
-    "hex": "#80803e"
+    "hex": "#80803e",
+    "rgb": {
+      "r": 128,
+      "g": 128,
+      "b": 62
+    }
   },
   {
     "floss": 470,
     "row": 11,
     "col": 16,
     "label": "Avocado Green - Light",
-    "hex": "#627422"
+    "hex": "#627422",
+    "rgb": {
+      "r": 98,
+      "g": 116,
+      "b": 34
+    }
   },
   {
     "floss": 469,
     "row": 11,
     "col": 17,
     "label": "Avocado Green",
-    "hex": "#494b1d"
+    "hex": "#494b1d",
+    "rgb": {
+      "r": 73,
+      "g": 75,
+      "b": 29
+    }
   },
   {
     "floss": 937,
     "row": 11,
     "col": 18,
     "label": "Avocado Green - Medium",
-    "hex": "#404b18"
+    "hex": "#404b18",
+    "rgb": {
+      "r": 64,
+      "g": 75,
+      "b": 24
+    }
   },
   {
     "floss": 936,
     "row": 11,
     "col": 19,
     "label": "Avocado Green - Very Dark",
-    "hex": "#37371a"
+    "hex": "#37371a",
+    "rgb": {
+      "r": 55,
+      "g": 55,
+      "b": 26
+    }
   },
   {
     "floss": 935,
     "row": 11,
     "col": 20,
     "label": "Avocado Green - Dark",
-    "hex": "#292b18"
+    "hex": "#292b18",
+    "rgb": {
+      "r": 41,
+      "g": 43,
+      "b": 24
+    }
   },
   {
     "floss": 934,
     "row": 11,
     "col": 21,
     "label": "Avocado Green - BLACK",
-    "hex": "#1d1c12"
+    "hex": "#1d1c12",
+    "rgb": {
+      "r": 29,
+      "g": 28,
+      "b": 18
+    }
   },
   {
     "floss": 3364,
     "row": 11,
     "col": 22,
     "label": "Pine Green",
-    "hex": "#787d4d"
+    "hex": "#787d4d",
+    "rgb": {
+      "r": 120,
+      "g": 125,
+      "b": 77
+    }
   },
   {
     "floss": 3363,
     "row": 11,
     "col": 23,
     "label": "Pine Green - Medium",
-    "hex": "#5a6342"
+    "hex": "#5a6342",
+    "rgb": {
+      "r": 90,
+      "g": 99,
+      "b": 66
+    }
   },
   {
     "floss": 3362,
     "row": 11,
     "col": 24,
     "label": "Pine Green - Dark",
-    "hex": "#454f33"
+    "hex": "#454f33",
+    "rgb": {
+      "r": 69,
+      "g": 79,
+      "b": 51
+    }
   },
   {
     "floss": 10,
     "row": 12,
     "col": 1,
     "label": "Tender Green - Very Light",
-    "hex": "#eeeac2"
+    "hex": "#eeeac2",
+    "rgb": {
+      "r": 238,
+      "g": 234,
+      "b": 194
+    }
   },
   {
     "floss": 11,
     "row": 12,
     "col": 2,
     "label": "Tender Green - Light",
-    "hex": "#f1ee7b"
+    "hex": "#f1ee7b",
+    "rgb": {
+      "r": 241,
+      "g": 238,
+      "b": 123
+    }
   },
   {
     "floss": 12,
     "row": 12,
     "col": 3,
     "label": "Tender Green",
-    "hex": "#e1e157"
+    "hex": "#e1e157",
+    "rgb": {
+      "r": 225,
+      "g": 225,
+      "b": 87
+    }
   },
   {
     "floss": 165,
     "row": 12,
     "col": 4,
     "label": "Green - Bright",
-    "hex": "#dfd66c"
+    "hex": "#dfd66c",
+    "rgb": {
+      "r": 223,
+      "g": 214,
+      "b": 108
+    }
   },
   {
     "floss": 3819,
     "row": 12,
     "col": 5,
     "label": "Moss Green - Light",
-    "hex": "#d6d453"
+    "hex": "#d6d453",
+    "rgb": {
+      "r": 214,
+      "g": 212,
+      "b": 83
+    }
   },
   {
     "floss": 166,
     "row": 12,
     "col": 6,
     "label": "Moss Green - Medium Light",
-    "hex": "#aeaa21"
+    "hex": "#aeaa21",
+    "rgb": {
+      "r": 174,
+      "g": 170,
+      "b": 33
+    }
   },
   {
     "floss": 581,
     "row": 12,
     "col": 7,
     "label": "Moss Green",
-    "hex": "#707720"
+    "hex": "#707720",
+    "rgb": {
+      "r": 112,
+      "g": 119,
+      "b": 32
+    }
   },
   {
     "floss": 580,
     "row": 12,
     "col": 8,
     "label": "Moss Green - Dark",
-    "hex": "#575c1b"
+    "hex": "#575c1b",
+    "rgb": {
+      "r": 87,
+      "g": 92,
+      "b": 27
+    }
   },
   {
     "floss": 523,
     "row": 12,
     "col": 9,
     "label": "Fern Green - Light",
-    "hex": "#95997b"
+    "hex": "#95997b",
+    "rgb": {
+      "r": 149,
+      "g": 153,
+      "b": 123
+    }
   },
   {
     "floss": 3053,
     "row": 12,
     "col": 10,
     "label": "Green Gray",
-    "hex": "#919967"
+    "hex": "#919967",
+    "rgb": {
+      "r": 145,
+      "g": 153,
+      "b": 103
+    }
   },
   {
     "floss": 3052,
     "row": 12,
     "col": 11,
     "label": "Green Gray - Medium",
-    "hex": "#73754e"
+    "hex": "#73754e",
+    "rgb": {
+      "r": 115,
+      "g": 117,
+      "b": 78
+    }
   },
   {
     "floss": 3051,
     "row": 12,
     "col": 12,
     "label": "Green Gray - Dark",
-    "hex": "#3f401f"
+    "hex": "#3f401f",
+    "rgb": {
+      "r": 63,
+      "g": 64,
+      "b": 31
+    }
   },
   {
     "floss": 524,
     "row": 12,
     "col": 13,
     "label": "Fern Green - Very Light",
-    "hex": "#acae8e"
+    "hex": "#acae8e",
+    "rgb": {
+      "r": 172,
+      "g": 174,
+      "b": 142
+    }
   },
   {
     "floss": 522,
     "row": 12,
     "col": 14,
     "label": "Fern Green",
-    "hex": "#878f72"
+    "hex": "#878f72",
+    "rgb": {
+      "r": 135,
+      "g": 143,
+      "b": 114
+    }
   },
   {
     "floss": 520,
     "row": 12,
     "col": 15,
     "label": "Fern Green - Dark",
-    "hex": "#37442f"
+    "hex": "#37442f",
+    "rgb": {
+      "r": 55,
+      "g": 68,
+      "b": 47
+    }
   },
   {
     "floss": 734,
     "row": 12,
     "col": 16,
     "label": "Olive Green - Light",
-    "hex": "#b89446"
+    "hex": "#b89446",
+    "rgb": {
+      "r": 184,
+      "g": 148,
+      "b": 70
+    }
   },
   {
     "floss": 733,
     "row": 12,
     "col": 17,
     "label": "Olive Green - Medium",
-    "hex": "#987b2b"
+    "hex": "#987b2b",
+    "rgb": {
+      "r": 152,
+      "g": 123,
+      "b": 43
+    }
   },
   {
     "floss": 732,
     "row": 12,
     "col": 18,
     "label": "Olive Green",
-    "hex": "#645212"
+    "hex": "#645212",
+    "rgb": {
+      "r": 100,
+      "g": 82,
+      "b": 18
+    }
   },
   {
     "floss": 730,
     "row": 12,
     "col": 19,
     "label": "Olive Green - Very Dark",
-    "hex": "#4b3c0e"
+    "hex": "#4b3c0e",
+    "rgb": {
+      "r": 75,
+      "g": 60,
+      "b": 14
+    }
   },
   {
     "floss": 3013,
     "row": 12,
     "col": 20,
     "label": "Khaki Green - Light",
-    "hex": "#a99c69"
+    "hex": "#a99c69",
+    "rgb": {
+      "r": 169,
+      "g": 156,
+      "b": 105
+    }
   },
   {
     "floss": 3012,
     "row": 12,
     "col": 21,
     "label": "Khaki Green - Medium",
-    "hex": "#786838"
+    "hex": "#786838",
+    "rgb": {
+      "r": 120,
+      "g": 104,
+      "b": 56
+    }
   },
   {
     "floss": 3011,
     "row": 12,
     "col": 22,
     "label": "Khaki Green - Dark",
-    "hex": "#554824"
+    "hex": "#554824",
+    "rgb": {
+      "r": 85,
+      "g": 72,
+      "b": 36
+    }
   },
   {
     "floss": 372,
     "row": 12,
     "col": 23,
     "label": "Mustard - Light",
-    "hex": "#a79369"
+    "hex": "#a79369",
+    "rgb": {
+      "r": 167,
+      "g": 147,
+      "b": 105
+    }
   },
   {
     "floss": 371,
     "row": 12,
     "col": 24,
     "label": "Mustard",
-    "hex": "#917642"
+    "hex": "#917642",
+    "rgb": {
+      "r": 145,
+      "g": 118,
+      "b": 66
+    }
   },
   {
     "floss": 370,
     "row": 12,
     "col": 25,
     "label": "Mustard - Medium",
-    "hex": "#8d7346"
+    "hex": "#8d7346",
+    "rgb": {
+      "r": 141,
+      "g": 115,
+      "b": 70
+    }
   },
   {
     "floss": 17,
     "row": 13,
     "col": 1,
     "label": "Yellow Plum - Light",
-    "hex": "#ecca59"
+    "hex": "#ecca59",
+    "rgb": {
+      "r": 236,
+      "g": 202,
+      "b": 89
+    }
   },
   {
     "floss": 18,
     "row": 13,
     "col": 2,
     "label": "Yellow Plum",
-    "hex": "#e8bb46"
+    "hex": "#e8bb46",
+    "rgb": {
+      "r": 232,
+      "g": 187,
+      "b": 70
+    }
   },
   {
     "floss": 834,
     "row": 13,
     "col": 3,
     "label": "Golden Olive - Very Light",
-    "hex": "#c99952"
+    "hex": "#c99952",
+    "rgb": {
+      "r": 201,
+      "g": 153,
+      "b": 82
+    }
   },
   {
     "floss": 833,
     "row": 13,
     "col": 4,
     "label": "Golden Olive - Light",
-    "hex": "#a97737"
+    "hex": "#a97737",
+    "rgb": {
+      "r": 169,
+      "g": 119,
+      "b": 55
+    }
   },
   {
     "floss": 832,
     "row": 13,
     "col": 5,
     "label": "Golden Olive",
-    "hex": "#905e22"
+    "hex": "#905e22",
+    "rgb": {
+      "r": 144,
+      "g": 94,
+      "b": 34
+    }
   },
   {
     "floss": 831,
     "row": 13,
     "col": 6,
     "label": "Golden Olive - Medium",
-    "hex": "#7b511c"
+    "hex": "#7b511c",
+    "rgb": {
+      "r": 123,
+      "g": 81,
+      "b": 28
+    }
   },
   {
     "floss": 830,
     "row": 13,
     "col": 7,
     "label": "Golden Olive - Dark",
-    "hex": "#5a3915"
+    "hex": "#5a3915",
+    "rgb": {
+      "r": 90,
+      "g": 57,
+      "b": 21
+    }
   },
   {
     "floss": 829,
     "row": 13,
     "col": 8,
     "label": "Golden Olive - Very Dark",
-    "hex": "#603413"
+    "hex": "#603413",
+    "rgb": {
+      "r": 96,
+      "g": 52,
+      "b": 19
+    }
   },
   {
     "floss": 746,
     "row": 13,
     "col": 9,
     "label": "Off White",
-    "hex": "#f8f6da"
+    "hex": "#f8f6da",
+    "rgb": {
+      "r": 248,
+      "g": 246,
+      "b": 218
+    }
   },
   {
     "floss": 677,
     "row": 13,
     "col": 10,
     "label": "Old Gold - Very Light",
-    "hex": "#eed39e"
+    "hex": "#eed39e",
+    "rgb": {
+      "r": 238,
+      "g": 211,
+      "b": 158
+    }
   },
   {
     "floss": 422,
     "row": 13,
     "col": 11,
     "label": "Hazelnut Brown - Light",
-    "hex": "#c18e66"
+    "hex": "#c18e66",
+    "rgb": {
+      "r": 193,
+      "g": 142,
+      "b": 102
+    }
   },
   {
     "floss": 3828,
     "row": 13,
     "col": 12,
     "label": "Hazelnut Brown",
-    "hex": "#a06b43"
+    "hex": "#a06b43",
+    "rgb": {
+      "r": 160,
+      "g": 107,
+      "b": 67
+    }
   },
   {
     "floss": 420,
     "row": 13,
     "col": 13,
     "label": "Hazelnut Brown - Dark",
-    "hex": "#87492a"
+    "hex": "#87492a",
+    "rgb": {
+      "r": 135,
+      "g": 73,
+      "b": 42
+    }
   },
   {
     "floss": 869,
     "row": 13,
     "col": 14,
     "label": "Hazelnut Brown - Very Dark",
-    "hex": "#63321a"
+    "hex": "#63321a",
+    "rgb": {
+      "r": 99,
+      "g": 50,
+      "b": 26
+    }
   },
   {
     "floss": 613,
     "row": 13,
     "col": 15,
     "label": "Drab Brown - Very Light",
-    "hex": "#d9c8a7"
+    "hex": "#d9c8a7",
+    "rgb": {
+      "r": 217,
+      "g": 200,
+      "b": 167
+    }
   },
   {
     "floss": 612,
     "row": 13,
     "col": 16,
     "label": "Drab Brown - Light",
-    "hex": "#a9885d"
+    "hex": "#a9885d",
+    "rgb": {
+      "r": 169,
+      "g": 136,
+      "b": 93
+    }
   },
   {
     "floss": 611,
     "row": 13,
     "col": 17,
     "label": "Drab Brown",
-    "hex": "#654831"
+    "hex": "#654831",
+    "rgb": {
+      "r": 101,
+      "g": 72,
+      "b": 49
+    }
   },
   {
     "floss": 610,
     "row": 13,
     "col": 18,
     "label": "Drab Brown - Dark",
-    "hex": "#644826"
+    "hex": "#644826",
+    "rgb": {
+      "r": 100,
+      "g": 72,
+      "b": 38
+    }
   },
   {
     "floss": 3047,
     "row": 13,
     "col": 19,
     "label": "Yellow Beige - Light",
-    "hex": "#e7d29e"
+    "hex": "#e7d29e",
+    "rgb": {
+      "r": 231,
+      "g": 210,
+      "b": 158
+    }
   },
   {
     "floss": 3046,
     "row": 13,
     "col": 20,
     "label": "Yellow Beige - Medium",
-    "hex": "#cda670"
+    "hex": "#cda670",
+    "rgb": {
+      "r": 205,
+      "g": 166,
+      "b": 112
+    }
   },
   {
     "floss": 3045,
     "row": 13,
     "col": 21,
     "label": "Yellow Beige - Dark",
-    "hex": "#a16b45"
+    "hex": "#a16b45",
+    "rgb": {
+      "r": 161,
+      "g": 107,
+      "b": 69
+    }
   },
   {
     "floss": 167,
     "row": 13,
     "col": 22,
     "label": "Khaki Brown",
-    "hex": "#864e30"
+    "hex": "#864e30",
+    "rgb": {
+      "r": 134,
+      "g": 78,
+      "b": 48
+    }
   },
   {
     "floss": 676,
     "row": 14,
     "col": 1,
     "label": "Old Gold - Light",
-    "hex": "#e29e64"
+    "hex": "#e29e64",
+    "rgb": {
+      "r": 226,
+      "g": 158,
+      "b": 100
+    }
   },
   {
     "floss": 729,
     "row": 14,
     "col": 2,
     "label": "Old Gold - Medium",
-    "hex": "#c07438"
+    "hex": "#c07438",
+    "rgb": {
+      "r": 192,
+      "g": 116,
+      "b": 56
+    }
   },
   {
     "floss": 680,
     "row": 14,
     "col": 3,
     "label": "Old Gold - Dark",
-    "hex": "#9e5d2f"
+    "hex": "#9e5d2f",
+    "rgb": {
+      "r": 158,
+      "g": 93,
+      "b": 47
+    }
   },
   {
     "floss": 3829,
     "row": 14,
     "col": 4,
     "label": "Old Gold - Very Dark",
-    "hex": "#985025"
+    "hex": "#985025",
+    "rgb": {
+      "r": 152,
+      "g": 80,
+      "b": 37
+    }
   },
   {
     "floss": 3822,
     "row": 14,
     "col": 5,
     "label": "Straw - Light",
-    "hex": "#f1c56e"
+    "hex": "#f1c56e",
+    "rgb": {
+      "r": 241,
+      "g": 197,
+      "b": 110
+    }
   },
   {
     "floss": 3821,
     "row": 14,
     "col": 6,
     "label": "Straw",
-    "hex": "#e5a148"
+    "hex": "#e5a148",
+    "rgb": {
+      "r": 229,
+      "g": 161,
+      "b": 72
+    }
   },
   {
     "floss": 3820,
     "row": 14,
     "col": 7,
     "label": "Straw - Dark",
-    "hex": "#d98a36"
+    "hex": "#d98a36",
+    "rgb": {
+      "r": 217,
+      "g": 138,
+      "b": 54
+    }
   },
   {
     "floss": 3852,
     "row": 14,
     "col": 8,
     "label": "Straw - Very Dark",
-    "hex": "#c6661f"
+    "hex": "#c6661f",
+    "rgb": {
+      "r": 198,
+      "g": 102,
+      "b": 31
+    }
   },
   {
     "floss": 728,
     "row": 14,
     "col": 9,
     "label": "Golden Yellow",
-    "hex": "#ee9a38"
+    "hex": "#ee9a38",
+    "rgb": {
+      "r": 238,
+      "g": 154,
+      "b": 56
+    }
   },
   {
     "floss": 783,
     "row": 14,
     "col": 10,
     "label": "Topaz - Medium",
-    "hex": "#cb6126"
+    "hex": "#cb6126",
+    "rgb": {
+      "r": 203,
+      "g": 97,
+      "b": 38
+    }
   },
   {
     "floss": 782,
     "row": 14,
     "col": 11,
     "label": "Topaz - Dark",
-    "hex": "#a04d18"
+    "hex": "#a04d18",
+    "rgb": {
+      "r": 160,
+      "g": 77,
+      "b": 24
+    }
   },
   {
     "floss": 780,
     "row": 14,
     "col": 12,
     "label": "Topaz - Ultra Very Dark",
-    "hex": "#862f15"
+    "hex": "#862f15",
+    "rgb": {
+      "r": 134,
+      "g": 47,
+      "b": 21
+    }
   },
   {
     "floss": 3823,
     "row": 14,
     "col": 13,
     "label": "Yellow - Ultra Pale",
-    "hex": "#f8f1ca"
+    "hex": "#f8f1ca",
+    "rgb": {
+      "r": 248,
+      "g": 241,
+      "b": 202
+    }
   },
   {
     "floss": 3855,
     "row": 14,
     "col": 14,
     "label": "Autumn Gold - Light",
-    "hex": "#f4bf84"
+    "hex": "#f4bf84",
+    "rgb": {
+      "r": 244,
+      "g": 191,
+      "b": 132
+    }
   },
   {
     "floss": 19,
     "row": 14,
     "col": 15,
     "label": "Autumn Gold - Medium Light",
-    "hex": "#f4b76e"
+    "hex": "#f4b76e",
+    "rgb": {
+      "r": 244,
+      "g": 183,
+      "b": 110
+    }
   },
   {
     "floss": 3854,
     "row": 14,
     "col": 16,
     "label": "Autumn Gold - Medium",
-    "hex": "#f38c59"
+    "hex": "#f38c59",
+    "rgb": {
+      "r": 243,
+      "g": 140,
+      "b": 89
+    }
   },
   {
     "floss": 3853,
     "row": 14,
     "col": 17,
     "label": "Autumn Gold - Dark",
-    "hex": "#eb572d"
+    "hex": "#eb572d",
+    "rgb": {
+      "r": 235,
+      "g": 87,
+      "b": 45
+    }
   },
   {
     "floss": 3827,
     "row": 14,
     "col": 18,
     "label": "Golden Brown - Pale",
-    "hex": "#ed9164"
+    "hex": "#ed9164",
+    "rgb": {
+      "r": 237,
+      "g": 145,
+      "b": 100
+    }
   },
   {
     "floss": 977,
     "row": 14,
     "col": 19,
     "label": "Golden Brown - Light",
-    "hex": "#eb7e51"
+    "hex": "#eb7e51",
+    "rgb": {
+      "r": 235,
+      "g": 126,
+      "b": 81
+    }
   },
   {
     "floss": 976,
     "row": 14,
     "col": 20,
     "label": "Golden Brown - Medium",
-    "hex": "#ca552f"
+    "hex": "#ca552f",
+    "rgb": {
+      "r": 202,
+      "g": 85,
+      "b": 47
+    }
   },
   {
     "floss": 3826,
     "row": 14,
     "col": 21,
     "label": "Golden Brown",
-    "hex": "#a1361e"
+    "hex": "#a1361e",
+    "rgb": {
+      "r": 161,
+      "g": 54,
+      "b": 30
+    }
   },
   {
     "floss": 975,
     "row": 14,
     "col": 22,
     "label": "Golden Brown - Dark",
-    "hex": "#6b1d11"
+    "hex": "#6b1d11",
+    "rgb": {
+      "r": 107,
+      "g": 29,
+      "b": 17
+    }
   },
   {
     "floss": 445,
     "row": 15,
     "col": 1,
     "label": "Lemon - Light",
-    "hex": "#fbfc94"
+    "hex": "#fbfc94",
+    "rgb": {
+      "r": 251,
+      "g": 252,
+      "b": 148
+    }
   },
   {
     "floss": 307,
     "row": 15,
     "col": 2,
     "label": "Lemon",
-    "hex": "#f8ee33"
+    "hex": "#f8ee33",
+    "rgb": {
+      "r": 248,
+      "g": 238,
+      "b": 51
+    }
   },
   {
     "floss": 973,
     "row": 15,
     "col": 3,
     "label": "Canary - Bright",
-    "hex": "#f5d62a"
+    "hex": "#f5d62a",
+    "rgb": {
+      "r": 245,
+      "g": 214,
+      "b": 42
+    }
   },
   {
     "floss": 444,
     "row": 15,
     "col": 4,
     "label": "Lemon - Dark",
-    "hex": "#f6ca1b"
+    "hex": "#f6ca1b",
+    "rgb": {
+      "r": 246,
+      "g": 202,
+      "b": 27
+    }
   },
   {
     "floss": 3078,
     "row": 15,
     "col": 5,
     "label": "Golden Yellow - Very Light",
-    "hex": "#f8f4a1"
+    "hex": "#f8f4a1",
+    "rgb": {
+      "r": 248,
+      "g": 244,
+      "b": 161
+    }
   },
   {
     "floss": 727,
     "row": 15,
     "col": 6,
     "label": "Topaz - Very Light",
-    "hex": "#f7ef84"
+    "hex": "#f7ef84",
+    "rgb": {
+      "r": 247,
+      "g": 239,
+      "b": 132
+    }
   },
   {
     "floss": 726,
     "row": 15,
     "col": 7,
     "label": "Topaz - Light",
-    "hex": "#f6d151"
+    "hex": "#f6d151",
+    "rgb": {
+      "r": 246,
+      "g": 209,
+      "b": 81
+    }
   },
   {
     "floss": 725,
     "row": 15,
     "col": 8,
     "label": "Topaz",
-    "hex": "#f3a043"
+    "hex": "#f3a043",
+    "rgb": {
+      "r": 243,
+      "g": 160,
+      "b": 67
+    }
   },
   {
     "floss": 972,
     "row": 15,
     "col": 9,
     "label": "Canary - Deep",
-    "hex": "#f68324"
+    "hex": "#f68324",
+    "rgb": {
+      "r": 246,
+      "g": 131,
+      "b": 36
+    }
   },
   {
     "floss": 745,
     "row": 15,
     "col": 10,
     "label": "Yellow - Light Pale",
-    "hex": "#f7eaa6"
+    "hex": "#f7eaa6",
+    "rgb": {
+      "r": 247,
+      "g": 234,
+      "b": 166
+    }
   },
   {
     "floss": 744,
     "row": 15,
     "col": 11,
     "label": "Yellow - Pale",
-    "hex": "#f7d67b"
+    "hex": "#f7d67b",
+    "rgb": {
+      "r": 247,
+      "g": 214,
+      "b": 123
+    }
   },
   {
     "floss": 743,
     "row": 15,
     "col": 12,
     "label": "Yellow - Medium",
-    "hex": "#f6b651"
+    "hex": "#f6b651",
+    "rgb": {
+      "r": 246,
+      "g": 182,
+      "b": 81
+    }
   },
   {
     "floss": 742,
     "row": 15,
     "col": 13,
     "label": "Tangerine - Light",
-    "hex": "#f58a2f"
+    "hex": "#f58a2f",
+    "rgb": {
+      "r": 245,
+      "g": 138,
+      "b": 47
+    }
   },
   {
     "floss": 741,
     "row": 15,
     "col": 14,
     "label": "Tangerine - Medium",
-    "hex": "#f56a24"
+    "hex": "#f56a24",
+    "rgb": {
+      "r": 245,
+      "g": 106,
+      "b": 36
+    }
   },
   {
     "floss": 740,
     "row": 15,
     "col": 15,
     "label": "Tangerine",
-    "hex": "#f53d1e"
+    "hex": "#f53d1e",
+    "rgb": {
+      "r": 245,
+      "g": 61,
+      "b": 30
+    }
   },
   {
     "floss": 970,
     "row": 15,
     "col": 16,
     "label": "Pumpkin - Light",
-    "hex": "#f64430"
+    "hex": "#f64430",
+    "rgb": {
+      "r": 246,
+      "g": 68,
+      "b": 48
+    }
   },
   {
     "floss": 947,
     "row": 15,
     "col": 17,
     "label": "Burnt Orange",
-    "hex": "#f61f20"
+    "hex": "#f61f20",
+    "rgb": {
+      "r": 246,
+      "g": 31,
+      "b": 32
+    }
   },
   {
     "floss": 946,
     "row": 15,
     "col": 18,
     "label": "Burnt Orange - Medium",
-    "hex": "#e61c1d"
+    "hex": "#e61c1d",
+    "rgb": {
+      "r": 230,
+      "g": 28,
+      "b": 29
+    }
   },
   {
     "floss": 900,
     "row": 15,
     "col": 19,
     "label": "Burnt Orange - Dark",
-    "hex": "#cc0e19"
+    "hex": "#cc0e19",
+    "rgb": {
+      "r": 204,
+      "g": 14,
+      "b": 25
+    }
   },
   {
     "floss": 967,
     "row": 15,
     "col": 20,
     "label": "Peach - Light",
-    "hex": "#f6c4c3"
+    "hex": "#f6c4c3",
+    "rgb": {
+      "r": 246,
+      "g": 196,
+      "b": 195
+    }
   },
   {
     "floss": 3824,
     "row": 15,
     "col": 21,
     "label": "Apricot - Light",
-    "hex": "#f59d98"
+    "hex": "#f59d98",
+    "rgb": {
+      "r": 245,
+      "g": 157,
+      "b": 152
+    }
   },
   {
     "floss": 3341,
     "row": 15,
     "col": 22,
     "label": "Apricot",
-    "hex": "#f67570"
+    "hex": "#f67570",
+    "rgb": {
+      "r": 246,
+      "g": 117,
+      "b": 112
+    }
   },
   {
     "floss": 3340,
     "row": 15,
     "col": 23,
     "label": "Apricot - Medium",
-    "hex": "#f54b47"
+    "hex": "#f54b47",
+    "rgb": {
+      "r": 245,
+      "g": 75,
+      "b": 71
+    }
   },
   {
     "floss": 608,
     "row": 15,
     "col": 24,
     "label": "Orange - Bright",
-    "hex": "#fe0c21"
+    "hex": "#fe0c21",
+    "rgb": {
+      "r": 254,
+      "g": 12,
+      "b": 33
+    }
   },
   {
     "floss": 606,
     "row": 15,
     "col": 25,
     "label": "Orange-red - Bright",
-    "hex": "#f40419"
+    "hex": "#f40419",
+    "rgb": {
+      "r": 244,
+      "g": 4,
+      "b": 25
+    }
   },
   {
     "floss": 951,
     "row": 16,
     "col": 1,
     "label": "Tawny - Light",
-    "hex": "#f1d5b5"
+    "hex": "#f1d5b5",
+    "rgb": {
+      "r": 241,
+      "g": 213,
+      "b": 181
+    }
   },
   {
     "floss": 3856,
     "row": 16,
     "col": 2,
     "label": "Mahogany - Ultra Very Light",
-    "hex": "#f0b286"
+    "hex": "#f0b286",
+    "rgb": {
+      "r": 240,
+      "g": 178,
+      "b": 134
+    }
   },
   {
     "floss": 722,
     "row": 16,
     "col": 3,
     "label": "Orange Spice - Light",
-    "hex": "#f37054"
+    "hex": "#f37054",
+    "rgb": {
+      "r": 243,
+      "g": 112,
+      "b": 84
+    }
   },
   {
     "floss": 721,
     "row": 16,
     "col": 4,
     "label": "Orange Spice - Medium",
-    "hex": "#ef4332"
+    "hex": "#ef4332",
+    "rgb": {
+      "r": 239,
+      "g": 67,
+      "b": 50
+    }
   },
   {
     "floss": 720,
     "row": 16,
     "col": 5,
     "label": "Orange Spice - Dark",
-    "hex": "#de271a"
+    "hex": "#de271a",
+    "rgb": {
+      "r": 222,
+      "g": 39,
+      "b": 26
+    }
   },
   {
     "floss": 3825,
     "row": 16,
     "col": 6,
     "label": "Pumpkin - Pale",
-    "hex": "#f59377"
+    "hex": "#f59377",
+    "rgb": {
+      "r": 245,
+      "g": 147,
+      "b": 119
+    }
   },
   {
     "floss": 922,
     "row": 16,
     "col": 7,
     "label": "Copper - Light",
-    "hex": "#e7523a"
+    "hex": "#e7523a",
+    "rgb": {
+      "r": 231,
+      "g": 82,
+      "b": 58
+    }
   },
   {
     "floss": 921,
     "row": 16,
     "col": 8,
     "label": "Copper",
-    "hex": "#ce3726"
+    "hex": "#ce3726",
+    "rgb": {
+      "r": 206,
+      "g": 55,
+      "b": 38
+    }
   },
   {
     "floss": 920,
     "row": 16,
     "col": 9,
     "label": "Copper - Medium",
-    "hex": "#a8241b"
+    "hex": "#a8241b",
+    "rgb": {
+      "r": 168,
+      "g": 36,
+      "b": 27
+    }
   },
   {
     "floss": 919,
     "row": 16,
     "col": 10,
     "label": "Red Copper",
-    "hex": "#8c130e"
+    "hex": "#8c130e",
+    "rgb": {
+      "r": 140,
+      "g": 19,
+      "b": 14
+    }
   },
   {
     "floss": 918,
     "row": 16,
     "col": 11,
     "label": "Red Copper - Dark",
-    "hex": "#801814"
+    "hex": "#801814",
+    "rgb": {
+      "r": 128,
+      "g": 24,
+      "b": 20
+    }
   },
   {
     "floss": 3770,
     "row": 16,
     "col": 12,
     "label": "Tawny - Very Light",
-    "hex": "#f7eee3"
+    "hex": "#f7eee3",
+    "rgb": {
+      "r": 247,
+      "g": 238,
+      "b": 227
+    }
   },
   {
     "floss": 945,
     "row": 16,
     "col": 13,
     "label": "Tawny",
-    "hex": "#eec09f"
+    "hex": "#eec09f",
+    "rgb": {
+      "r": 238,
+      "g": 192,
+      "b": 159
+    }
   },
   {
     "floss": 402,
     "row": 16,
     "col": 14,
     "label": "Mahogany - Very Light",
-    "hex": "#ef7c60"
+    "hex": "#ef7c60",
+    "rgb": {
+      "r": 239,
+      "g": 124,
+      "b": 96
+    }
   },
   {
     "floss": 3776,
     "row": 16,
     "col": 15,
     "label": "Mahogany - Light",
-    "hex": "#cf5132"
+    "hex": "#cf5132",
+    "rgb": {
+      "r": 207,
+      "g": 81,
+      "b": 50
+    }
   },
   {
     "floss": 301,
     "row": 16,
     "col": 16,
     "label": "Mahogany - Medium",
-    "hex": "#a0371d"
+    "hex": "#a0371d",
+    "rgb": {
+      "r": 160,
+      "g": 55,
+      "b": 29
+    }
   },
   {
     "floss": 400,
     "row": 16,
     "col": 17,
     "label": "Mahogany - Dark",
-    "hex": "#6c150c"
+    "hex": "#6c150c",
+    "rgb": {
+      "r": 108,
+      "g": 21,
+      "b": 12
+    }
   },
   {
     "floss": 300,
     "row": 16,
     "col": 18,
     "label": "Mahogany - Very Dark",
-    "hex": "#4d110b"
+    "hex": "#4d110b",
+    "rgb": {
+      "r": 77,
+      "g": 17,
+      "b": 11
+    }
   },
   {
     "floss": 225,
     "row": 16,
     "col": 19,
     "label": "Shell Pink - Ultra Very Light",
-    "hex": "#f2ccd0"
+    "hex": "#f2ccd0",
+    "rgb": {
+      "r": 242,
+      "g": 204,
+      "b": 208
+    }
   },
   {
     "floss": 224,
     "row": 16,
     "col": 20,
     "label": "Shell Pink - Very Light",
-    "hex": "#e4999c"
+    "hex": "#e4999c",
+    "rgb": {
+      "r": 228,
+      "g": 153,
+      "b": 156
+    }
   },
   {
     "floss": 152,
     "row": 16,
     "col": 21,
     "label": "Tawny - Dark",
-    "hex": "#cc7684"
+    "hex": "#cc7684",
+    "rgb": {
+      "r": 204,
+      "g": 118,
+      "b": 132
+    }
   },
   {
     "floss": 223,
     "row": 16,
     "col": 22,
     "label": "Shell Pink - Light",
-    "hex": "#a34256"
+    "hex": "#a34256",
+    "rgb": {
+      "r": 163,
+      "g": 66,
+      "b": 86
+    }
   },
   {
     "floss": 3722,
     "row": 16,
     "col": 23,
     "label": "Shell Pink - Medium",
-    "hex": "#9e3340"
+    "hex": "#9e3340",
+    "rgb": {
+      "r": 158,
+      "g": 51,
+      "b": 64
+    }
   },
   {
     "floss": 3721,
     "row": 16,
     "col": 24,
     "label": "Shell Pink - Dark",
-    "hex": "#8c202b"
+    "hex": "#8c202b",
+    "rgb": {
+      "r": 140,
+      "g": 32,
+      "b": 43
+    }
   },
   {
     "floss": 221,
     "row": 16,
     "col": 25,
     "label": "Shell Pink - Very Dark",
-    "hex": "#77101a"
+    "hex": "#77101a",
+    "rgb": {
+      "r": 119,
+      "g": 16,
+      "b": 26
+    }
   },
   {
     "floss": 948,
     "row": 17,
     "col": 1,
     "label": "Peach - Very Light",
-    "hex": "#f2d8c2"
+    "hex": "#f2d8c2",
+    "rgb": {
+      "r": 242,
+      "g": 216,
+      "b": 194
+    }
   },
   {
     "floss": 754,
     "row": 17,
     "col": 2,
     "label": "Peach - Light",
-    "hex": "#f1ac90"
+    "hex": "#f1ac90",
+    "rgb": {
+      "r": 241,
+      "g": 172,
+      "b": 144
+    }
   },
   {
     "floss": 3771,
     "row": 17,
     "col": 3,
     "label": "Peach - Dark",
-    "hex": "#eb9775"
+    "hex": "#eb9775",
+    "rgb": {
+      "r": 235,
+      "g": 151,
+      "b": 117
+    }
   },
   {
     "floss": 758,
     "row": 17,
     "col": 4,
     "label": "Terra Cotta - Very Light",
-    "hex": "#e6877e"
+    "hex": "#e6877e",
+    "rgb": {
+      "r": 230,
+      "g": 135,
+      "b": 126
+    }
   },
   {
     "floss": 3778,
     "row": 17,
     "col": 5,
     "label": "Terra Cotta - Light",
-    "hex": "#cc5753"
+    "hex": "#cc5753",
+    "rgb": {
+      "r": 204,
+      "g": 87,
+      "b": 83
+    }
   },
   {
     "floss": 356,
     "row": 17,
     "col": 6,
     "label": "Terra Cotta - Medium",
-    "hex": "#ac3d3c"
+    "hex": "#ac3d3c",
+    "rgb": {
+      "r": 172,
+      "g": 61,
+      "b": 60
+    }
   },
   {
     "floss": 3830,
     "row": 17,
     "col": 7,
     "label": "Terra Cotta",
-    "hex": "#a4292a"
+    "hex": "#a4292a",
+    "rgb": {
+      "r": 164,
+      "g": 41,
+      "b": 42
+    }
   },
   {
     "floss": 355,
     "row": 17,
     "col": 8,
     "label": "Terra Cotta - Dark",
-    "hex": "#851318"
+    "hex": "#851318",
+    "rgb": {
+      "r": 133,
+      "g": 19,
+      "b": 24
+    }
   },
   {
     "floss": 3777,
     "row": 17,
     "col": 9,
     "label": "Terra Cotta - Very Dark",
-    "hex": "#7b0913"
+    "hex": "#7b0913",
+    "rgb": {
+      "r": 123,
+      "g": 9,
+      "b": 19
+    }
   },
   {
     "floss": 3779,
     "row": 17,
     "col": 10,
     "label": "Terra Cotta - Ultra Very Light",
-    "hex": "#f0a29d"
+    "hex": "#f0a29d",
+    "rgb": {
+      "r": 240,
+      "g": 162,
+      "b": 157
+    }
   },
   {
     "floss": 3859,
     "row": 17,
     "col": 11,
     "label": "Rosewood - Light",
-    "hex": "#b65f52"
+    "hex": "#b65f52",
+    "rgb": {
+      "r": 182,
+      "g": 95,
+      "b": 82
+    }
   },
   {
     "floss": 3858,
     "row": 17,
     "col": 12,
     "label": "Rosewood - Medium",
-    "hex": "#712124"
+    "hex": "#712124",
+    "rgb": {
+      "r": 113,
+      "g": 33,
+      "b": 36
+    }
   },
   {
     "floss": 3857,
     "row": 17,
     "col": 13,
     "label": "Rosewood - Dark",
-    "hex": "#561411"
+    "hex": "#561411",
+    "rgb": {
+      "r": 86,
+      "g": 20,
+      "b": 17
+    }
   },
   {
     "floss": 20,
     "row": 17,
     "col": 14,
     "label": "Shrimp",
-    "hex": "#f6afb2"
+    "hex": "#f6afb2",
+    "rgb": {
+      "r": 246,
+      "g": 175,
+      "b": 178
+    }
   },
   {
     "floss": 21,
     "row": 17,
     "col": 15,
     "label": "Alizarian - Light",
-    "hex": "#dc514f"
+    "hex": "#dc514f",
+    "rgb": {
+      "r": 220,
+      "g": 81,
+      "b": 79
+    }
   },
   {
     "floss": 22,
     "row": 17,
     "col": 16,
     "label": "Alizarian",
-    "hex": "#b21d26"
+    "hex": "#b21d26",
+    "rgb": {
+      "r": 178,
+      "g": 29,
+      "b": 38
+    }
   },
   {
     "floss": 3774,
     "row": 17,
     "col": 17,
     "label": "Desert Sand - Very Light",
-    "hex": "#f0c5b8"
+    "hex": "#f0c5b8",
+    "rgb": {
+      "r": 240,
+      "g": 197,
+      "b": 184
+    }
   },
   {
     "floss": 950,
     "row": 17,
     "col": 18,
     "label": "Desert Sand - Light",
-    "hex": "#eabea5"
+    "hex": "#eabea5",
+    "rgb": {
+      "r": 234,
+      "g": 190,
+      "b": 165
+    }
   },
   {
     "floss": 3064,
     "row": 17,
     "col": 19,
     "label": "Desert Sand",
-    "hex": "#b76358"
+    "hex": "#b76358",
+    "rgb": {
+      "r": 183,
+      "g": 99,
+      "b": 88
+    }
   },
   {
     "floss": 407,
     "row": 17,
     "col": 20,
     "label": "Desert Sand - Dark",
-    "hex": "#b16761"
+    "hex": "#b16761",
+    "rgb": {
+      "r": 177,
+      "g": 103,
+      "b": 97
+    }
   },
   {
     "floss": 3772,
     "row": 17,
     "col": 21,
     "label": "Desert Sand - Very Dark",
-    "hex": "#8e433f"
+    "hex": "#8e433f",
+    "rgb": {
+      "r": 142,
+      "g": 67,
+      "b": 63
+    }
   },
   {
     "floss": 632,
     "row": 17,
     "col": 22,
     "label": "Desert Sand - Ultra Very Dark",
-    "hex": "#6c2927"
+    "hex": "#6c2927",
+    "rgb": {
+      "r": 108,
+      "g": 41,
+      "b": 39
+    }
   },
   {
     "floss": 453,
     "row": 18,
     "col": 1,
     "label": "Shell Gray - Light",
-    "hex": "#cebbb4"
+    "hex": "#cebbb4",
+    "rgb": {
+      "r": 206,
+      "g": 187,
+      "b": 180
+    }
   },
   {
     "floss": 452,
     "row": 18,
     "col": 2,
     "label": "Shell Gray - Medium",
-    "hex": "#a98d8e"
+    "hex": "#a98d8e",
+    "rgb": {
+      "r": 169,
+      "g": 141,
+      "b": 142
+    }
   },
   {
     "floss": 451,
     "row": 18,
     "col": 3,
     "label": "Shell Gray - Dark",
-    "hex": "#7d6161"
+    "hex": "#7d6161",
+    "rgb": {
+      "r": 125,
+      "g": 97,
+      "b": 97
+    }
   },
   {
     "floss": 3861,
     "row": 18,
     "col": 4,
     "label": "Cocoa - Light",
-    "hex": "#906773"
+    "hex": "#906773",
+    "rgb": {
+      "r": 144,
+      "g": 103,
+      "b": 115
+    }
   },
   {
     "floss": 3860,
     "row": 18,
     "col": 5,
     "label": "Cocoa",
-    "hex": "#603d3b"
+    "hex": "#603d3b",
+    "rgb": {
+      "r": 96,
+      "g": 61,
+      "b": 59
+    }
   },
   {
     "floss": 779,
     "row": 18,
     "col": 6,
     "label": "Brown",
-    "hex": "#522e2d"
+    "hex": "#522e2d",
+    "rgb": {
+      "r": 82,
+      "g": 46,
+      "b": 45
+    }
   },
   {
     "floss": 9,
     "row": 18,
     "col": 7,
     "label": "Cocoa - Very Dark",
-    "hex": "#38242b"
+    "hex": "#38242b",
+    "rgb": {
+      "r": 56,
+      "g": 36,
+      "b": 43
+    }
   },
   {
     "floss": 712,
     "row": 18,
     "col": 8,
     "label": "Cream",
-    "hex": "#f4ecd0"
+    "hex": "#f4ecd0",
+    "rgb": {
+      "r": 244,
+      "g": 236,
+      "b": 208
+    }
   },
   {
     "floss": 739,
     "row": 18,
     "col": 9,
     "label": "Tan - Ultra Very Light",
-    "hex": "#f2dcb0"
+    "hex": "#f2dcb0",
+    "rgb": {
+      "r": 242,
+      "g": 220,
+      "b": 176
+    }
   },
   {
     "floss": 738,
     "row": 18,
     "col": 10,
     "label": "Tan - Very Light",
-    "hex": "#e0ae7d"
+    "hex": "#e0ae7d",
+    "rgb": {
+      "r": 224,
+      "g": 174,
+      "b": 125
+    }
   },
   {
     "floss": 437,
     "row": 18,
     "col": 11,
     "label": "Tan - Light",
-    "hex": "#da926b"
+    "hex": "#da926b",
+    "rgb": {
+      "r": 218,
+      "g": 146,
+      "b": 107
+    }
   },
   {
     "floss": 436,
     "row": 18,
     "col": 12,
     "label": "Tan",
-    "hex": "#b76a45"
+    "hex": "#b76a45",
+    "rgb": {
+      "r": 183,
+      "g": 106,
+      "b": 69
+    }
   },
   {
     "floss": 435,
     "row": 18,
     "col": 13,
     "label": "Brown - Very Light",
-    "hex": "#a35231"
+    "hex": "#a35231",
+    "rgb": {
+      "r": 163,
+      "g": 82,
+      "b": 49
+    }
   },
   {
     "floss": 434,
     "row": 18,
     "col": 14,
     "label": "Brown - Light",
-    "hex": "#782c17"
+    "hex": "#782c17",
+    "rgb": {
+      "r": 120,
+      "g": 44,
+      "b": 23
+    }
   },
   {
     "floss": 433,
     "row": 18,
     "col": 15,
     "label": "Brown - Medium",
-    "hex": "#5f2511"
+    "hex": "#5f2511",
+    "rgb": {
+      "r": 95,
+      "g": 37,
+      "b": 17
+    }
   },
   {
     "floss": 801,
     "row": 18,
     "col": 16,
     "label": "Coffee Brown - Dark",
-    "hex": "#4c1e11"
+    "hex": "#4c1e11",
+    "rgb": {
+      "r": 76,
+      "g": 30,
+      "b": 17
+    }
   },
   {
     "floss": 898,
     "row": 18,
     "col": 17,
     "label": "Coffee Brown - Very Dark",
-    "hex": "#3b140d"
+    "hex": "#3b140d",
+    "rgb": {
+      "r": 59,
+      "g": 20,
+      "b": 13
+    }
   },
   {
     "floss": 938,
     "row": 18,
     "col": 18,
     "label": "Coffee Brown - Ultra Dark",
-    "hex": "#300f0c"
+    "hex": "#300f0c",
+    "rgb": {
+      "r": 48,
+      "g": 15,
+      "b": 12
+    }
   },
   {
     "floss": 3371,
     "row": 18,
     "col": 19,
     "label": "Black Brown",
-    "hex": "#190908"
+    "hex": "#190908",
+    "rgb": {
+      "r": 25,
+      "g": 9,
+      "b": 8
+    }
   },
   {
     "floss": 543,
     "row": 18,
     "col": 20,
     "label": "Beige Brown - Ultra Very Light",
-    "hex": "#e6c6b0"
+    "hex": "#e6c6b0",
+    "rgb": {
+      "r": 230,
+      "g": 198,
+      "b": 176
+    }
   },
   {
     "floss": 3864,
     "row": 18,
     "col": 21,
     "label": "Mocha Beige - Light",
-    "hex": "#c2957c"
+    "hex": "#c2957c",
+    "rgb": {
+      "r": 194,
+      "g": 149,
+      "b": 124
+    }
   },
   {
     "floss": 3863,
     "row": 18,
     "col": 22,
     "label": "Mocha Beige - Medium",
-    "hex": "#905f45"
+    "hex": "#905f45",
+    "rgb": {
+      "r": 144,
+      "g": 95,
+      "b": 69
+    }
   },
   {
     "floss": 3862,
     "row": 18,
     "col": 23,
     "label": "Mocha Beige - Dark",
-    "hex": "#7a4731"
+    "hex": "#7a4731",
+    "rgb": {
+      "r": 122,
+      "g": 71,
+      "b": 49
+    }
   },
   {
     "floss": 3031,
     "row": 18,
     "col": 24,
     "label": "Mocha Brown - Very Dark",
-    "hex": "#331c11"
+    "hex": "#331c11",
+    "rgb": {
+      "r": 51,
+      "g": 28,
+      "b": 17
+    }
   },
   {
     "floss": 3865,
     "row": 19,
     "col": 1,
     "label": "Winter White",
-    "hex": "#f9f9f8"
+    "hex": "#f9f9f8",
+    "rgb": {
+      "r": 249,
+      "g": 249,
+      "b": 248
+    }
   },
   {
     "floss": "ECRU",
     "row": 19,
     "col": 2,
     "label": "Ecru/off-white",
-    "hex": "#f2e8cc"
+    "hex": "#f2e8cc",
+    "rgb": {
+      "r": 242,
+      "g": 232,
+      "b": 204
+    }
   },
   {
     "floss": 822,
     "row": 19,
     "col": 3,
     "label": "Beige Gray - Light",
-    "hex": "#e6d9bf"
+    "hex": "#e6d9bf",
+    "rgb": {
+      "r": 230,
+      "g": 217,
+      "b": 191
+    }
   },
   {
     "floss": 644,
     "row": 19,
     "col": 4,
     "label": "Beige Gray - Medium",
-    "hex": "#cabea2"
+    "hex": "#cabea2",
+    "rgb": {
+      "r": 202,
+      "g": 190,
+      "b": 162
+    }
   },
   {
     "floss": 642,
     "row": 19,
     "col": 5,
     "label": "Beige Gray - Dark",
-    "hex": "#8b7b64"
+    "hex": "#8b7b64",
+    "rgb": {
+      "r": 139,
+      "g": 123,
+      "b": 100
+    }
   },
   {
     "floss": 640,
     "row": 19,
     "col": 6,
     "label": "Beige Gray - Very Dark",
-    "hex": "#71634d"
+    "hex": "#71634d",
+    "rgb": {
+      "r": 113,
+      "g": 99,
+      "b": 77
+    }
   },
   {
     "floss": 3787,
     "row": 19,
     "col": 7,
     "label": "Brown Gray - Dark",
-    "hex": "#474331"
+    "hex": "#474331",
+    "rgb": {
+      "r": 71,
+      "g": 67,
+      "b": 49
+    }
   },
   {
     "floss": 3021,
     "row": 19,
     "col": 8,
     "label": "Brown Gray - Very Dark",
-    "hex": "#282017"
+    "hex": "#282017",
+    "rgb": {
+      "r": 40,
+      "g": 32,
+      "b": 23
+    }
   },
   {
     "floss": 844,
     "row": 19,
     "col": 9,
     "label": "Beaver Gray - Ultra Dark",
-    "hex": "#382f2c"
+    "hex": "#382f2c",
+    "rgb": {
+      "r": 56,
+      "g": 47,
+      "b": 44
+    }
   },
   {
     "floss": 3033,
     "row": 19,
     "col": 10,
     "label": "Mocha Brown - Very Light",
-    "hex": "#dbc1b0"
+    "hex": "#dbc1b0",
+    "rgb": {
+      "r": 219,
+      "g": 193,
+      "b": 176
+    }
   },
   {
     "floss": 3782,
     "row": 19,
     "col": 11,
     "label": "Mocha Brown - Light",
-    "hex": "#b09680"
+    "hex": "#b09680",
+    "rgb": {
+      "r": 176,
+      "g": 150,
+      "b": 128
+    }
   },
   {
     "floss": 3032,
     "row": 19,
     "col": 12,
     "label": "Mocha Brown - Medium",
-    "hex": "#877158"
+    "hex": "#877158",
+    "rgb": {
+      "r": 135,
+      "g": 113,
+      "b": 88
+    }
   },
   {
     "floss": 3790,
     "row": 19,
     "col": 13,
     "label": "Beige Gray - Ultra Dark",
-    "hex": "#765741"
+    "hex": "#765741",
+    "rgb": {
+      "r": 118,
+      "g": 87,
+      "b": 65
+    }
   },
   {
     "floss": 3781,
     "row": 19,
     "col": 14,
     "label": "Mocha Brown - Dark",
-    "hex": "#422b1f"
+    "hex": "#422b1f",
+    "rgb": {
+      "r": 66,
+      "g": 43,
+      "b": 31
+    }
   },
   {
     "floss": 5,
     "row": 19,
     "col": 15,
     "label": "Driftwood - Light",
-    "hex": "#cfbbb0"
+    "hex": "#cfbbb0",
+    "rgb": {
+      "r": 207,
+      "g": 187,
+      "b": 176
+    }
   },
   {
     "floss": 6,
     "row": 19,
     "col": 16,
     "label": "Driftwood - Medium Light",
-    "hex": "#c5b0a4"
+    "hex": "#c5b0a4",
+    "rgb": {
+      "r": 197,
+      "g": 176,
+      "b": 164
+    }
   },
   {
     "floss": 7,
     "row": 19,
     "col": 17,
     "label": "Driftwood",
-    "hex": "#8d7366"
+    "hex": "#8d7366",
+    "rgb": {
+      "r": 141,
+      "g": 115,
+      "b": 102
+    }
   },
   {
     "floss": 8,
     "row": 19,
     "col": 18,
     "label": "Driftwood - Dark",
-    "hex": "#543c31"
+    "hex": "#543c31",
+    "rgb": {
+      "r": 84,
+      "g": 60,
+      "b": 49
+    }
   },
   {
     "floss": 3866,
     "row": 19,
     "col": 19,
     "label": "Mocha Brown - Ultra Very Light",
-    "hex": "#ece2d9"
+    "hex": "#ece2d9",
+    "rgb": {
+      "r": 236,
+      "g": 226,
+      "b": 217
+    }
   },
   {
     "floss": 842,
     "row": 19,
     "col": 20,
     "label": "Beige Brown - Very Light",
-    "hex": "#c29d91"
+    "hex": "#c29d91",
+    "rgb": {
+      "r": 194,
+      "g": 157,
+      "b": 145
+    }
   },
   {
     "floss": 841,
     "row": 19,
     "col": 21,
     "label": "Beige Brown - Light",
-    "hex": "#9e766a"
+    "hex": "#9e766a",
+    "rgb": {
+      "r": 158,
+      "g": 118,
+      "b": 106
+    }
   },
   {
     "floss": 840,
     "row": 19,
     "col": 22,
     "label": "Beige Brown - Medium",
-    "hex": "#7a5447"
+    "hex": "#7a5447",
+    "rgb": {
+      "r": 122,
+      "g": 84,
+      "b": 71
+    }
   },
   {
     "floss": 839,
     "row": 19,
     "col": 23,
     "label": "Beige Brown - Dark",
-    "hex": "#452a20"
+    "hex": "#452a20",
+    "rgb": {
+      "r": 69,
+      "g": 42,
+      "b": 32
+    }
   },
   {
     "floss": 838,
     "row": 19,
     "col": 24,
     "label": "Beige Brown - Very Dark",
-    "hex": "#331914"
+    "hex": "#331914",
+    "rgb": {
+      "r": 51,
+      "g": 25,
+      "b": 20
+    }
   },
   {
     "floss": 3072,
     "row": 20,
     "col": 1,
     "label": "Beaver Gray - Very Light",
-    "hex": "#d5d7ca"
+    "hex": "#d5d7ca",
+    "rgb": {
+      "r": 213,
+      "g": 215,
+      "b": 202
+    }
   },
   {
     "floss": 647,
     "row": 20,
     "col": 2,
     "label": "Beaver Gray - Medium",
-    "hex": "#92937c"
+    "hex": "#92937c",
+    "rgb": {
+      "r": 146,
+      "g": 147,
+      "b": 124
+    }
   },
   {
     "floss": 3023,
     "row": 20,
     "col": 3,
     "label": "Brown Gray - Light",
-    "hex": "#9b947e"
+    "hex": "#9b947e",
+    "rgb": {
+      "r": 155,
+      "g": 148,
+      "b": 126
+    }
   },
   {
     "floss": 3022,
     "row": 20,
     "col": 4,
     "label": "Brown Gray - Medium",
-    "hex": "#7e7d63"
+    "hex": "#7e7d63",
+    "rgb": {
+      "r": 126,
+      "g": 125,
+      "b": 99
+    }
   },
   {
     "floss": 3024,
     "row": 20,
     "col": 5,
     "label": "Brown Gray - Very Light",
-    "hex": "#cecdbf"
+    "hex": "#cecdbf",
+    "rgb": {
+      "r": 206,
+      "g": 205,
+      "b": 191
+    }
   },
   {
     "floss": 648,
     "row": 20,
     "col": 6,
     "label": "Beaver Gray - Light",
-    "hex": "#afa797"
+    "hex": "#afa797",
+    "rgb": {
+      "r": 175,
+      "g": 167,
+      "b": 151
+    }
   },
   {
     "floss": 646,
     "row": 20,
     "col": 7,
     "label": "Beaver Gray - Dark",
-    "hex": "#726b5a"
+    "hex": "#726b5a",
+    "rgb": {
+      "r": 114,
+      "g": 107,
+      "b": 90
+    }
   },
   {
     "floss": 645,
     "row": 20,
     "col": 8,
     "label": "Beaver Gray - Very Dark",
-    "hex": "#4f4a46"
+    "hex": "#4f4a46",
+    "rgb": {
+      "r": 79,
+      "g": 74,
+      "b": 70
+    }
   },
   {
     "floss": "B5200",
     "row": 20,
     "col": 9,
     "label": "Snow White",
-    "hex": "#fafafa"
+    "hex": "#fafafa",
+    "rgb": {
+      "r": 250,
+      "g": 250,
+      "b": 250
+    }
   },
   {
     "floss": "BLANC",
     "row": 20,
     "col": 10,
     "label": "White",
-    "hex": "#fcfcfc"
+    "hex": "#fcfcfc",
+    "rgb": {
+      "r": 252,
+      "g": 252,
+      "b": 252
+    }
   },
   {
     "floss": 762,
     "row": 20,
     "col": 11,
     "label": "Pearl Gray - Very Light",
-    "hex": "#e7e7e7"
+    "hex": "#e7e7e7",
+    "rgb": {
+      "r": 231,
+      "g": 231,
+      "b": 231
+    }
   },
   {
     "floss": 415,
     "row": 20,
     "col": 12,
     "label": "Pearl Gray",
-    "hex": "#afb2bb"
+    "hex": "#afb2bb",
+    "rgb": {
+      "r": 175,
+      "g": 178,
+      "b": 187
+    }
   },
   {
     "floss": 318,
     "row": 20,
     "col": 13,
     "label": "Steel Gray - Light",
-    "hex": "#8d8c9e"
+    "hex": "#8d8c9e",
+    "rgb": {
+      "r": 141,
+      "g": 140,
+      "b": 158
+    }
   },
   {
     "floss": 414,
     "row": 20,
     "col": 14,
     "label": "Steel Gray - Dark",
-    "hex": "#626372"
+    "hex": "#626372",
+    "rgb": {
+      "r": 98,
+      "g": 99,
+      "b": 114
+    }
   },
   {
     "floss": 1,
     "row": 20,
     "col": 15,
     "label": "White Tin",
-    "hex": "#d9d9d9"
+    "hex": "#d9d9d9",
+    "rgb": {
+      "r": 217,
+      "g": 217,
+      "b": 217
+    }
   },
   {
     "floss": 2,
     "row": 20,
     "col": 16,
     "label": "Tin",
-    "hex": "#c2c2c2"
+    "hex": "#c2c2c2",
+    "rgb": {
+      "r": 194,
+      "g": 194,
+      "b": 194
+    }
   },
   {
     "floss": 3,
     "row": 20,
     "col": 17,
     "label": "Tin - Medium",
-    "hex": "#919095"
+    "hex": "#919095",
+    "rgb": {
+      "r": 145,
+      "g": 144,
+      "b": 149
+    }
   },
   {
     "floss": 4,
     "row": 20,
     "col": 18,
     "label": "Tin - Dark",
-    "hex": "#6a656a"
+    "hex": "#6a656a",
+    "rgb": {
+      "r": 106,
+      "g": 101,
+      "b": 106
+    }
   },
   {
     "floss": 535,
     "row": 20,
     "col": 19,
     "label": "Ash Gray - Very Light",
-    "hex": "#423e3e"
+    "hex": "#423e3e",
+    "rgb": {
+      "r": 66,
+      "g": 62,
+      "b": 62
+    }
   },
   {
     "floss": 168,
     "row": 20,
     "col": 20,
     "label": "Silver Gray",
-    "hex": "#b8c0c3"
+    "hex": "#b8c0c3",
+    "rgb": {
+      "r": 184,
+      "g": 192,
+      "b": 195
+    }
   },
   {
     "floss": 169,
     "row": 20,
     "col": 21,
     "label": "Pewter Gray - Light",
-    "hex": "#737c79"
+    "hex": "#737c79",
+    "rgb": {
+      "r": 115,
+      "g": 124,
+      "b": 121
+    }
   },
   {
     "floss": 317,
     "row": 20,
     "col": 22,
     "label": "Pewter Gray",
-    "hex": "#484c56"
+    "hex": "#484c56",
+    "rgb": {
+      "r": 72,
+      "g": 76,
+      "b": 86
+    }
   },
   {
     "floss": 413,
     "row": 20,
     "col": 23,
     "label": "Pewter Gray - Dark",
-    "hex": "#323739"
+    "hex": "#323739",
+    "rgb": {
+      "r": 50,
+      "g": 55,
+      "b": 57
+    }
   },
   {
     "floss": 3799,
     "row": 20,
     "col": 24,
     "label": "Pewter Gray - Very Dark",
-    "hex": "#262624"
+    "hex": "#262624",
+    "rgb": {
+      "r": 38,
+      "g": 38,
+      "b": 36
+    }
   },
   {
     "floss": 310,
     "row": 20,
     "col": 25,
     "label": "Black",
-    "hex": "#040404"
+    "hex": "#040404",
+    "rgb": {
+      "r": 4,
+      "g": 4,
+      "b": 4
+    }
   }
 ]
