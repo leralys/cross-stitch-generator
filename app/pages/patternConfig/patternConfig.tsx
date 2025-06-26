@@ -97,14 +97,6 @@ export const PatternConfig = ({ file, fileName }: PatternConfigProps) => {
     }
   }, [file, navigate]);
 
-  if (isLoading) {
-    return (
-      <div className="flex min-h-screen items-center justify-center">
-        <BiLoaderAlt className="h-12 w-12 animate-spin text-primary" />
-      </div>
-    );
-  }
-
   if (!file) {
     return null;
   }
@@ -127,17 +119,29 @@ export const PatternConfig = ({ file, fileName }: PatternConfigProps) => {
               </div>
 
               <div className="mb-4 flex justify-center">
-                {imageLoaded ? (
+                <div className="relative">
                   <canvas
                     ref={canvasRef}
-                    className="rounded-lg border border-gray-300 shadow-lg dark:border-gray-600"
+                    className={`rounded-lg border border-gray-300 shadow-lg dark:border-gray-600 ${
+                      imageLoaded ? 'block' : 'hidden'
+                    }`}
                     style={{ maxWidth: '100%', height: 'auto' }}
                   />
-                ) : (
-                  <div className="flex h-64 w-full items-center justify-center rounded-lg bg-gray-100 dark:bg-gray-700">
-                    <BiLoaderAlt className="h-8 w-8 animate-spin text-gray-400" />
-                  </div>
-                )}
+                  {/* Loading indicator */}
+                  {isLoading && (
+                    <div className="flex h-64 w-full items-center justify-center rounded-lg bg-gray-100 dark:bg-gray-700">
+                      <BiLoaderAlt className="h-8 w-8 animate-spin text-gray-400" />
+                    </div>
+                  )}
+                  {/* Placeholder for failed image loading */}
+                  {!isLoading && !imageLoaded && (
+                    <div className="flex h-64 w-full items-center justify-center rounded-lg border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-700">
+                      <p className="text-gray-700 dark:text-gray-950">
+                        Failed to load image
+                      </p>
+                    </div>
+                  )}
+                </div>
               </div>
 
               {fileName && (
