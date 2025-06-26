@@ -64,6 +64,10 @@ export const resources = {
         previous: 'Previous',
         confirm: 'Confirm',
         retry: 'Retry',
+      },
+
+      // --- Common terms ---
+      common: {
         or: 'or',
       },
 
@@ -92,6 +96,34 @@ export const resources = {
       // --- Success messages ---
       success: {
         copied: 'Copied to clipboard',
+      },
+
+      // --- Pattern Configuration ---
+      patternConfig: {
+        common: {
+          width: 'Width',
+          height: 'Height',
+          size: 'Size',
+          color: 'Color',
+          colors: 'Colors',
+        },
+
+        cropImage: 'Crop Image',
+        fabricCount: 'Fabric Count',
+        fabricCountUnit: 'stitches/inch',
+        patternSize: 'Pattern Size',
+        patternSizeStitches: 'stitches',
+        patternSizeCm: 'cm',
+        maxColors: 'Maximum Colors',
+        generatePattern: 'Generate Pattern',
+        preview: 'Preview',
+        resetCrop: 'Reset Crop',
+        instructions: {
+          crop: 'Drag to move the crop area around your image',
+          fabricCount: 'Higher values create more detailed patterns',
+          patternSize: 'Adjust the final pattern dimensions',
+          maxColors: 'Limit the number of thread colors used',
+        },
       },
 
       // --- PWA ---
@@ -172,6 +204,10 @@ export const resources = {
         previous: 'Предыдущий',
         confirm: 'Подтвердить',
         retry: 'Повторить',
+      },
+
+      // --- Common terms ---
+      common: {
         or: 'или',
       },
 
@@ -199,6 +235,34 @@ export const resources = {
       // --- Success messages ---
       success: {
         copied: 'Скопировано в буфер обмена',
+      },
+
+      // --- Pattern Configuration ---
+      patternConfig: {
+        common: {
+          width: 'Ширина',
+          height: 'Высота',
+          size: 'Размер',
+          color: 'Цвет',
+          colors: 'Цвета',
+        },
+
+        cropImage: 'Обрезка изображения',
+        fabricCount: 'Плотность канвы',
+        fabricCountUnit: 'крестиков/дюйм',
+        patternSize: 'Размер схемы',
+        patternSizeStitches: 'крестиков',
+        patternSizeCm: 'см',
+        maxColors: 'Максимум цветов',
+        generatePattern: 'Создать схему',
+        preview: 'Предпросмотр',
+        resetCrop: 'Сбросить обрезку',
+        instructions: {
+          crop: 'Перетащите для перемещения области обрезки',
+          fabricCount: 'Большие значения создают более детальные схемы',
+          patternSize: 'Настройте финальные размеры схемы',
+          maxColors: 'Ограничьте количество используемых цветов ниток',
+        },
       },
 
       // --- PWA ---

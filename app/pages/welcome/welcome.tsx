@@ -18,8 +18,7 @@ export function Welcome() {
   };
 
   const handleImageUpload = (file: File) => {
-    // Navigate to preview page with file object
-    navigate('/preview', {
+    navigate('/config', {
       state: {
         file,
         fileName: file.name,
