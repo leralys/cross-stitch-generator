@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { BiLoaderAlt } from 'react-icons/bi';
 import { FiArrowLeft, FiDownload, FiSettings } from 'react-icons/fi';
 import { useNavigate } from 'react-router';
 
@@ -28,6 +29,7 @@ export const PatternViewer = ({ file, fileName }: PreviewProps) => {
     link.click();
     document.body.removeChild(link);
   };
+
   useEffect(() => {
     // If no file provided, redirect back to home
     if (!file) {
@@ -52,7 +54,7 @@ export const PatternViewer = ({ file, fileName }: PreviewProps) => {
   if (isLoading) {
     return (
       <div className="flex min-h-screen items-center justify-center">
-        <div className="h-12 w-12 animate-spin rounded-full border-b-2 border-primary"></div>
+        <BiLoaderAlt className="h-12 w-12 animate-spin text-primary" />
       </div>
     );
   }
