@@ -17,11 +17,12 @@ const Preview = ({
   fileType,
 }: PreviewProps) => {
   const { t } = useTranslation();
+
   return (
     <div className="space-y-4">
       <div className="relative inline-block">
         {fileType === 'file' ? (
-          <div className="flex items-center justify-center space-x-3 rounded-lg border border-gray-300 bg-white px-6 py-4 dark:border-gray-800 dark:bg-gray-800">
+          <div className="flex items-center justify-center space-x-3 rounded-lg border border-gray-300 bg-white py-4 pr-6 pl-5 dark:border-gray-800 dark:bg-gray-800">
             <FiFile className="h-8 w-8 text-gray-500" />
             <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
               {truncateFilename(fileName || '')}

@@ -1,5 +1,5 @@
 import { useLocation } from 'react-router';
-import { Preview } from '../pages/preview/preview';
+import { PatternConfig } from '../pages/patternConfig/patternConfig';
 
 export function meta() {
   return [
@@ -13,7 +13,7 @@ export function meta() {
 
 export default function PreviewRoute() {
   const location = useLocation();
-  const { imageString, fileName } = location.state || {};
+  const { file, fileName } = location.state || {};
 
-  return <Preview imageString={imageString} fileName={fileName} />;
+  return <PatternConfig file={file} fileName={fileName} />;
 }
