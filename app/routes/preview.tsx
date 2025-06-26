@@ -1,5 +1,5 @@
 import { useLocation } from 'react-router';
-import { Preview } from '../pages/preview/preview';
+import { PatternViewer } from '../pages/patternViewer/patternViewer';
 
 export function meta() {
   return [
@@ -15,5 +15,5 @@ export default function PreviewRoute() {
   const location = useLocation();
   const { file, fileName } = location.state || {};
 
-  return <Preview file={file} fileName={fileName} />;
+  return <PatternViewer file={file} fileName={fileName} />;
 }

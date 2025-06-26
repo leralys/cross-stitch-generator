@@ -8,7 +8,7 @@ interface PreviewProps {
   fileName?: string;
 }
 
-export const Preview = ({ file, fileName }: PreviewProps) => {
+export const PatternViewer = ({ file, fileName }: PreviewProps) => {
   const { t } = useTranslation();
   const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(true);
@@ -184,4 +184,4 @@ export const Preview = ({ file, fileName }: PreviewProps) => {
   );
 };
 
-export default Preview;
+export default PatternViewer;
