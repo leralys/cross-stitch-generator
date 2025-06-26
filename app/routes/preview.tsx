@@ -13,7 +13,7 @@ export function meta() {
 
 export default function PreviewRoute() {
   const location = useLocation();
-  const { imageString, fileName } = location.state || {};
+  const { file, fileName } = location.state || {};
 
-  return <Preview imageString={imageString} fileName={fileName} />;
+  return <Preview file={file} fileName={fileName} />;
 }

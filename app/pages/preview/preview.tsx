@@ -4,39 +4,50 @@ import { FiArrowLeft, FiDownload, FiSettings } from 'react-icons/fi';
 import { useNavigate } from 'react-router';
 
 interface PreviewProps {
-  imageString?: string;
+  file?: File;
   fileName?: string;
 }
 
-export const Preview = ({ imageString, fileName }: PreviewProps) => {
+export const Preview = ({ file, fileName }: PreviewProps) => {
   const { t } = useTranslation();
   const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    // If no image data is provided, redirect back to home
-    if (!imageString) {
-      navigate('/', { replace: true });
-      return;
-    }
-
-    setIsLoading(false);
-  }, [imageString, navigate]);
+  const [objectUrl, setObjectUrl] = useState<string | null>(null);
 
   const handleBack = () => {
     navigate('/', { replace: true });
   };
 
   const handleDownload = () => {
-    if (!imageString) return;
+    if (!objectUrl) return;
 
     const link = document.createElement('a');
-    link.href = imageString;
+    link.href = objectUrl;
     link.download = fileName || 'cross-stitch-pattern.png';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
   };
+  useEffect(() => {
+    // If no file provided, redirect back to home
+    if (!file) {
+      navigate('/', { replace: true });
+      return;
+    }
+
+    const url = URL.createObjectURL(file);
+    setObjectUrl(url);
+    setIsLoading(false);
+  }, [file, navigate]);
+
+  // Cleanup object URL when component unmounts
+  useEffect(() => {
+    return () => {
+      if (objectUrl) {
+        URL.revokeObjectURL(objectUrl);
+      }
+    };
+  }, [objectUrl]);
 
   if (isLoading) {
     return (
@@ -46,8 +57,9 @@ export const Preview = ({ imageString, fileName }: PreviewProps) => {
     );
   }
 
-  if (!imageString) {
-    return null; // This shouldn't render due to the redirect
+  // Should never happen, but just in case
+  if (!objectUrl) {
+    return null;
   }
 
   return (
@@ -97,7 +109,7 @@ export const Preview = ({ imageString, fileName }: PreviewProps) => {
               </h2>
               <div className="flex justify-center">
                 <img
-                  src={imageString}
+                  src={objectUrl}
                   alt="Uploaded image"
                   className="max-h-96 max-w-full rounded-lg shadow-md"
                 />
