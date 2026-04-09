@@ -1,10 +1,5 @@
-import {
-  useCallback,
-  useEffect,
-  useLayoutEffect,
-  useRef,
-  useState,
-} from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
+import { useIsomorphicLayoutEffect } from '~/hooks/useIsomorphicLayoutEffect';
 
 export interface ImageCanvasConfig {
   maxWidth?: number;
@@ -101,7 +96,7 @@ export const useImageCanvas = (
 
   // Use layout effect so it runs after DOM mutations but before the browser paints,
   // guaranteeing that refs to DOM elements are already set.
-  useLayoutEffect(() => {
+  useIsomorphicLayoutEffect(() => {
     loadImage();
   }, [loadImage]);
 

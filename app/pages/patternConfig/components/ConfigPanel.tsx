@@ -71,7 +71,7 @@ const ConfigPanel = ({
   return (
     <>
       <h3 className="mb-4 text-lg font-medium text-gray-900 dark:text-white">
-        Pattern Settings
+        {t('patternConfig.patternSettings')}
       </h3>
       <div className={`space-y-6 ${className}`}>
         {/* Fabric Count */}
@@ -191,7 +191,9 @@ const ConfigPanel = ({
             />
             <div className="flex justify-between text-xs text-gray-600 dark:text-gray-400">
               <span>5</span>
-              <span className="font-medium">{config.maxColors} colors</span>
+              <span className="font-medium">
+                {t('patternConfig.maxColorsCount', { count: config.maxColors })}
+              </span>
               <span>100</span>
             </div>
           </div>
@@ -200,29 +202,33 @@ const ConfigPanel = ({
         {/* Pattern Info */}
         <div className="space-y-2 rounded-lg bg-gray-50 p-4 dark:bg-gray-800">
           <h4 className="text-sm font-medium text-gray-900 dark:text-white">
-            Pattern Preview
+            {t('patternConfig.patternInfo')}
           </h4>
           <div className="space-y-1 text-xs text-gray-600 dark:text-gray-400">
             <div className="flex justify-between">
-              <span>Size:</span>
+              <span>{t('patternConfig.common.size')}:</span>
               <span>
                 {config.patternWidthStitches} × {config.patternHeightStitches}{' '}
-                stitches
+                {t('patternConfig.patternSizeStitches')}
               </span>
             </div>
             <div className="flex justify-between">
-              <span>Physical size:</span>
+              <span>{t('patternConfig.physicalSize')}:</span>
               <span>
-                {widthCm} × {heightCm} cm
+                {widthCm} × {heightCm} {t('patternConfig.patternSizeCm')}
               </span>
             </div>
             <div className="flex justify-between">
-              <span>Fabric:</span>
-              <span>{config.fabricCount} count</span>
+              <span>{t('patternConfig.infoFabric')}:</span>
+              <span>
+                {config.fabricCount} {t('patternConfig.fabricCountUnit')}
+              </span>
             </div>
             <div className="flex justify-between">
-              <span>Colors:</span>
-              <span>Max {config.maxColors}</span>
+              <span>{t('patternConfig.common.colors')}:</span>
+              <span>
+                {t('patternConfig.maxColorsMax', { count: config.maxColors })}
+              </span>
             </div>
           </div>
         </div>

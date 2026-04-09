@@ -34,19 +34,6 @@ export const PatternConfig = ({ file, fileName }: PatternConfigProps) => {
     navigate('/', { replace: true });
   };
 
-  const handleDownload = () => {
-    if (!file) return;
-
-    const link = document.createElement('a');
-    const url = URL.createObjectURL(file);
-    link.href = url;
-    link.download = fileName || 'cross-stitch-pattern.png';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    URL.revokeObjectURL(url);
-  };
-
   const handleGeneratePattern = () => {
     if (!file) return;
 
@@ -114,7 +101,7 @@ export const PatternConfig = ({ file, fileName }: PatternConfigProps) => {
             <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800">
               <div className="mb-4 flex items-center justify-between">
                 <h2 className="text-lg font-medium text-gray-900 dark:text-white">
-                  Image Preview
+                  {t('patternConfig.imagePreview')}
                 </h2>
               </div>
 
@@ -137,7 +124,7 @@ export const PatternConfig = ({ file, fileName }: PatternConfigProps) => {
                   {!isLoading && !imageLoaded && (
                     <div className="flex h-64 w-full items-center justify-center rounded-lg border border-gray-200 bg-gray-100 dark:border-gray-700 dark:bg-gray-700">
                       <p className="text-gray-700 dark:text-gray-950">
-                        Failed to load image
+                        {t('patternConfig.failedToLoad')}
                       </p>
                     </div>
                   )}
@@ -159,26 +146,27 @@ export const PatternConfig = ({ file, fileName }: PatternConfigProps) => {
               <div className="grid grid-cols-2 gap-4 text-sm">
                 <div className="flex justify-between">
                   <span className="text-gray-600 dark:text-gray-400">
-                    Original size:
+                    {t('patternConfig.originalSize')}:
                   </span>
                   <span className="font-medium text-gray-900 dark:text-white">
                     {dimensions.width > 0
                       ? `${dimensions.width} × ${dimensions.height}px`
-                      : 'Loading...'}
+                      : t('patternConfig.loading')}
                   </span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600 dark:text-gray-400">
-                    Pattern size:
+                    {t('patternConfig.patternSizeLabel')}:
                   </span>
                   <span className="font-medium text-gray-900 dark:text-white">
                     {patternConfig.patternWidthStitches} ×{' '}
-                    {patternConfig.patternHeightStitches} stitches
+                    {patternConfig.patternHeightStitches}{' '}
+                    {t('patternConfig.patternSizeStitches')}
                   </span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600 dark:text-gray-400">
-                    Physical size:
+                    {t('patternConfig.physicalSize')}:
                   </span>
                   <span className="font-medium text-gray-900 dark:text-white">
                     {(
@@ -213,7 +201,7 @@ export const PatternConfig = ({ file, fileName }: PatternConfigProps) => {
             {/* Generate Button */}
             <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800">
               <h3 className="mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                Generate Pattern
+                {t('patternConfig.generatePattern')}
               </h3>
               <div className="space-y-3">
                 <button
@@ -227,7 +215,7 @@ export const PatternConfig = ({ file, fileName }: PatternConfigProps) => {
                   onClick={handleBack}
                   className="w-full rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-700"
                 >
-                  Upload Different Image
+                  {t('patternConfig.uploadDifferent')}
                 </button>
               </div>
             </div>
