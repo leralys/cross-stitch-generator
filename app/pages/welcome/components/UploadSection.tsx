@@ -33,7 +33,7 @@ const UploadSection = forwardRef<HTMLDivElement, UploadSectionProps>(
           <div className="inline-flex items-center gap-4">
             <div className="h-px w-20 bg-gray-300 dark:bg-gray-600"></div>
             <span className="text-gray-500 dark:text-gray-400">
-              {t('actions.or')}
+              {t('common.or')}
             </span>
             <div className="h-px w-20 bg-gray-300 dark:bg-gray-600"></div>
           </div>

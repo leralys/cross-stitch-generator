@@ -18,21 +18,12 @@ export function Welcome() {
   };
 
   const handleImageUpload = (file: File) => {
-    // setUploadedFile(file);
-
-    // TODO: temp - Create a data URL for the image
-    const reader = new FileReader();
-    reader.onload = () => {
-      const imageString = reader.result as string;
-      // Navigate to preview page with image data
-      navigate('/preview', {
-        state: {
-          imageString,
-          fileName: file.name,
-        },
-      });
-    };
-    reader.readAsDataURL(file);
+    navigate('/config', {
+      state: {
+        file,
+        fileName: file.name,
+      },
+    });
   };
 
   return (

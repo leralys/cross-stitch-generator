@@ -64,6 +64,10 @@ export const resources = {
         previous: 'Previous',
         confirm: 'Confirm',
         retry: 'Retry',
+      },
+
+      // --- Common terms ---
+      common: {
         or: 'or',
       },
 
@@ -92,6 +96,46 @@ export const resources = {
       // --- Success messages ---
       success: {
         copied: 'Copied to clipboard',
+      },
+
+      // --- Pattern Configuration ---
+      patternConfig: {
+        common: {
+          width: 'Width',
+          height: 'Height',
+          size: 'Size',
+          color: 'Color',
+          colors: 'Colors',
+        },
+
+        cropImage: 'Crop Image',
+        fabricCount: 'Fabric Count',
+        fabricCountUnit: 'stitches/inch',
+        patternSize: 'Pattern Size',
+        patternSizeStitches: 'stitches',
+        patternSizeCm: 'cm',
+        maxColors: 'Maximum Colors',
+        maxColorsCount: '{{count}} colors',
+        maxColorsMax: 'Max {{count}}',
+        generatePattern: 'Generate Pattern',
+        preview: 'Preview',
+        resetCrop: 'Reset Crop',
+        imagePreview: 'Image Preview',
+        failedToLoad: 'Failed to load image',
+        loading: 'Loading...',
+        originalSize: 'Original size',
+        patternSizeLabel: 'Pattern size',
+        physicalSize: 'Physical size',
+        uploadDifferent: 'Upload Different Image',
+        patternSettings: 'Pattern Settings',
+        patternInfo: 'Pattern Info',
+        infoFabric: 'Fabric',
+        instructions: {
+          crop: 'Drag to move the crop area around your image',
+          fabricCount: 'Higher values create more detailed patterns',
+          patternSize: 'Adjust the final pattern dimensions',
+          maxColors: 'Limit the number of thread colors used',
+        },
       },
 
       // --- PWA ---
@@ -172,6 +216,10 @@ export const resources = {
         previous: 'Предыдущий',
         confirm: 'Подтвердить',
         retry: 'Повторить',
+      },
+
+      // --- Common terms ---
+      common: {
         or: 'или',
       },
 
@@ -199,6 +247,46 @@ export const resources = {
       // --- Success messages ---
       success: {
         copied: 'Скопировано в буфер обмена',
+      },
+
+      // --- Pattern Configuration ---
+      patternConfig: {
+        common: {
+          width: 'Ширина',
+          height: 'Высота',
+          size: 'Размер',
+          color: 'Цвет',
+          colors: 'Цвета',
+        },
+
+        cropImage: 'Обрезка изображения',
+        fabricCount: 'Плотность канвы',
+        fabricCountUnit: 'крестиков/дюйм',
+        patternSize: 'Размер схемы',
+        patternSizeStitches: 'крестиков',
+        patternSizeCm: 'см',
+        maxColors: 'Максимум цветов',
+        maxColorsCount: '{{count}} цветов',
+        maxColorsMax: 'Макс. {{count}}',
+        generatePattern: 'Создать схему',
+        preview: 'Предпросмотр',
+        resetCrop: 'Сбросить обрезку',
+        imagePreview: 'Предпросмотр изображения',
+        failedToLoad: 'Не удалось загрузить изображение',
+        loading: 'Загрузка...',
+        originalSize: 'Оригинальный размер',
+        patternSizeLabel: 'Размер схемы',
+        physicalSize: 'Физический размер',
+        uploadDifferent: 'Загрузить другое изображение',
+        patternSettings: 'Настройки схемы',
+        patternInfo: 'Информация о схеме',
+        infoFabric: 'Канва',
+        instructions: {
+          crop: 'Перетащите для перемещения области обрезки',
+          fabricCount: 'Большие значения создают более детальные схемы',
+          patternSize: 'Настройте финальные размеры схемы',
+          maxColors: 'Ограничьте количество используемых цветов ниток',
+        },
       },
 
       // --- PWA ---

@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import type { Accept } from 'react-dropzone';
 import { useDropzone } from 'react-dropzone';
 import { useTranslation } from 'react-i18next';
@@ -34,6 +34,7 @@ const FileDropzone = ({
   const [imageString, setImageString] = useState<string | null>(null);
   const [uploadedFile, setUploadedFile] = useState<File | null>(null); // file object
   const [isUploading, setIsUploading] = useState(false);
+  const objectUrlRef = useRef<string | null>(null);
 
   const formatsString = Object.values(acceptedFormats)
     .flat()
@@ -77,11 +78,9 @@ const FileDropzone = ({
         }
 
         if (fileType === 'image' && shouldShowPreview) {
-          const reader = new FileReader();
-          reader.onload = () => {
-            setImageString(reader.result as string);
-          };
-          reader.readAsDataURL(file);
+          const objectUrl = URL.createObjectURL(file);
+          objectUrlRef.current = objectUrl;
+          setImageString(objectUrl);
         } else if (shouldShowPreview) {
           setImageString(null);
         }
@@ -106,9 +105,22 @@ const FileDropzone = ({
   });
 
   const clearPreview = () => {
+    if (objectUrlRef.current) {
+      URL.revokeObjectURL(objectUrlRef.current);
+      objectUrlRef.current = null;
+    }
     setImageString(null);
     setUploadedFile(null);
   };
+
+  // Cleanup object URL when component unmounts
+  useEffect(() => {
+    return () => {
+      if (objectUrlRef.current) {
+        URL.revokeObjectURL(objectUrlRef.current);
+      }
+    };
+  }, []);
 
   return (
     <div className={`w-full ${containerClassName}`}>
