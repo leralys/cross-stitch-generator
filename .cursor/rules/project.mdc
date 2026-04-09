@@ -1,0 +1,52 @@
+---
+description: Project-wide rules for the cross-stitch generator app
+alwaysApply: true
+---
+
+## Project
+
+Web app that converts uploaded images into cross-stitch embroidery patterns.
+Currently a frontend-only MVP — the pattern generation logic is not yet implemented.
+
+**Stack:** React Router 7 (SSR), React 19, TypeScript, Vite, Tailwind CSS 4, i18next (EN/RU), vite-plugin-pwa, react-dropzone, Sonner.
+
+## Architecture
+
+- `app/components/` — shared, reusable UI components
+- `app/pages/` — page-level components (`welcome/`, `preview/`)
+- `app/routes/` — React Router route handlers; keep thin, delegate to pages
+- `app/contexts/` — React Context providers (currently only `ThemeContext`)
+- `app/hooks/` — custom hooks
+- `app/i18n/` — i18next config + all EN/RU translation strings in `resources.ts`
+- `app/utils/` — pure utility functions
+
+Larger components live in their own folder with subcomponents inside a `components/` subfolder (see `FileDropzone/` as the reference example).
+
+## Code conventions
+
+- TypeScript everywhere, no `any`
+- Functional components only, no class components
+- Props interfaces defined inline or just above the component
+- Tailwind for all styling — no separate CSS files except `app/app.css` for global theme variables
+- Dark mode via `dark:` Tailwind prefix; primary brand color is `#6b449a` (purple)
+
+## i18n
+
+Every user-visible string must go through i18next — no hardcoded UI text.
+All translation keys live in `app/i18n/resources.ts`. Add both `en` and `ru` translations whenever you add a new key.
+
+Usage in components:
+```tsx
+const { t } = useTranslation();
+// ...
+<p>{t('some.key')}</p>
+```
+
+## Theme
+
+Theme state lives in `ThemeContext`. Use the `useTheme` hook to read or toggle it — do not read `localStorage` directly in components.
+
+## SSR considerations
+
+This app uses server-side rendering. Avoid direct `window`/`document` access at the module level. Use `useIsomorphicLayoutEffect` instead of `useLayoutEffect` where needed.
+
