@@ -22,6 +22,10 @@
   --color-error: #ef4444;
 }
 
+button {
+  cursor: pointer;
+}
+
 html,
 body {
   @apply bg-white dark:bg-gray-900;
