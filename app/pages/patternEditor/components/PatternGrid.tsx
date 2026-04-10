@@ -35,7 +35,7 @@ const PatternGrid = ({ pattern, cellSize }: PatternGridProps) => {
 
     for (let row = 0; row < height; row++) {
       for (let col = 0; col < width; col++) {
-        const { dmcColor, symbol } = palette[grid[row][col]];
+        const { dmcColor, symbol } = palette[grid[row * width + col]];
         const x = col * cellSize;
         const y = row * cellSize;
 
