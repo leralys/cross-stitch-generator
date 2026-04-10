@@ -138,6 +138,19 @@ export const resources = {
         },
       },
 
+      // --- Pattern Editor ---
+      patternEditor: {
+        title: 'Pattern Editor',
+        loading: 'Generating pattern…',
+        generationError: 'Failed to generate pattern. Please try again.',
+        zoom: 'Zoom',
+        colorLegend: 'Color Legend',
+        colorCount: '{{count}} colors',
+        dmcCode: 'DMC {{code}}',
+        stitchCount: '{{count}} st.',
+        dimensions: '{{width}} × {{height}} stitches',
+      },
+
       // --- PWA ---
       pwa: {
         installPrompt: 'Install App',
@@ -287,6 +300,19 @@ export const resources = {
           patternSize: 'Настройте финальные размеры схемы',
           maxColors: 'Ограничьте количество используемых цветов ниток',
         },
+      },
+
+      // --- Pattern Editor ---
+      patternEditor: {
+        title: 'Редактор схемы',
+        loading: 'Создание схемы…',
+        generationError: 'Не удалось создать схему. Попробуйте ещё раз.',
+        zoom: 'Масштаб',
+        colorLegend: 'Цветовая палитра',
+        colorCount: '{{count}} цветов',
+        dmcCode: 'DMC {{code}}',
+        stitchCount: '{{count}} кр.',
+        dimensions: '{{width}} × {{height}} крестиков',
       },
 
       // --- PWA ---

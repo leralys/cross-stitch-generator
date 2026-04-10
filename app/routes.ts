@@ -3,6 +3,7 @@ import { type RouteConfig, index, route } from '@react-router/dev/routes';
 export default [
   index('routes/home.tsx'),
   route('config', 'routes/config.tsx'),
+  route('pattern-editor', 'routes/pattern-editor.tsx'),
   // Splat route for Chrome DevTools and other unmatched requests
   route('*', 'routes/$.tsx'),
 ] satisfies RouteConfig;
