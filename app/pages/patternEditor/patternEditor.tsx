@@ -62,7 +62,11 @@ export const PatternEditor = ({
       });
   }, [sourceFile, config, navigate, t]);
 
-  const handleBack = () => navigate(-1);
+  const handleBack = () =>
+    navigate('/config', {
+      replace: true,
+      state: { file: sourceFile, fileName },
+    });
 
   if (!sourceFile || !config) return null;
 
